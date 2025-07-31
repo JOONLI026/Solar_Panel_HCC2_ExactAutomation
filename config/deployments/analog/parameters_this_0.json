@@ -13,8 +13,8 @@
             "applyEuConversion": true,
             "tagPublishSetting": "onPeriod",
             "mappedToExistingTag": "true",
-            "name": "",
-            "variableTagName": "",
+            "name": "Solar_Voltage",
+            "variableTagName": "Solar_Voltage",
             "units": {
                 "Category": "NONE",
                 "Numerator": "",
@@ -40,8 +40,8 @@
             "applyEuConversion": true,
             "tagPublishSetting": "onPeriod",
             "mappedToExistingTag": "true",
-            "name": "",
-            "variableTagName": "",
+            "name": "Solar_Current",
+            "variableTagName": "Solar_Current",
             "units": {
                 "Category": "NONE",
                 "Numerator": "",
@@ -218,7 +218,8 @@
             "inputLow": 0,
             "applyEuConversion": true,
             "tagPublishSetting": "writeOnly",
-            "name": "",
+            "name": "Fan_Speed_Control",
+            "variableTagName": "Fan_Speed_Control",
             "units": {
                 "Category": "NONE",
                 "Numerator": "",

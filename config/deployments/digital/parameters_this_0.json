@@ -9,10 +9,10 @@
         "FixedPubInterval": 500000,
         "tagPublishSetting": "onPeriod",
         "mappedToExistingTag": "true",
-        "name": "",
-        "variableTagName": "",
+        "name": "Panel_Connected",
+        "variableTagName": "Panel_Connected",
         "selectedMode": "Input",
-        "customTagName": "",
+        "customTagName": "Solar panel connection status",
         "tag": {}
     },
     "di2": {
@@ -25,10 +25,10 @@
         "FixedPubInterval": 500000,
         "tagPublishSetting": "onPeriod",
         "mappedToExistingTag": "true",
-        "name": "",
-        "variableTagName": "",
+        "name": "Overload_Protection",
+        "variableTagName": "Overload_Protection",
         "selectedMode": "Input",
-        "customTagName": "",
+        "customTagName": "System overload protection trigger",
         "tag": {}
     },
     "di3": {
@@ -137,12 +137,12 @@
         "MinPubInterval": 500000,
         "FixedPubInterval": 500000,
         "debounceTime": 15000,
-        "defaultValueStartUp": "1",
+        "defaultValueStartUp": "0",
         "tagPublishSetting": "writeOnly",
         "mappedToExistingTag": "true",
-        "name": "",
-        "variableTagName": "",
-        "customTagName": "",
+        "name": "System_Enable",
+        "variableTagName": "System_Enable",
+        "customTagName": "Enable solar panel system",
         "tag": {}
     },
     "do2": {
@@ -155,12 +155,12 @@
         "MinPubInterval": 500000,
         "FixedPubInterval": 500000,
         "debounceTime": 15000,
-        "defaultValueStartUp": "1",
+        "defaultValueStartUp": "0",
         "tagPublishSetting": "writeOnly",
         "mappedToExistingTag": "true",
-        "name": "",
-        "variableTagName": "",
-        "customTagName": "",
+        "name": "Alarm_Buzzer",
+        "variableTagName": "Alarm_Buzzer",
+        "customTagName": "Alarm buzzer for faults",
         "tag": {}
     },
     "do3": {
