@@ -1,0 +1,306 @@
+{
+	"config": {
+		"enrollment.url.": {
+			"_callbacks": [
+				{
+					"func": "dummyValidator",
+					"args": "{type: 'integer'}"
+				}
+			],
+			"_datatype": "String",
+			"_maxsize": 1,
+			"_unit": "NONE",
+			"_displayName": "Endpoint, psurl, hostname",
+			"_shortDisplayName": "hostname",
+			"_recommendedMax": 64,
+			"_input": false,
+			"_output": false,
+			"_noprotobuf": false
+		},
+		"enrollment.manualSwid.": {
+			"_callbacks": [
+				{
+					"func": "dummyValidator",
+					"args": "{type: 'integer'}"
+				}
+			],
+			"_noprotobuf": false,
+			"_datatype": "String",
+			"_maxsize": 1,
+			"_unit": "NONE",
+			"_displayName": "Manual Software ID",
+			"_shortDisplayName": "Manual SWID",
+			"_recommendedMax": 64,
+			"_input": false,
+			"_output": false
+		},
+		"enrollment.useManualSwid.": {
+			"_callbacks": [
+				{
+					"func": "dummyValidator",
+					"args": "{type: 'integer'}"
+				}
+			],
+			"_noprotobuf": false,
+			"_datatype": "Bool",
+			"_maxsize": 1,
+			"_unit": "NONE",
+			"_displayName": "Use Manual Sofware ID",
+			"_shortDisplayName": "Use SWID",
+			"_input": false,
+			"_output": false
+		}
+	},
+	"general": {
+		"liveValue.diagnostics.this.avalonHcc2App.0.psUrl.url.": {
+			"_datatype": "String",
+			"_maxsize": 1,
+			"_unit": "NONE",
+			"_displayName": "Endpoint, psurl, hostname",
+			"_shortDisplayName": "hostname",
+			"_recommendedMax": 64,
+			"_input": false,
+			"_output": true
+		},
+		"liveValue.diagnostics.this.avalonHcc2App.0.psUrl.status.": {
+			"_datatype": "String",
+			"_maxsize": 1,
+			"_unit": "NONE",
+			"_displayName": "Provision Status",
+			"_shortDisplayName": "provisionstatus",
+			"_recommendedMax": 64,
+			"_input": false,
+			"_output": true
+		},
+		"liveValue.diagnostics.this.avalonHcc2App.0.stats.currentHostname.": {
+			"_datatype": "String",
+			"_maxsize": 1,
+			"_unit": "NONE",
+			"_displayName": "Current Endpoint, psurl, hostname",
+			"_shortDisplayName": "currenthostname",
+			"_recommendedMax": 64,
+			"_input": false,
+			"_output": true
+		},
+		"liveValue.diagnostics.this.avalonHcc2App.0.status.enrollment.": {
+			"_datatype": "String",
+			"_maxsize": 1,
+			"_unit": "NONE",
+			"_displayName": "Enrollment Status",
+			"_shortDisplayName": "enrollmentstatus",
+			"_recommendedMax": 64,
+			"_input": false,
+			"_output": true
+		},
+		"liveValue.diagnostics.this.avalonHcc2App.0.stats.enrolled.": {
+			"_datatype": "String",
+			"_maxsize": 1,
+			"_unit": "NONE",
+			"_displayName": "Enrolled",
+			"_shortDisplayName": "enrolled",
+			"_recommendedMax": 64,
+			"_input": false,
+			"_output": true
+		},
+		"liveValue.diagnostics.this.avalonHcc2App.0.stats.tagCount.": {
+			"_datatype": "String",
+			"_maxsize": 1,
+			"_unit": "NONE",
+			"_displayName": "Tag Count",
+			"_shortDisplayName": "tag",
+			"_recommendedMax": 64,
+			"_input": false,
+			"_output": true
+		},
+		"liveValue.diagnostics.this.avalonHcc2App.0.stats.ingress.": {
+			"_datatype": "String",
+			"_maxsize": 1,
+			"_unit": "NONE",
+			"_displayName": "ingress",
+			"_shortDisplayName": "ingress",
+			"_recommendedMax": 64,
+			"_input": false,
+			"_output": true
+		},
+		"liveValue.diagnostics.this.avalonHcc2App.0.stats.egress.": {
+			"_datatype": "String",
+			"_maxsize": 1,
+			"_unit": "NONE",
+			"_displayName": "egress",
+			"_shortDisplayName": "egress",
+			"_recommendedMax": 64,
+			"_input": false,
+			"_output": true
+		},
+		"liveValue.diagnostics.this.avalonHcc2App.0.stats.ramUsage.": {
+			"_datatype": "String",
+			"_maxsize": 1,
+			"_unit": "NONE",
+			"_displayName": "Ram Usage",
+			"_shortDisplayName": "ram",
+			"_recommendedMax": 64,
+			"_input": false,
+			"_output": true
+		},
+		"liveValue.diagnostics.this.avalonHcc2App.0.stats.authAttemp.": {
+			"_datatype": "String",
+			"_maxsize": 1,
+			"_unit": "NONE",
+			"_displayName": "Auth Attemp Date",
+			"_shortDisplayName": "authdate",
+			"_recommendedMax": 64,
+			"_input": false,
+			"_output": true
+		},
+		"liveValue.diagnostics.this.avalonHcc2App.0.stats.authError.": {
+			"_datatype": "String",
+			"_maxsize": 1,
+			"_unit": "NONE",
+			"_displayName": "Auth Error Date",
+			"_shortDisplayName": "autherr",
+			"_recommendedMax": 64,
+			"_input": false,
+			"_output": true
+		},
+		"liveValue.diagnostics.this.avalonHcc2App.0.stats.authSuccess.": {
+			"_datatype": "String",
+			"_maxsize": 1,
+			"_unit": "NONE",
+			"_displayName": "Auth Success Date",
+			"_shortDisplayName": "authsucc",
+			"_recommendedMax": 64,
+			"_input": false,
+			"_output": true
+		},
+		"liveValue.diagnostics.this.avalonHcc2App.0.stats.authUpdate.": {
+			"_datatype": "String",
+			"_maxsize": 1,
+			"_unit": "NONE",
+			"_displayName": "Auth Update Date",
+			"_shortDisplayName": "authupdate",
+			"_recommendedMax": 64,
+			"_input": false,
+			"_output": true
+		},
+		"liveValue.diagnostics.this.avalonHcc2App.0.stats.configVersion.": {
+			"_datatype": "String",
+			"_maxsize": 1,
+			"_unit": "NONE",
+			"_displayName": "Config Version",
+			"_shortDisplayName": "cfgVersion",
+			"_recommendedMax": 64,
+			"_input": false,
+			"_output": true
+		},
+		"liveValue.diagnostics.this.avalonHcc2App.0.stats.cpVersion.": {
+			"_datatype": "String",
+			"_maxsize": 1,
+			"_unit": "NONE",
+			"_displayName": "CP Software Version",
+			"_shortDisplayName": "cpversion",
+			"_recommendedMax": 64,
+			"_input": false,
+			"_output": true
+		},
+		"liveValue.diagnostics.this.avalonHcc2App.0.stats.cpStartAt.": {
+			"_datatype": "String",
+			"_maxsize": 1,
+			"_unit": "NONE",
+			"_displayName": "CP Start Date",
+			"_shortDisplayName": "cpstartdate",
+			"_recommendedMax": 64,
+			"_input": false,
+			"_output": true
+		},
+		"liveValue.diagnostics.this.avalonHcc2App.0.stats.provisionUpdate.": {
+			"_datatype": "String",
+			"_maxsize": 1,
+			"_unit": "NONE",
+			"_displayName": "Provision Update Date",
+			"_shortDisplayName": "provisionupdate",
+			"_recommendedMax": 64,
+			"_input": false,
+			"_output": true
+		},
+		"liveValue.diagnostics.this.avalonHcc2App.0.stats.deviceHwId.": {
+			"_datatype": "String",
+			"_maxsize": 1,
+			"_unit": "NONE",
+			"_displayName": "HardwareId",
+			"_shortDisplayName": "device hardware id",
+			"_recommendedMax": 64,
+			"_input": false,
+			"_output": true
+		},
+		"liveValue.diagnostics.this.avalonHcc2App.0.stats.AppVersion.": {
+			"_datatype": "String",
+			"_maxsize": 1,
+			"_unit": "NONE",
+			"_displayName": "AvalonAppVersion",
+			"_shortDisplayName": "avalon hcc2 app version",
+			"_recommendedMax": 64,
+			"_input": false,
+			"_output": true
+		},
+		"liveValue.diagnostics.this.avalonHcc2App.0.stats.lastWrite.": {
+			"_datatype": "String",
+			"_maxsize": 1,
+			"_unit": "NONE",
+			"_displayName": "Date of last write to avalon attempt",
+			"_shortDisplayName": "avalon write date attempt",
+			"_recommendedMax": 64,
+			"_input": false,
+			"_output": true
+		},
+		"liveValue.diagnostics.this.avalonHcc2App.0.stats.writeStatus.": {
+			"_datatype": "String",
+			"_maxsize": 1,
+			"_unit": "NONE",
+			"_displayName": "Status of last file transfer attempt",
+			"_shortDisplayName": "File transfer write status",
+			"_recommendedMax": 64,
+			"_input": false,
+			"_output": true
+		},
+		"liveValue.diagnostics.this.avalonHcc2App.0.stats.writeCount.": {
+			"_datatype": "String",
+			"_maxsize": 1,
+			"_unit": "NONE",
+			"_displayName": "Attemps to make a write to avalon on file transfer",
+			"_shortDisplayName": "Avalon writeCount",
+			"_recommendedMax": 64,
+			"_input": false,
+			"_output": true
+		},
+		"liveValue.diagnostics.this.avalonHcc2App.0.stats.value.": {
+			"_datatype": "String",
+			"_maxsize": 1,
+			"_unit": "NONE",
+			"_displayName": "Value of file transfer",
+			"_shortDisplayName": "file transter value vqt v",
+			"_recommendedMax": 64,
+			"_input": false,
+			"_output": true
+		},
+		"liveValue.diagnostics.this.avalonHcc2App.0.stats.quality.": {
+			"_datatype": "String",
+			"_maxsize": 1,
+			"_unit": "NONE",
+			"_displayName": "Quality of file transfer",
+			"_shortDisplayName": "file transfer quality vqt q",
+			"_recommendedMax": 64,
+			"_input": false,
+			"_output": true
+		},
+		"liveValue.diagnostics.this.avalonHcc2App.0.stats.adapterversion.": {
+			"_datatype": "String",
+			"_maxsize": 1,
+			"_unit": "NONE",
+			"_displayName": "HCC2 CP Gateway Adapter Version",
+			"_shortDisplayName": "HCC2 Adapter Version",
+			"_recommendedMax": 64,
+			"_input": false,
+			"_output": true
+		}
+	}
+}

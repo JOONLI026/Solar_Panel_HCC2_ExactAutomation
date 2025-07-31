@@ -1,0 +1,110 @@
+{
+    "port": {
+        "serial1RS485": {
+            "baud": 19200,
+            "parity": 0,
+            "stopBits": 1,
+            "terminate": false,
+            "rxBusTimeout": 100000,
+            "txBusDelay": 10000,
+            "portInfo": { "portName": "RS485-1", "portType": "Serial", "portHandle": "/dev/ttyS0", "enableOnDeploy": true },
+            "protocol": { "protocolType": "Disabled" }
+        },
+        "serial2RS485": {
+            "baud": 19200,
+            "parity": 0,
+            "stopBits": 1,
+            "terminate": false,
+            "rxBusTimeout": 100000,
+            "txBusDelay": 10000,
+            "portInfo": { "portName": "RS485-2", "portType": "Serial", "portHandle": "/dev/ttyS1", "enableOnDeploy": true },
+            "protocol": { "protocolType": "Disabled" }
+        },
+        "serial3RS485": {
+            "baud": 19200,
+            "parity": 0,
+            "stopBits": 1,
+            "terminate": false,
+            "rxBusTimeout": 50000,
+            "txBusDelay": 10000,
+            "portInfo": { "portName": "RS485-3", "portType": "Serial", "portHandle": "/dev/ttyS2", "enableOnDeploy": true },
+            "protocol": { "protocolType": "Disabled" }
+        },
+        "serial4RS485": {
+            "baud": 19200,
+            "parity": 0,
+            "stopBits": 1,
+            "terminate": false,
+            "rxBusTimeout": 100000,
+            "txBusDelay": 10000,
+            "portInfo": { "portName": "RS485-4", "portType": "Serial", "portHandle": "ioSerial/25500", "enableOnDeploy": true },
+            "protocol": { "protocolType": "Disabled" }
+        },
+        "serial5RS485": {
+            "baud": 19200,
+            "parity": 0,
+            "stopBits": 1,
+            "terminate": false,
+            "rxBusTimeout": 100000,
+            "txBusDelay": 10000,
+            "portInfo": { "portName": "RS485-5", "portType": "Serial", "portHandle": "ioSerial/25501", "enableOnDeploy": true },
+            "protocol": { "protocolType": "Disabled" }
+        },
+        "serialRS232": {
+            "baud": 9600,
+            "parity": 0,
+            "stopBits": 1,
+            "terminate": false,
+            "rxBusTimeout": 100000,
+            "txBusDelay": 10000,
+            "portInfo": { "portName": "RS232", "portType": "Serial", "portHandle": "/dev/ttyS3", "enableOnDeploy": true },
+            "protocol": { "protocolType": "Disabled" }
+        },
+        "tcp502": {
+            "socketTimeout": 240,
+            "rxBusTimeout": 10000,
+            "txBusDelay": 0,
+            "portInfo": { "portName": "TCP-502", "portType": "TCP", "portNumber": "502", "maxClientConnections": 16, "maxQueuedTransactions": 16, "enableOnDeploy": true },
+            "protocol": { "protocolType": "Disabled", "modbusServerFrameType": "TCP" }
+        },
+        "tcp503": {
+            "socketTimeout": 240,
+            "rxBusTimeout": 10000,
+            "txBusDelay": 0,
+            "portInfo": { "portName": "TCP-503", "portType": "TCP", "portNumber": "503", "maxClientConnections": 16, "maxQueuedTransactions": 16, "enableOnDeploy": true },
+            "protocol": { "protocolType": "Disabled", "modbusServerFrameType": "TCP" }
+        },
+        "tcpClient1": {
+            "socketTimeout": 240,
+            "rxBusTimeout": 100000,
+            "txBusDelay": 0,
+            "portInfo": { "portName": "TCP-Client1", "portType": "TCP", "maxClientConnections": 16, "maxQueuedTransactions": 16, "enableOnDeploy": true },
+            "protocol": { "protocolType": "Disabled" }
+        },
+        "tcpClient2": {
+            "socketTimeout": 240,
+            "rxBusTimeout": 100000,
+            "txBusDelay": 0,
+            "portInfo": { "portName": "TCP-Client2", "portType": "TCP", "maxClientConnections": 16, "maxQueuedTransactions": 16, "enableOnDeploy": true },
+            "protocol": { "protocolType": "Disabled" }
+        },
+        "tcpClient3": {
+            "socketTimeout": 240,
+            "rxBusTimeout": 100000,
+            "txBusDelay": 0,
+            "portInfo": { "portName": "TCP-Client3", "portType": "TCP", "maxClientConnections": 16, "maxQueuedTransactions": 16, "enableOnDeploy": true },
+            "protocol": { "protocolType": "Disabled" }
+        },
+        "tcpClient4": {
+            "socketTimeout": 240,
+            "rxBusTimeout": 100000,
+            "txBusDelay": 0,
+            "portInfo": { "portName": "TCP-Client4", "portType": "TCP", "maxClientConnections": 16, "maxQueuedTransactions": 16, "enableOnDeploy": true },
+            "protocol": { "protocolType": "Disabled" }
+        }
+    },
+    "unity": {
+        "unityCommunication": {"SerialPortsTable":[{"portName":"RS485-1","baud":[{"id":"19200","value":"19200"}],"parity":[{"id":"none","value":"None"}],"stopBits":[{"id":"1","value":"1 bits"}],"terminate":false,"rxBusTimeout":"100000","txBusDelay":"10000","protocol":[{"id":"disabled","value":"Disabled"}]},{"portName":"RS485-2","baud":[{"id":"19200","value":"19200"}],"parity":[{"id":"none","value":"None"}],"stopBits":[{"id":"1","value":"1 bits"}],"terminate":false,"rxBusTimeout":"100000","txBusDelay":"10000","protocol":[{"id":"disabled","value":"Disabled"}]},{"portName":"RS485-3","baud":[{"id":"19200","value":"19200"}],"parity":[{"id":"none","value":"None"}],"stopBits":[{"id":"1","value":"1 bits"}],"terminate":false,"rxBusTimeout":"100000","txBusDelay":"10000","protocol":[{"id":"disabled","value":"Disabled"}]},{"portName":"RS485-4","baud":[{"id":"19200","value":"19200"}],"parity":[{"id":"none","value":"None"}],"stopBits":[{"id":"1","value":"1 bits"}],"terminate":false,"rxBusTimeout":"100000","txBusDelay":"10000","protocol":[{"id":"disabled","value":"Disabled"}]},{"portName":"RS485-5","baud":[{"id":"19200","value":"19200"}],"parity":[{"id":"none","value":"None"}],"stopBits":[{"id":"1","value":"1 bits"}],"terminate":false,"rxBusTimeout":"100000","txBusDelay":"10000","protocol":[{"id":"disabled","value":"Disabled"}]},{"portName":"RS232","baud":[{"id":"9600","value":"9600"}],"parity":[{"id":"none","value":"None"}],"stopBits":[{"id":"1","value":"1 bits"}],"terminate":false,"rxBusTimeout":"100000","txBusDelay":"10000","protocol":[{"id":"disabled","value":"Disabled"}]}],"ServerTCPPortsTable":[{"portName":"TCP-502","serverClient":"Server","portNumber":"502","maxClientConnections":"16","maxQueuedTransactions":"16","socketTimeout":"240","rxBusTimeout":"10000","txBusDelay":"0","protocol":[{"id":"disabled","value":"Disabled"}]},{"portName":"TCP-503","serverClient":"Server","portNumber":"503","maxClientConnections":"16","maxQueuedTransactions":"16","socketTimeout":"240","rxBusTimeout":"10000","txBusDelay":"0","protocol":[{"id":"disabled","value":"Disabled"}]}],"ClientTCPPortsTable":[{"portName":"TCP-Client1","serverClient":"Client","maxClientConnections":"32","maxQueuedTransactions":"16","socketTimeout":"240","rxBusTimeout":"100000","txBusDelay":"0","protocol":[{"id":"disabled","value":"Disabled"}]},{"portName":"TCP-Client2","serverClient":"Client","maxClientConnections":"32","maxQueuedTransactions":"16","socketTimeout":"240","rxBusTimeout":"100000","txBusDelay":"0","protocol":[{"id":"disabled","value":"Disabled"}]},{"portName":"TCP-Client3","serverClient":"Client","maxClientConnections":"32","maxQueuedTransactions":"16","socketTimeout":"240","rxBusTimeout":"100000","txBusDelay":"0","protocol":[{"id":"disabled","value":"Disabled"}]},{"portName":"TCP-Client4","serverClient":"Client","maxClientConnections":"32","maxQueuedTransactions":"16","socketTimeout":"240","rxBusTimeout":"100000","txBusDelay":"0","protocol":[{"id":"disabled","value":"Disabled"}]}],"hash":"8f76db5b1e4e99b2251aaaeb801f498325ed1428abe19847cf4c15259c881cf0"},
+        "unityModbus": { "hash": "e335ed5484d41414101e145709008811fbf9945497d9d35b2e39df89d971dc50" }
+    }
+}

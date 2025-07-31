@@ -1,0 +1,123 @@
+{
+    "assetInfo": {
+        "assetName": "Asset Name",
+        "assetDescription": "Asset Desc."
+    },
+    "projectInfo": {
+        "projectName": "Project Name",
+        "projectDescription": "Project Desc.",
+        "companyName": "Company Name",
+        "siteWellName": "Site / Well Name",
+        "fieldLeaseName": "Field / Lease Name",
+        "legalLandDescription": "Legal Land Description",
+        "operator": "Operator"
+    },
+    "location": {
+        "enableServices": true,
+        "manualCoordinate": "41.40338, 2.17403"
+    },
+    "timeConfig": {
+        "syncSource": "Auto",
+        "timeServer1": "",
+        "timeZone": "Etc/UTC",
+        "location": "Location Name",
+        "gpsCoordinate": "GPS Not Activated"
+    },
+    "internetSelection": 4,
+    "applications": "{}",
+    "eth1": {
+        "enable": true,
+        "mode": 1,
+        "dummyVar": "1.1.1.1",
+        "ipAddress": "192.168.1.40",
+        "subnetMask": "255.255.255.0",
+        "defaultGateway": "192.168.1.1",
+        "primaryDns": "0.0.0.0",
+        "secondaryDns": "0.0.0.0",
+        "firewallSettings": "",
+        "firewallUnity": true,
+        "firewallCipExplicit": true,
+        "firewallIsagrafDebug": true,
+        "firewallSshEpm": true,
+        "firewallNtpServer": true,
+        "firewallModbusTcp": true,
+        "firewallModbusRtu": true,
+        "firewallModbusEditor": true,
+        "firewallUnityRedirection": true,
+        "firewallFTOptixDeploy": true,
+        "firewallFTOptixOpcUA": true,
+        "firewallFTOptixWeb": true
+    },
+    "eth2": {
+        "enable": true,
+        "mode": 0,
+        "ipAddress": "192.168.1.41",
+        "subnetMask": "255.255.255.0",
+        "defaultGateway": "192.168.1.1",
+        "primaryDns": "0.0.0.0",
+        "secondaryDns": "0.0.0.0",
+        "firewallSettings": "",
+        "firewallUnity": true,
+        "firewallCipExplicit": true,
+        "firewallIsagrafDebug": true,
+        "firewallSshEpm": true,
+        "firewallNtpServer": true,
+        "firewallModbusTcp": true,
+        "firewallModbusRtu": true,
+        "firewallModbusEditor": true,
+        "firewallUnityRedirection": true,
+        "firewallFTOptixDeploy": true,
+        "firewallFTOptixOpcUA": true,
+        "firewallFTOptixWeb": true
+    },
+    "eth3": {
+        "enable": true,
+        "ipAddress": "192.168.1.33",
+        "subnetMask": "255.255.255.0",
+        "defaultGateway": "192.168.1.1",
+        "primaryDns": "0.0.0.0",
+        "secondaryDns": "0.0.0.0"
+    },
+    "wifi": {
+        "enable": false,
+        "mode": 0,
+        "clientSSID": "",
+        "clientSSIDPassword": "",
+        "firewallSettings": "",
+        "firewallUnity": false,
+        "firewallCipExplicit": false,
+        "firewallIsagrafDebug": false,
+        "firewallSshEpm": false,
+        "firewallNtpServer": false,
+        "firewallModbusTcp": false,
+        "firewallModbusRtu": false,
+        "firewallModbusEditor": false,
+        "firewallUnityRedirection": false,
+        "firewallFTOptixDeploy": false,
+        "firewallFTOptixOpcUA": false,
+        "firewallFTOptixWeb": false
+    },
+    "cellular": {
+        "enable": false,
+        "apn": "",
+        "userName": "",
+        "password": "",
+        "pin": "",
+        "firewallSettings": "",
+        "firewallUnity": false,
+        "firewallCipExplicit": false,
+        "firewallIsagrafDebug": false,
+        "firewallSshEpm": false,
+        "firewallNtpServer": false,
+        "firewallModbusTcp": false,
+        "firewallModbusRtu": false,
+        "firewallModbusEditor": false,
+        "firewallUnityRedirection": false,
+        "firewallFTOptixDeploy": false,
+        "firewallFTOptixOpcUA": false,
+        "firewallFTOptixWeb": false
+    },
+    "engUnits": {
+        "userUnits": "{}"
+    }
+}

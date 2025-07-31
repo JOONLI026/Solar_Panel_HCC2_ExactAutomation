@@ -1,1 +1,332 @@
-{"analogInputs":{"ai1":{"inputHigh":1,"inputLow":0,"applyEuConversion":true,"tagPublishSetting":"onPeriod","unit":"NONE","range":6,"euHigh":100,"euLow":0,"tag":{},"hart":{"fixedAddress":true,"address":0,"rate":1},"fixedPubInterval":500000},"ai2":{"inputHigh":1,"inputLow":0,"applyEuConversion":true,"tagPublishSetting":"onPeriod","unit":"NONE","range":6,"euHigh":100,"euLow":0,"tag":{},"hart":{"fixedAddress":true,"address":0,"rate":1},"fixedPubInterval":500000},"ai3":{"inputHigh":1,"inputLow":0,"applyEuConversion":true,"tagPublishSetting":"onPeriod","unit":"NONE","range":6,"euHigh":100,"euLow":0,"tag":{},"hart":{"fixedAddress":true,"address":0,"rate":1},"fixedPubInterval":500000},"ai4":{"inputHigh":1,"inputLow":0,"applyEuConversion":true,"tagPublishSetting":"onPeriod","unit":"NONE","range":6,"euHigh":100,"euLow":0,"tag":{},"hart":{"fixedAddress":true,"address":0,"rate":1},"fixedPubInterval":500000},"ai5":{"inputHigh":1,"inputLow":0,"applyEuConversion":true,"tagPublishSetting":"onPeriod","unit":"NONE","range":6,"euHigh":100,"euLow":0,"tag":{},"fixedPubInterval":500000},"ai6":{"inputHigh":1,"inputLow":0,"applyEuConversion":true,"tagPublishSetting":"onPeriod","unit":"NONE","range":6,"euHigh":100,"euLow":0,"tag":{},"fixedPubInterval":500000},"ai7":{"inputHigh":1,"inputLow":0,"applyEuConversion":true,"tagPublishSetting":"onPeriod","unit":"NONE","range":6,"euHigh":100,"euLow":0,"tag":{},"fixedPubInterval":500000},"ai8":{"inputHigh":1,"inputLow":0,"applyEuConversion":true,"tagPublishSetting":"onPeriod","unit":"NONE","range":6,"euHigh":100,"euLow":0,"tag":{},"fixedPubInterval":500000}},"analogOutputs":{"ao1":{"inputHigh":1,"inputLow":0,"applyEuConversion":true,"tagPublishSetting":"writeOnly","unit":"NONE","range":4,"euHigh":100,"euLow":0,"tag":{},"defaultValueOnStartup":0},"ao2":{"inputHigh":1,"inputLow":0,"applyEuConversion":true,"tagPublishSetting":"writeOnly","unit":"NONE","range":4,"euHigh":100,"euLow":0,"tag":{},"defaultValueOnStartup":0}},"digitalInputs":{"di1":{"mode":1,"debounceTime":15000,"counterRollOver":10000,"minPubInterval":500000,"fixedPubInterval":500000,"tag":{},"tagPublishSetting":"onPeriod"},"di2":{"mode":1,"debounceTime":15000,"counterRollOver":10000,"minPubInterval":500000,"fixedPubInterval":500000,"tag":{},"tagPublishSetting":"onPeriod"},"di3":{"mode":1,"debounceTime":15000,"counterRollOver":10000,"minPubInterval":500000,"fixedPubInterval":500000,"tag":{},"tagPublishSetting":"onPeriod"},"di4":{"mode":1,"debounceTime":15000,"counterRollOver":10000,"minPubInterval":500000,"fixedPubInterval":500000,"tag":{},"tagPublishSetting":"onPeriod"},"di5":{"mode":1,"debounceTime":15000,"counterRollOver":10000,"minPubInterval":500000,"fixedPubInterval":500000,"tag":{},"tagPublishSetting":"onPeriod"},"di6":{"mode":1,"debounceTime":15000,"counterRollOver":10000,"minPubInterval":500000,"fixedPubInterval":500000,"tag":{},"tagPublishSetting":"onPeriod"},"di7":{"mode":1,"debounceTime":15000,"counterRollOver":10000,"minPubInterval":500000,"fixedPubInterval":500000,"tag":{},"tagPublishSetting":"onPeriod"},"di8":{"mode":1,"debounceTime":15000,"counterRollOver":10000,"minPubInterval":500000,"fixedPubInterval":500000,"tag":{},"tagPublishSetting":"onPeriod"}},"digitalInputsOutputs":{"dio1":{"mode":1,"inverted":false,"debounceTime":15000,"pulseDuration":10000,"counterRollOver":10000,"defaultValueOnStartup":true,"minPubInterval":500000,"fixedPubInterval":500000,"tag":{},"tagPublishSetting":"writeOnly","unit":"NONE"},"dio2":{"mode":1,"inverted":false,"debounceTime":15000,"pulseDuration":10000,"counterRollOver":10000,"defaultValueOnStartup":true,"minPubInterval":500000,"fixedPubInterval":500000,"tag":{},"tagPublishSetting":"writeOnly","unit":"NONE"},"dio3":{"mode":1,"inverted":false,"debounceTime":15000,"pulseDuration":10000,"counterRollOver":10000,"defaultValueOnStartup":true,"minPubInterval":500000,"fixedPubInterval":500000,"tag":{},"tagPublishSetting":"writeOnly","unit":"NONE"},"dio4":{"mode":1,"inverted":false,"debounceTime":15000,"pulseDuration":10000,"counterRollOver":10000,"defaultValueOnStartup":true,"minPubInterval":500000,"fixedPubInterval":500000,"tag":{},"tagPublishSetting":"writeOnly","unit":"NONE"},"dio5":{"mode":1,"inverted":false,"debounceTime":15000,"pulseDuration":10000,"counterRollOver":10000,"defaultValueOnStartup":true,"minPubInterval":500000,"fixedPubInterval":500000,"tag":{},"tagPublishSetting":"writeOnly","unit":"NONE"},"dio6":{"mode":1,"inverted":false,"debounceTime":15000,"pulseDuration":10000,"counterRollOver":10000,"defaultValueOnStartup":true,"minPubInterval":500000,"fixedPubInterval":500000,"tag":{},"tagPublishSetting":"writeOnly","unit":"NONE"},"dio7":{"mode":1,"inverted":false,"debounceTime":15000,"pulseDuration":10000,"counterRollOver":10000,"defaultValueOnStartup":true,"minPubInterval":500000,"fixedPubInterval":500000,"tag":{},"tagPublishSetting":"writeOnly","unit":"NONE"},"dio8":{"mode":1,"inverted":false,"debounceTime":15000,"pulseDuration":10000,"counterRollOver":10000,"defaultValueOnStartup":true,"minPubInterval":500000,"fixedPubInterval":500000,"tag":{},"tagPublishSetting":"writeOnly","unit":"NONE"}},"hash":"be6683304b787c95f1b7e28dc595707798de78e5cd32632d8f16ce8c6b31094f","isagraf":{"resources":{"isagrafFiles":{}}}}
+{
+    "analogInputs": {
+        "ai1": {
+            "inputHigh": 1,
+            "inputLow": 0,
+            "applyEuConversion": true,
+            "tagPublishSetting": "onPeriod",
+            "unit": "NONE",
+            "range": 6,
+            "euHigh": 100,
+            "euLow": 0,
+            "tag": {},
+            "hart": {
+                "fixedAddress": true,
+                "address": 0,
+                "rate": 1
+            },
+            "fixedPubInterval": 500000
+        },
+        "ai2": {
+            "inputHigh": 1,
+            "inputLow": 0,
+            "applyEuConversion": true,
+            "tagPublishSetting": "onPeriod",
+            "unit": "NONE",
+            "range": 6,
+            "euHigh": 100,
+            "euLow": 0,
+            "tag": {},
+            "hart": {
+                "fixedAddress": true,
+                "address": 0,
+                "rate": 1
+            },
+            "fixedPubInterval": 500000
+        },
+        "ai3": {
+            "inputHigh": 1,
+            "inputLow": 0,
+            "applyEuConversion": true,
+            "tagPublishSetting": "onPeriod",
+            "unit": "NONE",
+            "range": 6,
+            "euHigh": 100,
+            "euLow": 0,
+            "tag": {},
+            "hart": {
+                "fixedAddress": true,
+                "address": 0,
+                "rate": 1
+            },
+            "fixedPubInterval": 500000
+        },
+        "ai4": {
+            "inputHigh": 1,
+            "inputLow": 0,
+            "applyEuConversion": true,
+            "tagPublishSetting": "onPeriod",
+            "unit": "NONE",
+            "range": 6,
+            "euHigh": 100,
+            "euLow": 0,
+            "tag": {},
+            "hart": {
+                "fixedAddress": true,
+                "address": 0,
+                "rate": 1
+            },
+            "fixedPubInterval": 500000
+        },
+        "ai5": {
+            "inputHigh": 1,
+            "inputLow": 0,
+            "applyEuConversion": true,
+            "tagPublishSetting": "onPeriod",
+            "unit": "NONE",
+            "range": 6,
+            "euHigh": 100,
+            "euLow": 0,
+            "tag": {},
+            "fixedPubInterval": 500000
+        },
+        "ai6": {
+            "inputHigh": 1,
+            "inputLow": 0,
+            "applyEuConversion": true,
+            "tagPublishSetting": "onPeriod",
+            "unit": "NONE",
+            "range": 6,
+            "euHigh": 100,
+            "euLow": 0,
+            "tag": {},
+            "fixedPubInterval": 500000
+        },
+        "ai7": {
+            "inputHigh": 1,
+            "inputLow": 0,
+            "applyEuConversion": true,
+            "tagPublishSetting": "onPeriod",
+            "unit": "NONE",
+            "range": 6,
+            "euHigh": 100,
+            "euLow": 0,
+            "tag": {},
+            "fixedPubInterval": 500000
+        },
+        "ai8": {
+            "inputHigh": 1,
+            "inputLow": 0,
+            "applyEuConversion": true,
+            "tagPublishSetting": "onPeriod",
+            "unit": "NONE",
+            "range": 6,
+            "euHigh": 100,
+            "euLow": 0,
+            "tag": {},
+            "fixedPubInterval": 500000
+        }
+    },
+    "analogOutputs": {
+        "ao1": {
+            "inputHigh": 1,
+            "inputLow": 0,
+            "applyEuConversion": true,
+            "tagPublishSetting": "writeOnly",
+            "unit": "NONE",
+            "range": 4,
+            "euHigh": 100,
+            "euLow": 0,
+            "tag": {},
+            "defaultValueOnStartup": 0
+        },
+        "ao2": {
+            "inputHigh": 1,
+            "inputLow": 0,
+            "applyEuConversion": true,
+            "tagPublishSetting": "writeOnly",
+            "unit": "NONE",
+            "range": 4,
+            "euHigh": 100,
+            "euLow": 0,
+            "tag": {},
+            "defaultValueOnStartup": 0
+        }
+    },
+    "digitalInputs": {
+        "di1": {
+            "mode": 1,
+            "debounceTime": 15000,
+            "counterRollOver": 10000,
+            "minPubInterval": 500000,
+            "fixedPubInterval": 500000,
+            "tag": {},
+            "tagPublishSetting": "onPeriod"
+        },
+        "di2": {
+            "mode": 1,
+            "debounceTime": 15000,
+            "counterRollOver": 10000,
+            "minPubInterval": 500000,
+            "fixedPubInterval": 500000,
+            "tag": {},
+            "tagPublishSetting": "onPeriod"
+        },
+        "di3": {
+            "mode": 1,
+            "debounceTime": 15000,
+            "counterRollOver": 10000,
+            "minPubInterval": 500000,
+            "fixedPubInterval": 500000,
+            "tag": {},
+            "tagPublishSetting": "onPeriod"
+        },
+        "di4": {
+            "mode": 1,
+            "debounceTime": 15000,
+            "counterRollOver": 10000,
+            "minPubInterval": 500000,
+            "fixedPubInterval": 500000,
+            "tag": {},
+            "tagPublishSetting": "onPeriod"
+        },
+        "di5": {
+            "mode": 1,
+            "debounceTime": 15000,
+            "counterRollOver": 10000,
+            "minPubInterval": 500000,
+            "fixedPubInterval": 500000,
+            "tag": {},
+            "tagPublishSetting": "onPeriod"
+        },
+        "di6": {
+            "mode": 1,
+            "debounceTime": 15000,
+            "counterRollOver": 10000,
+            "minPubInterval": 500000,
+            "fixedPubInterval": 500000,
+            "tag": {},
+            "tagPublishSetting": "onPeriod"
+        },
+        "di7": {
+            "mode": 1,
+            "debounceTime": 15000,
+            "counterRollOver": 10000,
+            "minPubInterval": 500000,
+            "fixedPubInterval": 500000,
+            "tag": {},
+            "tagPublishSetting": "onPeriod"
+        },
+        "di8": {
+            "mode": 1,
+            "debounceTime": 15000,
+            "counterRollOver": 10000,
+            "minPubInterval": 500000,
+            "fixedPubInterval": 500000,
+            "tag": {},
+            "tagPublishSetting": "onPeriod"
+        }
+    },
+    "digitalInputsOutputs": {
+        "dio1": {
+            "mode": 1,
+            "inverted": false,
+            "debounceTime": 15000,
+            "pulseDuration": 10000,
+            "counterRollOver": 10000,
+            "defaultValueOnStartup": true,
+            "minPubInterval": 500000,
+            "fixedPubInterval": 500000,
+            "tag": {},
+            "tagPublishSetting": "writeOnly",
+            "unit": "NONE"
+        },
+        "dio2": {
+            "mode": 1,
+            "inverted": false,
+            "debounceTime": 15000,
+            "pulseDuration": 10000,
+            "counterRollOver": 10000,
+            "defaultValueOnStartup": true,
+            "minPubInterval": 500000,
+            "fixedPubInterval": 500000,
+            "tag": {},
+            "tagPublishSetting": "writeOnly",
+            "unit": "NONE"
+        },
+        "dio3": {
+            "mode": 1,
+            "inverted": false,
+            "debounceTime": 15000,
+            "pulseDuration": 10000,
+            "counterRollOver": 10000,
+            "defaultValueOnStartup": true,
+            "minPubInterval": 500000,
+            "fixedPubInterval": 500000,
+            "tag": {},
+            "tagPublishSetting": "writeOnly",
+            "unit": "NONE"
+        },
+        "dio4": {
+            "mode": 1,
+            "inverted": false,
+            "debounceTime": 15000,
+            "pulseDuration": 10000,
+            "counterRollOver": 10000,
+            "defaultValueOnStartup": true,
+            "minPubInterval": 500000,
+            "fixedPubInterval": 500000,
+            "tag": {},
+            "tagPublishSetting": "writeOnly",
+            "unit": "NONE"
+        },
+        "dio5": {
+            "mode": 1,
+            "inverted": false,
+            "debounceTime": 15000,
+            "pulseDuration": 10000,
+            "counterRollOver": 10000,
+            "defaultValueOnStartup": true,
+            "minPubInterval": 500000,
+            "fixedPubInterval": 500000,
+            "tag": {},
+            "tagPublishSetting": "writeOnly",
+            "unit": "NONE"
+        },
+        "dio6": {
+            "mode": 1,
+            "inverted": false,
+            "debounceTime": 15000,
+            "pulseDuration": 10000,
+            "counterRollOver": 10000,
+            "defaultValueOnStartup": true,
+            "minPubInterval": 500000,
+            "fixedPubInterval": 500000,
+            "tag": {},
+            "tagPublishSetting": "writeOnly",
+            "unit": "NONE"
+        },
+        "dio7": {
+            "mode": 1,
+            "inverted": false,
+            "debounceTime": 15000,
+            "pulseDuration": 10000,
+            "counterRollOver": 10000,
+            "defaultValueOnStartup": true,
+            "minPubInterval": 500000,
+            "fixedPubInterval": 500000,
+            "tag": {},
+            "tagPublishSetting": "writeOnly",
+            "unit": "NONE"
+        },
+        "dio8": {
+            "mode": 1,
+            "inverted": false,
+            "debounceTime": 15000,
+            "pulseDuration": 10000,
+            "counterRollOver": 10000,
+            "defaultValueOnStartup": true,
+            "minPubInterval": 500000,
+            "fixedPubInterval": 500000,
+            "tag": {},
+            "tagPublishSetting": "writeOnly",
+            "unit": "NONE"
+        }
+    },
+    "hash": "be6683304b787c95f1b7e28dc595707798de78e5cd32632d8f16ce8c6b31094f",
+    "isagraf": {
+        "resources": {
+            "isagrafFiles": {}
+        }
+    }
+}

@@ -1,0 +1,4677 @@
+{
+    "config": {
+        "assetInfo.assetName.": {
+            "_callbacks": null,
+            "_noprotobuf": false,
+            "_datatype": "String",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Asset Name",
+            "_shortDisplayName": "Asset Name",
+            "_input": false,
+            "_output": false
+        },
+        "assetInfo.assetDescription.": {
+            "_callbacks": null,
+            "_noprotobuf": false,
+            "_datatype": "String",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Asset Description",
+            "_shortDisplayName": "Asset Desc",
+            "_recommendedMax": 40,
+            "_input": false,
+            "_output": false
+        },
+        "projectInfo.projectName.": {
+            "_callbacks": null,
+            "_noprotobuf": false,
+            "_datatype": "String",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Project Name",
+            "_shortDisplayName": "Proj Name",
+            "_recommendedMax": 40,
+            "_input": false,
+            "_output": false
+        },
+        "projectInfo.projectDescription.": {
+            "_callbacks": null,
+            "_noprotobuf": false,
+            "_datatype": "String",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Project Description",
+            "_shortDisplayName": "Proj Desc",
+            "_recommendedMax": 40,
+            "_input": false,
+            "_output": false
+        },
+        "projectInfo.companyName.": {
+            "_callbacks": null,
+            "_noprotobuf": false,
+            "_datatype": "String",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Company Name",
+            "_shortDisplayName": "Company",
+            "_recommendedMax": 40,
+            "_input": false,
+            "_output": false
+        },
+        "projectInfo.siteWellName.": {
+            "_callbacks": null,
+            "_noprotobuf": false,
+            "_datatype": "String",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Site / Well Name",
+            "_shortDisplayName": "Site / Well",
+            "_recommendedMax": 40,
+            "_input": false,
+            "_output": false
+        },
+        "projectInfo.fieldLeaseName.": {
+            "_callbacks": null,
+            "_noprotobuf": false,
+            "_datatype": "String",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Field / Lease Name",
+            "_shortDisplayName": "Field / Lease",
+            "_recommendedMax": 40,
+            "_input": false,
+            "_output": false
+        },
+        "projectInfo.legalLandDescription.": {
+            "_callbacks": null,
+            "_noprotobuf": false,
+            "_datatype": "String",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Legal Land Description",
+            "_shortDisplayName": "Land Desc.",
+            "_recommendedMax": 80,
+            "_input": false,
+            "_output": false
+        },
+        "projectInfo.operator.": {
+            "_callbacks": null,
+            "_noprotobuf": false,
+            "_datatype": "String",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Operator",
+            "_shortDisplayName": "Operator",
+            "_recommendedMax": 40,
+            "_input": false,
+            "_output": false
+        },
+        "location.enableServices.": {
+            "_callbacks": null,
+            "_noprotobuf": false,
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Enable Location Services",
+            "_shortDisplayName": "Enable Location",
+            "_input": false,
+            "_output": false
+        },
+        "location.manualCoordinate.": {
+            "_callbacks": null,
+            "_noprotobuf": false,
+            "_datatype": "String",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Manual Location Coordinate",
+            "_shortDisplayName": "Manual Coordinate",
+            "_input": false,
+            "_output": false
+        },
+        "timeConfig.syncSource.": {
+            "_callbacks": null,
+            "_noprotobuf": false,
+            "_datatype": "String",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Time Sync Source",
+            "_shortDisplayName": "Time Source",
+            "_input": false,
+            "_output": false
+        },
+        "timeConfig.timeServer1.": {
+            "_callbacks": null,
+            "_noprotobuf": false,
+            "_datatype": "String",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "NTP Time Server 1",
+            "_shortDisplayName": "NTP 1",
+            "_input": false,
+            "_output": false
+        },
+        "timeConfig.timeZone.": {
+            "_callbacks": null,
+            "_noprotobuf": false,
+            "_datatype": "String",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Time Zone",
+            "_shortDisplayName": "Time Zone",
+            "_input": false,
+            "_output": false
+        },
+        "timeConfig.location.": {
+            "_callbacks": null,
+            "_noprotobuf": false,
+            "_datatype": "String",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Location Name",
+            "_shortDisplayName": "Location",
+            "_input": false,
+            "_output": false
+        },
+        "timeConfig.gpsCoordinate.": {
+            "_callbacks": null,
+            "_noprotobuf": false,
+            "_datatype": "String",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Manual Location Coordinate",
+            "_shortDisplayName": "Manual Coordinate",
+            "_input": false,
+            "_output": false
+        },
+        "internetSelection.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "Enum",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_enum": [
+                {
+                    "index": 0,
+                    "label": "ETH-1"
+                },
+                {
+                    "index": 1,
+                    "label": "ETH-2"
+                },
+                {
+                    "index": 2,
+                    "label": "Wi-Fi"
+                },
+                {
+                    "index": 3,
+                    "label": "Cellular"
+                },
+                {
+                    "index": 4,
+                    "label": "NONE"
+                }
+            ],
+            "_displayName": "Internet Interface Selection",
+            "_shortDisplayName": "Internet Select",
+            "_input": false,
+            "_output": false
+        },
+        "eth1.enable.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "ETH-1 Enable",
+            "_shortDisplayName": "ETH-1 Enable",
+            "_input": false,
+            "_output": false
+        },
+        "eth1.mode.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "Enum",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_enum": [
+                {
+                    "index": 0,
+                    "label": "Static"
+                },
+                {
+                    "index": 1,
+                    "label": "Dynamic"
+                }
+            ],
+            "_displayName": "ETH-1 Mode",
+            "_shortDisplayName": "ETH-1 Mode",
+            "_input": false,
+            "_output": false
+        },
+        "eth1.dummyVar.": {
+            "_callbacks": [
+                {
+                    "func": "checkIPv4",
+                    "args": "{}"
+                }
+            ],
+            "_noprotobuf": true,
+            "_datatype": "String",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Dummy Variable",
+            "_shortDisplayName": "Dummy Var",
+            "_input": false,
+            "_output": false
+        },
+        "eth1.ipAddress.": {
+            "_callbacks": [
+                {
+                    "func": "checkValidEth1IPv4",
+                    "args": "{Mode:parameters.eth1.mode}"
+                }
+            ],
+            "_noprotobuf": true,
+            "_datatype": "String",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "ETH-1 IP Address",
+            "_shortDisplayName": "ETH-1 IP",
+            "_input": false,
+            "_output": false
+        },
+        "eth1.subnetMask.": {
+            "_callbacks": [
+                {
+                    "func": "checkValidEth1Subnet",
+                    "args": "{Mode:parameters.eth1.mode}"
+                }
+            ],
+            "_noprotobuf": true,
+            "_datatype": "String",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "ETH-1 Subnet Mask",
+            "_shortDisplayName": "ETH-1 Mask",
+            "_input": false,
+            "_output": false
+        },
+        "eth1.defaultGateway.": {
+            "_callbacks": [
+                {
+                    "func": "checkValidIP",
+                    "args": "{}"
+                }
+            ],
+            "_noprotobuf": true,
+            "_datatype": "String",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "ETH-1 Default Gateway",
+            "_shortDisplayName": "ETH-1 Gateway",
+            "_input": false,
+            "_output": false
+        },
+        "eth1.primaryDns.": {
+            "_callbacks": [
+                {
+                    "func": "checkValidIP",
+                    "args": "{}"
+                }
+            ],
+            "_noprotobuf": true,
+            "_datatype": "String",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "ETH-1 Primary DNS",
+            "_shortDisplayName": "ETH-1 Pri-DNS",
+            "_input": false,
+            "_output": false
+        },
+        "eth1.secondaryDns.": {
+            "_callbacks": [
+                {
+                    "func": "checkValidIP",
+                    "args": "{}"
+                }
+            ],
+            "_noprotobuf": true,
+            "_datatype": "String",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "ETH-1 secondaryDns",
+            "_shortDisplayName": "ETH-1 Sec-DNS",
+            "_input": false,
+            "_output": false
+        },
+        "eth1.firewallSettings.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "String",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "ETH-1 Firewall Settings",
+            "_shortDisplayName": "ETH-1 Firewall Stngs",
+            "_input": false,
+            "_output": false
+        },
+        "eth1.firewallUnity.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "ETH-1 Unity",
+            "_shortDisplayName": "ETH-1 Unity",
+            "_input": false,
+            "_output": false
+        },
+        "eth1.firewallCipExplicit.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "ETH-1 CIP Explicit",
+            "_shortDisplayName": "ETH-1 CIP-E",
+            "_input": false,
+            "_output": false
+        },
+        "eth1.firewallIsagrafDebug.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "ETH-1 ISaGRAF",
+            "_shortDisplayName": "ETH-1 ISaGRAF",
+            "_input": false,
+            "_output": false
+        },
+        "eth1.firewallSshEpm.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "ETH-1 SSH and EPM",
+            "_shortDisplayName": "ETH-1 SSH and EPM",
+            "_input": false,
+            "_output": false
+        },
+        "eth1.firewallNtpServer.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "ETH-1 NTP Server",
+            "_shortDisplayName": "ETH-1 NTP",
+            "_input": false,
+            "_output": false
+        },
+        "eth1.firewallModbusTcp.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "ETH-1 ModbusTCP",
+            "_shortDisplayName": "ETH-1 502",
+            "_input": false,
+            "_output": false
+        },
+        "eth1.firewallModbusRtu.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "ETH-1 ModbusRTU",
+            "_shortDisplayName": "ETH-1 503",
+            "_input": false,
+            "_output": false
+        },
+        "eth1.firewallModbusEditor.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "ETH-1 ModbusEditor",
+            "_shortDisplayName": "ETH-1 Medit",
+            "_input": false,
+            "_output": false
+        },
+        "eth1.firewallUnityRedirection.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "ETH-1 Unity Redirection",
+            "_shortDisplayName": "ETH-1 Unity Redirect",
+            "_input": false,
+            "_output": false
+        },
+        "eth1.firewallFTOptixDeploy.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "ETH-1 FTOptix Deployment",
+            "_shortDisplayName": "ETH-1 FTOptix-D",
+            "_input": false,
+            "_output": false
+        },
+        "eth1.firewallFTOptixOpcUA.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "ETH-1 FTOptix OPC UA",
+            "_shortDisplayName": "ETH-1 FTOptix-OPC",
+            "_input": false,
+            "_output": false
+        },
+        "eth1.firewallFTOptixWeb.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "ETH-1 FTOptix Web Browser",
+            "_shortDisplayName": "ETH-1 FTOptix-W",
+            "_input": false,
+            "_output": false
+        },
+        "eth2.enable.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "ETH-2 Enable",
+            "_shortDisplayName": "ETH-2 Enable",
+            "_input": false,
+            "_output": false
+        },
+        "eth2.mode.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "Enum",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_enum": [
+                {
+                    "index": 0,
+                    "label": "Static"
+                },
+                {
+                    "index": 1,
+                    "label": "Dynamic"
+                }
+            ],
+            "_displayName": "ETH-2 Mode",
+            "_shortDisplayName": "ETH-2 Mode",
+            "_input": false,
+            "_output": false
+        },
+        "eth2.ipAddress.": {
+            "_callbacks": [
+                {
+                    "func": "checkValidEth2IPv4",
+                    "args": "{Mode:parameters.eth2.mode}"
+                }
+            ],
+            "_noprotobuf": true,
+            "_datatype": "String",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "ETH-2 IP Address",
+            "_shortDisplayName": "ETH-2 IP",
+            "_input": false,
+            "_output": false
+        },
+        "eth2.subnetMask.": {
+            "_callbacks": [
+                {
+                    "func": "checkValidEth2Subnet",
+                    "args": "{Mode:parameters.eth2.mode}"
+                }
+            ],
+            "_noprotobuf": true,
+            "_datatype": "String",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "ETH-2 Subnet Mask",
+            "_shortDisplayName": "ETH-2 Mask",
+            "_input": false,
+            "_output": false
+        },
+        "eth2.defaultGateway.": {
+            "_callbacks": [
+                {
+                    "func": "checkValidIP",
+                    "args": "{}"
+                }
+            ],
+            "_noprotobuf": true,
+            "_datatype": "String",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "ETH-2 Default Gateway",
+            "_shortDisplayName": "ETH-2 Gateway",
+            "_input": false,
+            "_output": false
+        },
+        "eth2.primaryDns.": {
+            "_callbacks": [
+                {
+                    "func": "checkValidIP",
+                    "args": "{}"
+                }
+            ],
+            "_noprotobuf": true,
+            "_datatype": "String",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "ETH-2 Primary DNS",
+            "_shortDisplayName": "ETH-2 Pri-DNS",
+            "_input": false,
+            "_output": false
+        },
+        "eth2.secondaryDns.": {
+            "_callbacks": [
+                {
+                    "func": "checkValidIP",
+                    "args": "{}"
+                }
+            ],
+            "_noprotobuf": true,
+            "_datatype": "String",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "ETH-2 secondaryDns",
+            "_shortDisplayName": "ETH-2 Sec-DNS",
+            "_input": false,
+            "_output": false
+        },
+        "eth2.firewallSettings.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "String",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "ETH-2 Firewall Settings",
+            "_shortDisplayName": "ETH-2 Firewall Stngs",
+            "_input": false,
+            "_output": false
+        },
+        "eth2.firewallUnity.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "ETH-2 Unity",
+            "_shortDisplayName": "ETH-2 Unity",
+            "_input": false,
+            "_output": false
+        },
+        "eth2.firewallCipExplicit.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "ETH-2 CIP Explicit",
+            "_shortDisplayName": "ETH-2 CIP-E",
+            "_input": false,
+            "_output": false
+        },
+        "eth2.firewallIsagrafDebug.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "ETH-2 ISaGRAF",
+            "_shortDisplayName": "ETH-2 ISaGRAF",
+            "_input": false,
+            "_output": false
+        },
+        "eth2.firewallSshEpm.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "ETH-2 SSH and EPM",
+            "_shortDisplayName": "ETH-2 SSH and EPM",
+            "_input": false,
+            "_output": false
+        },
+        "eth2.firewallNtpServer.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "ETH-2 NTP Server",
+            "_shortDisplayName": "ETH-2 NTP",
+            "_input": false,
+            "_output": false
+        },
+        "eth2.firewallModbusTcp.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "ETH-2 ModbusTCP",
+            "_shortDisplayName": "ETH-2 502",
+            "_input": false,
+            "_output": false
+        },
+        "eth2.firewallModbusRtu.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "ETH-2 ModbusRTU",
+            "_shortDisplayName": "ETH-2 503",
+            "_input": false,
+            "_output": false
+        },
+        "eth2.firewallModbusEditor.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "ETH-2 ModbusEditor",
+            "_shortDisplayName": "ETH-2 Medit",
+            "_input": false,
+            "_output": false
+        },
+        "eth2.firewallUnityRedirection.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "ETH-2 Unity Redirection",
+            "_shortDisplayName": "ETH-2 Unity Redirect",
+            "_input": false,
+            "_output": false
+        },
+        "eth2.firewallFTOptixDeploy.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "ETH-2 FTOptix Deployment",
+            "_shortDisplayName": "ETH-2 FTOptix-D",
+            "_input": false,
+            "_output": false
+        },
+        "eth2.firewallFTOptixOpcUA.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "ETH-2 FTOptix OPC UA",
+            "_shortDisplayName": "ETH-2 FTOptix-OPC",
+            "_input": false,
+            "_output": false
+        },
+        "eth2.firewallFTOptixWeb.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "ETH-2 FTOptix Web Browser",
+            "_shortDisplayName": "ETH-2 FTOptix-W",
+            "_input": false,
+            "_output": false
+        },
+        "eth3.enable.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "ETH-3 Enable",
+            "_shortDisplayName": "ETH-3 Enable",
+            "_input": false,
+            "_output": false
+        },
+        "eth3.ipAddress.": {
+            "_callbacks": [
+                {
+                    "func": "checkIPv4",
+                    "args": "{}"
+                }
+            ],
+            "_noprotobuf": true,
+            "_datatype": "String",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "ETH-3 IP Address",
+            "_shortDisplayName": "ETH-3 IP",
+            "_input": false,
+            "_output": false
+        },
+        "eth3.subnetMask.": {
+            "_callbacks": [
+                {
+                    "func": "checkValidSubnet",
+                    "args": "{}"
+                }
+            ],
+            "_noprotobuf": true,
+            "_datatype": "String",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "ETH-3 Subnet Mask",
+            "_shortDisplayName": "ETH-3 Mask",
+            "_input": false,
+            "_output": false
+        },
+        "eth3.defaultGateway.": {
+            "_callbacks": [
+                {
+                    "func": "checkValidIP",
+                    "args": "{}"
+                }
+            ],
+            "_noprotobuf": true,
+            "_datatype": "String",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "ETH-3 Default Gateway",
+            "_shortDisplayName": "ETH-3 Gateway",
+            "_input": false,
+            "_output": false
+        },
+        "eth3.primaryDns.": {
+            "_callbacks": [
+                {
+                    "func": "checkValidIP",
+                    "args": "{}"
+                }
+            ],
+            "_noprotobuf": true,
+            "_datatype": "String",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "ETH-3 Primary DNS",
+            "_shortDisplayName": "ETH-3 Pri-DNS",
+            "_input": false,
+            "_output": false
+        },
+        "eth3.secondaryDns.": {
+            "_callbacks": [
+                {
+                    "func": "checkValidIP",
+                    "args": "{}"
+                }
+            ],
+            "_noprotobuf": true,
+            "_datatype": "String",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "ETH-3 secondaryDns",
+            "_shortDisplayName": "ETH-3 Sec-DNS",
+            "_input": false,
+            "_output": false
+        },
+        "wifi.enable.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Wi-Fi Enable",
+            "_shortDisplayName": "Wi-Fi Enable",
+            "_input": false,
+            "_output": false
+        },
+        "wifi.mode.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "Enum",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_enum": [
+                {
+                    "index": 0,
+                    "label": "Client"
+                },
+                {
+                    "index": 1,
+                    "label": "Access Point"
+                }
+            ],
+            "_displayName": "Wi-Fi Mode",
+            "_shortDisplayName": "Wi-Fi Mode",
+            "_input": false,
+            "_output": false
+        },
+        "wifi.clientSSID.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "String",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Wi-Fi SSID",
+            "_shortDisplayName": "Wi-Fi SSID",
+            "_input": false,
+            "_output": false
+        },
+        "wifi.clientSSIDPassword.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "String",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Wi-Fi SSID Password",
+            "_shortDisplayName": "Wi-Fi Password",
+            "_input": false,
+            "_output": false
+        },
+        "wifi.firewallSettings.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "String",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Wi-Fi Firewall Settings",
+            "_shortDisplayName": "Wi-Fi Firewall Stngs",
+            "_input": false,
+            "_output": false
+        },
+        "wifi.firewallUnity.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Wi-Fi Unity",
+            "_shortDisplayName": "Wi-Fi Unity",
+            "_input": false,
+            "_output": false
+        },
+        "wifi.firewallCipExplicit.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Wi-Fi CIP Explicit",
+            "_shortDisplayName": "Wi-Fi CIP-E",
+            "_input": false,
+            "_output": false
+        },
+        "wifi.firewallIsagrafDebug.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Wi-Fi ISaGRAF",
+            "_shortDisplayName": "Wi-Fi ISaGRAF",
+            "_input": false,
+            "_output": false
+        },
+        "wifi.firewallSshEpm.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Wi-Fi SSH and EPM",
+            "_shortDisplayName": "Wi-Fi SSH and EPM",
+            "_input": false,
+            "_output": false
+        },
+        "wifi.firewallNtpServer.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Wi-Fi NTP Server",
+            "_shortDisplayName": "Wi-Fi NTP",
+            "_input": false,
+            "_output": false
+        },
+        "wifi.firewallModbusTcp.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Wi-Fi ModbusTCP",
+            "_shortDisplayName": "Wi-Fi 502",
+            "_input": false,
+            "_output": false
+        },
+        "wifi.firewallModbusRtu.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Wi-Fi ModbusRTU",
+            "_shortDisplayName": "Wi-Fi 503",
+            "_input": false,
+            "_output": false
+        },
+        "wifi.firewallModbusEditor.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Wi-Fi ModbusEditor",
+            "_shortDisplayName": "Wi-Fi Medit",
+            "_input": false,
+            "_output": false
+        },
+        "wifi.firewallUnityRedirection.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Wi-Fi Unity Redirection",
+            "_shortDisplayName": "Wi-Fi Unity Redirect",
+            "_input": false,
+            "_output": false
+        },
+        "wifi.firewallFTOptixDeploy.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Wi-Fi FTOptix Deployment",
+            "_shortDisplayName": "Wi-Fi FTOptix-D",
+            "_input": false,
+            "_output": false
+        },
+        "wifi.firewallFTOptixOpcUA.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Wi-Fi FTOptix OPC UA",
+            "_shortDisplayName": "Wi-Fi FTOptix-OPC",
+            "_input": false,
+            "_output": false
+        },
+        "wifi.firewallFTOptixWeb.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Wi-Fi FTOptix Web Browser",
+            "_shortDisplayName": "Wi-Fi FTOptix-W",
+            "_input": false,
+            "_output": false
+        },
+        "cellular.enable.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Cell Modem Enable",
+            "_shortDisplayName": "CellModem Enable",
+            "_input": false,
+            "_output": false
+        },
+        "cellular.apn.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "String",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Cell Modem Access Point Name",
+            "_shortDisplayName": "CellModem APN",
+            "_input": false,
+            "_output": false
+        },
+        "cellular.userName.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "String",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Cell Modem User Name",
+            "_shortDisplayName": "CellModem User",
+            "_input": false,
+            "_output": false
+        },
+        "cellular.password.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "String",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Cell Modem Password",
+            "_shortDisplayName": "CellModem Password",
+            "_input": false,
+            "_output": false
+        },
+        "cellular.pin.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "String",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Cell Modem PIN",
+            "_shortDisplayName": "CellModem PIN",
+            "_input": false,
+            "_output": false
+        },
+        "cellular.firewallSettings.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "String",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Cellular Firewall Settings",
+            "_shortDisplayName": "Cellular Firewall Stngs",
+            "_input": false,
+            "_output": false
+        },
+        "cellular.firewallUnity.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Cell Modem Unity",
+            "_shortDisplayName": "CellModem Unity",
+            "_input": false,
+            "_output": false
+        },
+        "cellular.firewallCipExplicit.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Cell Modem CIP Explicit",
+            "_shortDisplayName": "CellModem CIP-E",
+            "_input": false,
+            "_output": false
+        },
+        "cellular.firewallIsagrafDebug.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Cell Modem ISaGRAF",
+            "_shortDisplayName": "CellModem ISaGRAF",
+            "_input": false,
+            "_output": false
+        },
+        "cellular.firewallSshEpm.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Cell Modem SSH and EPM",
+            "_shortDisplayName": "CellModem SSH and EPM",
+            "_input": false,
+            "_output": false
+        },
+        "cellular.firewallNtpServer.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Cell Modem NTP Server",
+            "_shortDisplayName": "CellModem NTP",
+            "_input": false,
+            "_output": false
+        },
+        "cellular.firewallModbusTcp.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Cell Modem ModbusTCP",
+            "_shortDisplayName": "CellModem 502",
+            "_input": false,
+            "_output": false
+        },
+        "cellular.firewallModbusRtu.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Cell Modem ModbusRTU",
+            "_shortDisplayName": "CellModem 503",
+            "_input": false,
+            "_output": false
+        },
+        "cellular.firewallModbusEditor.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Cell Modem ModbusEditor",
+            "_shortDisplayName": "CellModem Medit",
+            "_input": false,
+            "_output": false
+        },
+        "cellular.firewallUnityRedirection.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Cell Modem Unity Redirection",
+            "_shortDisplayName": "Cell Modem Unity Redirect",
+            "_input": false,
+            "_output": false
+        },
+        "cellular.firewallFTOptixDeploy.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Cell Modem FTOptix Deployment",
+            "_shortDisplayName": "Cell Modem FTOptix-D",
+            "_input": false,
+            "_output": false
+        },
+        "cellular.firewallFTOptixOpcUA.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Cell Modem FTOptix OPC UA",
+            "_shortDisplayName": "Cell Modem FTOptix-OPC",
+            "_input": false,
+            "_output": false
+        },
+        "cellular.firewallFTOptixWeb.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Cell Modem FTOptix Web Browser",
+            "_shortDisplayName": "Cell Modem FTOptix-W",
+            "_input": false,
+            "_output": false
+        },
+        "applications.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "String",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Application List",
+            "_shortDisplayName": "App List",
+            "_input": false,
+            "_output": false
+        },
+        "engUnits.userUnits.": {
+            "_callbacks": null,
+            "_noprotobuf": false,
+            "_datatype": "String",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "User Eng Units",
+            "_shortDisplayName": "User Units",
+            "_input": false,
+            "_output": false
+        }
+    },
+    "general": {
+        "liveValue.state.this.core.0.up.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Driver Up",
+            "_shortDisplayName": "Up",
+            "_noCache": false,
+            "_input": false,
+            "_output": true
+        },
+        "liveValue.state.this.core.0.license.": {
+            "_datatype": "Enum",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_enum": [
+                {
+                    "index": 0,
+                    "label": "Unknown"
+                },
+                {
+                    "index": 1,
+                    "label": "Free"
+                },
+                {
+                    "index": 2,
+                    "label": "Not Found"
+                },
+                {
+                    "index": 3,
+                    "label": "Valid"
+                },
+                {
+                    "index": 4,
+                    "label": "Expired"
+                },
+                {
+                    "index": 5,
+                    "label": "Invalid"
+                }
+            ],
+            "_displayName": "License",
+            "_shortDisplayName": "License",
+            "_noCache": false,
+            "_input": false,
+            "_output": true
+        },
+        "liveValue.state.this.core.0.applicationHealth.": {
+            "_datatype": "JSON",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Application Health",
+            "_shortDisplayName": "App Health",
+            "_noCache": false,
+            "_input": false,
+            "_output": true
+        },
+        "liveValue.state.this.core.0.configDeviceTime.": {
+            "_datatype": "String",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Set Device Time",
+            "_shortDisplayName": "Set Time",
+            "_noCache": true,
+            "_input": false,
+            "_output": true
+        },
+        "liveValue.state.this.core.0.state.": {
+            "_datatype": "Enum",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_enum": [
+                {
+                    "index": 0,
+                    "label": "Confirmed ZMQ Proxy"
+                },
+                {
+                    "index": 1,
+                    "label": "Data Logger Started"
+                },
+                {
+                    "index": 2,
+                    "label": "Started Registration Process"
+                },
+                {
+                    "index": 3,
+                    "label": "Registered Configuration Complete"
+                },
+                {
+                    "index": 4,
+                    "label": "Started Provisioning Process"
+                },
+                {
+                    "index": 5,
+                    "label": "Awaiting Provisioning Data"
+                },
+                {
+                    "index": 6,
+                    "label": "Received Provisioning Data"
+                },
+                {
+                    "index": 7,
+                    "label": "Awaiting Tag Metadata"
+                },
+                {
+                    "index": 8,
+                    "label": "Failed Configuration Processing"
+                },
+                {
+                    "index": 9,
+                    "label": "Completed Configuration Processing"
+                },
+                {
+                    "index": 10,
+                    "label": "Started User Logs Initialization"
+                },
+                {
+                    "index": 11,
+                    "label": "User Logs Initialization Failed"
+                },
+                {
+                    "index": 12,
+                    "label": "Completed User Logs Initialization"
+                },
+                {
+                    "index": 13,
+                    "label": "Started Licensing Check"
+                },
+                {
+                    "index": 14,
+                    "label": "Failed To Complete Licensing Check"
+                },
+                {
+                    "index": 15,
+                    "label": "Completed Licensing Check"
+                },
+                {
+                    "index": 16,
+                    "label": "CoreApp Operational"
+                }
+            ],
+            "_displayName": "CoreApp State",
+            "_shortDisplayName": "Core State",
+            "_input": false,
+            "_output": false
+        },
+        "liveValue.state.this.core.0.manualSyncTimeStatus.": {
+            "_datatype": "String",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Manual Set Time Status",
+            "_shortDisplayName": "SyncTime Status",
+            "_noCache": true,
+            "_input": false,
+            "_output": true
+        },
+        "liveValue.state.this.core.0.signalStrengthDetails.": {
+            "_datatype": "JSON",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Signal Strength Details",
+            "_shortDisplayName": "Signal Info",
+            "_noCache": false,
+            "_input": false,
+            "_output": true
+        },
+        "liveValue.diagnostics.this.core.0.osBuiltInfo|.": {
+            "osBuildVersion.": {
+                "_datatype": "String",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "OS Build Version",
+                "_shortDisplayName": "OS Build Version",
+                "_input": false,
+                "_output": true
+            },
+            "osBuildId.": {
+                "_datatype": "String",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "OS Build ID",
+                "_shortDisplayName": "OS Build ID",
+                "_input": false,
+                "_output": true
+            }
+        },
+        "liveValue.diagnostics.this.core.0.hardwareInfo|.": {
+            "manufacturer.": {
+                "_datatype": "String",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Manufacturer",
+                "_shortDisplayName": "mfg.",
+                "_input": false,
+                "_output": false
+            },
+            "productFamily.": {
+                "_datatype": "String",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Product Family Name",
+                "_shortDisplayName": "Prod. Family",
+                "_input": false,
+                "_output": false
+            },
+            "productName.": {
+                "_datatype": "String",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Product Name",
+                "_shortDisplayName": "Prod. Name",
+                "_input": false,
+                "_output": false
+            },
+            "modelNumber.": {
+                "_datatype": "String",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Model Number",
+                "_shortDisplayName": "Model No.",
+                "_input": false,
+                "_output": false
+            },
+            "assemblyVersion.": {
+                "_datatype": "String",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Assembly Version",
+                "_shortDisplayName": "Assy. Ver.",
+                "_input": false,
+                "_output": false
+            },
+            "serialNumber.": {
+                "_datatype": "String",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Serial Number",
+                "_shortDisplayName": "Serial No.",
+                "_input": false,
+                "_output": false
+            },
+            "cpuBoardHardwareVersion.": {
+                "_datatype": "String",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "CPU Board Version",
+                "_shortDisplayName": "CPU Ver.",
+                "_input": false,
+                "_output": false
+            },
+            "cpuBoardSerialNumber.": {
+                "_datatype": "String",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "CPU Board Serial Number",
+                "_shortDisplayName": "CPU SN.",
+                "_input": false,
+                "_output": false
+            },
+            "cpuBoardPartNumber.": {
+                "_datatype": "String",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "CPU Board Part Number",
+                "_shortDisplayName": "CPU PN.",
+                "_input": false,
+                "_output": false
+            },
+            "id.": {
+                "_datatype": "String",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Hardware ID",
+                "_shortDisplayName": "HW ID",
+                "_input": false,
+                "_output": false
+            }
+        },
+        "liveValue.diagnostics.this.core.0.hardwareTest.usarts.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "UARTS Enabled",
+            "_shortDisplayName": "UARTS En",
+            "_input": false,
+            "_output": false
+        },
+        "liveValue.diagnostics.this.core.0.hardwareTest.videoAcceleration.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Video Acceleration",
+            "_shortDisplayName": "Video Acc. En",
+            "_input": false,
+            "_output": false
+        },
+        "liveValue.diagnostics.this.core.0.hardwareTest.mmcQuirks.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "eMMC Quirks Enabled",
+            "_shortDisplayName": "eMMC Quirks En",
+            "_input": false,
+            "_output": false
+        },
+        "liveValue.diagnostics.this.core.0.hardwareTest.hdmiHotplug.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "HDMI Hotplug Enabled",
+            "_shortDisplayName": "HDMI Hotplug En",
+            "_input": false,
+            "_output": false
+        },
+        "liveValue.diagnostics.this.core.0.hardwareTest.lanPhy.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "LAN PHY Enabled",
+            "_shortDisplayName": "LAN PHY En",
+            "_input": false,
+            "_output": false
+        },
+        "liveValue.diagnostics.this.core.0.hardwareTest.wifiAdapter.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "WiFi Adapter Enabled",
+            "_shortDisplayName": "WiFi En",
+            "_input": false,
+            "_output": false
+        },
+        "liveValue.diagnostics.this.core.0.hardwareTest.modem3G.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "3G Modem Enabled",
+            "_shortDisplayName": "3G Modem En",
+            "_input": false,
+            "_output": false
+        },
+        "liveValue.diagnostics.this.core.0.hardwareTest.bluetoothAdapter.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Bluetooth Adapter Enabled",
+            "_shortDisplayName": "Bluetooth En",
+            "_input": false,
+            "_output": false
+        },
+        "liveValue.diagnostics.this.core.0.hardwareTest.serialPorts.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "All Serial Ports Enabled",
+            "_shortDisplayName": "All Serial Ports En",
+            "_input": false,
+            "_output": false
+        },
+        "liveValue.diagnostics.this.core.0.hardwareTest.systemWatchdog.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "System Watchdog Enabled",
+            "_shortDisplayName": "Sys Watchdog En",
+            "_input": false,
+            "_output": false
+        },
+        "liveValue.diagnostics.this.core.0.hardwareTest.tpm.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "TPM Enabled",
+            "_shortDisplayName": "TPM En",
+            "_input": false,
+            "_output": false
+        },
+        "liveValue.diagnostics.this.core.0.hardwareTest.emmc.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "eMMC Enabled",
+            "_shortDisplayName": "eMMC En",
+            "_input": false,
+            "_output": false
+        },
+        "liveValue.diagnostics.this.core.0.hardwareTest.microSD.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "MicroSD Card Enabled",
+            "_shortDisplayName": "MicroSD En",
+            "_input": false,
+            "_output": false
+        },
+        "liveValue.diagnostics.this.core.0.hardwareTest.usb.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "USB Enabled",
+            "_shortDisplayName": "USB En",
+            "_input": false,
+            "_output": false
+        },
+        "liveValue.diagnostics.this.core.0.hardwareTest.ethernet.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Ethernet Enabled",
+            "_shortDisplayName": "Ethernet En",
+            "_input": false,
+            "_output": false
+        },
+        "liveValue.diagnostics.this.core.0.hardwareTest.i2cDevices.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "I2C Devices Enabled",
+            "_shortDisplayName": "I2C Devices En",
+            "_input": false,
+            "_output": false
+        },
+        "liveValue.diagnostics.this.core.0.hardwareTest.coreTempSensors.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Core Temperature Sensors Enabled",
+            "_shortDisplayName": "CPU Temp En",
+            "_input": false,
+            "_output": false
+        },
+        "liveValue.diagnostics.this.core.0.hardwareTest.gpio.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "GPIO Enabled",
+            "_shortDisplayName": "GPIO En",
+            "_input": false,
+            "_output": false
+        },
+        "liveValue.diagnostics.this.core.0.hardwareTest.externTempSensors.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "External Temperature Enabled",
+            "_shortDisplayName": "Ext. Temp En",
+            "_input": false,
+            "_output": false
+        },
+        "liveValue.diagnostics.this.core.0.temperature|.": {
+            "cpu.": {
+                "_datatype": "Float",
+                "_maxsize": 1,
+                "_unit": "TEMP",
+                "_displayName": "CPU Temperature",
+                "_shortDisplayName": "CPU Temp",
+                "_recommendedMin": 233.15,
+                "_recommendedMax": 373.15,
+                "_input": false,
+                "_output": true
+            },
+            "core0.": {
+                "_datatype": "Float",
+                "_maxsize": 1,
+                "_unit": "TEMP",
+                "_displayName": "CPU0 Temperature",
+                "_shortDisplayName": "CPU0 Temp",
+                "_recommendedMin": 233.15,
+                "_recommendedMax": 373.15,
+                "_input": false,
+                "_output": false
+            },
+            "core1.": {
+                "_datatype": "Float",
+                "_maxsize": 1,
+                "_unit": "TEMP",
+                "_displayName": "CPU1 Temperature",
+                "_shortDisplayName": "CPU1 Temp",
+                "_recommendedMin": 233.15,
+                "_recommendedMax": 373.15,
+                "_input": false,
+                "_output": false
+            },
+            "core2.": {
+                "_datatype": "Float",
+                "_maxsize": 1,
+                "_unit": "TEMP",
+                "_displayName": "CPU2 Temperature",
+                "_shortDisplayName": "CPU2 Temp",
+                "_recommendedMin": 233.15,
+                "_recommendedMax": 373.15,
+                "_input": false,
+                "_output": false
+            },
+            "core3.": {
+                "_datatype": "Float",
+                "_maxsize": 1,
+                "_unit": "TEMP",
+                "_displayName": "CPU3 Temperature",
+                "_shortDisplayName": "CPU3 Temp",
+                "_recommendedMin": 233.15,
+                "_recommendedMax": 373.15,
+                "_input": false,
+                "_output": false
+            },
+            "board.": {
+                "_datatype": "Float",
+                "_maxsize": 1,
+                "_unit": "TEMP",
+                "_displayName": "Board Temperature",
+                "_shortDisplayName": "Board Temp",
+                "_recommendedMin": 233.15,
+                "_recommendedMax": 373.15,
+                "_input": false,
+                "_output": true
+            },
+            "wifi.": {
+                "_datatype": "Float",
+                "_maxsize": 1,
+                "_unit": "TEMP",
+                "_displayName": "WiFi Temperature",
+                "_shortDisplayName": "WiFi Temp",
+                "_recommendedMin": 233.15,
+                "_recommendedMax": 373.15,
+                "_input": false,
+                "_output": false
+            }
+        },
+        "liveValue.diagnostics.this.core.0.cpuUsage|.": {
+            "total.": {
+                "_datatype": "Float",
+                "_maxsize": 1,
+                "_unit": "PRCNT",
+                "_displayName": "CPU Usage",
+                "_shortDisplayName": "CPU Usage",
+                "_recommendedMin": 0.0,
+                "_recommendedMax": 100.0,
+                "_input": false,
+                "_output": false
+            },
+            "core0.": {
+                "_datatype": "Float",
+                "_maxsize": 1,
+                "_unit": "PRCNT",
+                "_displayName": "Core 0 Usage",
+                "_shortDisplayName": "Core 0 Usage",
+                "_recommendedMin": 0.0,
+                "_recommendedMax": 100.0,
+                "_input": false,
+                "_output": false
+            },
+            "core1.": {
+                "_datatype": "Float",
+                "_maxsize": 1,
+                "_unit": "PRCNT",
+                "_displayName": "Core 1 Usage",
+                "_shortDisplayName": "Core 1 Usage",
+                "_recommendedMin": 0.0,
+                "_recommendedMax": 100.0,
+                "_input": false,
+                "_output": false
+            },
+            "core2.": {
+                "_datatype": "Float",
+                "_maxsize": 1,
+                "_unit": "PRCNT",
+                "_displayName": "Core 2 Usage",
+                "_shortDisplayName": "Core 2 Usage",
+                "_recommendedMin": 0.0,
+                "_recommendedMax": 100.0,
+                "_input": false,
+                "_output": false
+            },
+            "core3.": {
+                "_datatype": "Float",
+                "_maxsize": 1,
+                "_unit": "PRCNT",
+                "_displayName": "Core 3 Usage",
+                "_shortDisplayName": "Core 3 Usage",
+                "_recommendedMin": 0.0,
+                "_recommendedMax": 100.0,
+                "_input": false,
+                "_output": false
+            }
+        },
+        "liveValue.diagnostics.this.core.0.diskUsage|.": {
+            "bootVolume.": {
+                "_datatype": "Float",
+                "_maxsize": 1,
+                "_unit": "PRCNT",
+                "_displayName": "Boot EFI Volume Usage",
+                "_shortDisplayName": "Boot Disk Usage",
+                "_recommendedMin": 0.0,
+                "_recommendedMax": 100.0,
+                "_input": false,
+                "_output": false
+            },
+            "osVolume.": {
+                "_datatype": "Float",
+                "_maxsize": 1,
+                "_unit": "PRCNT",
+                "_displayName": "OS Volume Usage",
+                "_shortDisplayName": "OS Disk Usage",
+                "_recommendedMin": 0.0,
+                "_recommendedMax": 100.0,
+                "_input": false,
+                "_output": false
+            },
+            "dataVolume.": {
+                "_datatype": "Float",
+                "_maxsize": 1,
+                "_unit": "PRCNT",
+                "_displayName": "Data Volume Usage",
+                "_shortDisplayName": "Data Disk Usage",
+                "_recommendedMin": 0.0,
+                "_recommendedMax": 100.0,
+                "_input": false,
+                "_output": true
+            },
+            "bootVolumeBytesUsed.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "BYTE",
+                "_displayName": "Boot EFI Volume Bytes Used",
+                "_shortDisplayName": "Boot Bytes Used",
+                "_input": false,
+                "_output": false
+            },
+            "osVolumeBytesUsed.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "BYTE",
+                "_displayName": "OS Volume Bytes Used",
+                "_shortDisplayName": "OS Bytes Used",
+                "_input": false,
+                "_output": false
+            },
+            "dataVolumeBytesUsed.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "BYTE",
+                "_displayName": "Data Volume Bytes Used",
+                "_shortDisplayName": "Data Bytes Used",
+                "_input": false,
+                "_output": true
+            }
+        },
+        "liveValue.diagnostics.this.core.0.memoryUsage|.": {
+            "memoryTotal.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "BYTE",
+                "_displayName": "Memory Total Bytes",
+                "_shortDisplayName": "Mem Total Bytes",
+                "_recommendedMin": 0,
+                "_recommendedMax": 7634100,
+                "_input": false,
+                "_output": true
+            },
+            "memoryUsed.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "BYTE",
+                "_displayName": "Memory Used Bytes",
+                "_shortDisplayName": "Mem Used Bytes",
+                "_recommendedMin": 0,
+                "_recommendedMax": 7634100,
+                "_input": false,
+                "_output": true
+            },
+            "memoryPercentUsed.": {
+                "_datatype": "Float",
+                "_maxsize": 1,
+                "_unit": "PRCNT",
+                "_displayName": "Memory Percentage Used",
+                "_shortDisplayName": "Mem % Used",
+                "_recommendedMin": 0,
+                "_recommendedMax": 100.0,
+                "_input": false,
+                "_output": true
+            }
+        },
+        "liveValue.diagnostics.this.core.0.timeStatus|.": {
+            "timezone.": {
+                "_datatype": "String",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Time Zone",
+                "_shortDisplayName": "TZone",
+                "_input": false,
+                "_output": true
+            },
+            "localtime.": {
+                "_datatype": "String",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Device Local Time",
+                "_shortDisplayName": "DLTime",
+                "_input": false,
+                "_output": true
+            },
+            "utc.": {
+                "_datatype": "String",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "UTC",
+                "_shortDisplayName": "UTC",
+                "_input": false,
+                "_output": true
+            },
+            "timeSource.": {
+                "_datatype": "Enum",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_enum": [
+                {
+                    "index": 0,
+                    "label": "Manual"
+                },
+                {
+                    "index": 1,
+                    "label": "Auto"
+                }
+                ],
+                "_displayName": "Source Configuration",
+                "_shortDisplayName": "TSourceConfig",
+                "_input": false,
+                "_output": false
+            },
+            "manualSyncTime.": {
+                "_datatype": "String",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Last Manual Sync Time",
+                "_shortDisplayName": "Manual Sync Time",
+                "_input": false,
+                "_output": true
+            },
+            "ntpServer.": {
+                "_datatype": "String",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Active Time Source",
+                "_shortDisplayName": "Active Time Source",
+                "_input": false,
+                "_output": true
+            }
+        },
+        "liveValue.diagnostics.this.core.0.systemLocalTime|.": {
+            "text.": {
+                "_datatype": "String",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Local Time text",
+                "_shortDisplayName": "Time",
+                "_input": false,
+                "_output": true
+            },
+            "year.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Local Time Year",
+                "_shortDisplayName": "Year",
+                "_input": false,
+                "_output": true
+            },
+            "month.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Local Time Month",
+                "_shortDisplayName": "Month",
+                "_recommendedMin": 1,
+                "_recommendedMax": 12,
+                "_input": false,
+                "_output": true
+            },
+            "day.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Local Time Day",
+                "_shortDisplayName": "Day",
+                "_recommendedMin": 1,
+                "_recommendedMax": 31,
+                "_input": false,
+                "_output": true
+            },
+            "hour.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Local Time Hour",
+                "_shortDisplayName": "Hour",
+                "_recommendedMin": 0,
+                "_recommendedMax": 23,
+                "_input": false,
+                "_output": true
+            },
+            "minute.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Local Time Minute",
+                "_shortDisplayName": "Minute",
+                "_recommendedMin": 0,
+                "_recommendedMax": 59,
+                "_input": false,
+                "_output": true
+            },
+            "second.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Local Time Second",
+                "_shortDisplayName": "Second",
+                "_recommendedMin": 0,
+                "_recommendedMax": 59,
+                "_input": false,
+                "_output": true
+            },
+            "milisecond.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Local Time Milisecond",
+                "_shortDisplayName": "Milisecond",
+                "_recommendedMin": 0,
+                "_recommendedMax": 999,
+                "_input": false,
+                "_output": true
+            }
+        },
+        "liveValue.diagnostics.this.core.0.deviceTime|.": {
+            "deviceTime.": {
+                "_datatype": "Uint64",
+                "_maxsize": 1,
+                "_unit": "SYSTIME",
+                "_displayName": "Device Time",
+                "_shortDisplayName": "Device Time",
+                "_input": false,
+                "_output": true
+            }
+        },
+        "liveValue.diagnostics.this.core.0.systemTime.serverStats1|.": {
+            "name.": {
+                "_datatype": "String",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Time Server Name",
+                "_shortDisplayName": "Time Server",
+                "_input": false,
+                "_output": false
+            },
+            "np.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Time Server NP",
+                "_shortDisplayName": "NP",
+                "_input": false,
+                "_output": false
+            },
+            "nr.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Time Server NR",
+                "_shortDisplayName": "NR",
+                "_input": false,
+                "_output": false
+            },
+            "span.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Time Server Span",
+                "_shortDisplayName": "Span",
+                "_input": false,
+                "_output": false
+            },
+            "freq.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Time Server Freq",
+                "_shortDisplayName": "Freq",
+                "_input": false,
+                "_output": false
+            },
+            "skew.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Time Server Skew",
+                "_shortDisplayName": "Skew",
+                "_input": false,
+                "_output": false
+            },
+            "offset.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Time Server Offset",
+                "_shortDisplayName": "Offset",
+                "_input": false,
+                "_output": false
+            },
+            "stdDev.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Time Server Std. Dev.",
+                "_shortDisplayName": "Std. Dev.",
+                "_input": false,
+                "_output": false
+            }
+        },
+        "liveValue.diagnostics.this.core.0.systemTime.serverStats2|.": {
+            "name.": {
+                "_datatype": "String",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Time Server Name",
+                "_shortDisplayName": "Time Server",
+                "_input": false,
+                "_output": false
+            },
+            "np.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Time Server NP",
+                "_shortDisplayName": "NP",
+                "_input": false,
+                "_output": false
+            },
+            "nr.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Time Server NR",
+                "_shortDisplayName": "NR",
+                "_input": false,
+                "_output": false
+            },
+            "span.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Time Server Span",
+                "_shortDisplayName": "Span",
+                "_input": false,
+                "_output": false
+            },
+            "freq.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Time Server Freq",
+                "_shortDisplayName": "Freq",
+                "_input": false,
+                "_output": false
+            },
+            "skew.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Time Server Skew",
+                "_shortDisplayName": "Skew",
+                "_input": false,
+                "_output": false
+            },
+            "offset.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Time Server Offset",
+                "_shortDisplayName": "Offset",
+                "_input": false,
+                "_output": false
+            },
+            "stdDev.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Time Server Std. Dev.",
+                "_shortDisplayName": "Std. Dev.",
+                "_input": false,
+                "_output": false
+            }
+        },
+        "liveValue.diagnostics.this.core.0.systemTime.serverStats3|.": {
+            "name.": {
+                "_datatype": "String",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Time Server Name",
+                "_shortDisplayName": "Time Server",
+                "_input": false,
+                "_output": false
+            },
+            "np.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Time Server NP",
+                "_shortDisplayName": "NP",
+                "_input": false,
+                "_output": false
+            },
+            "nr.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Time Server NR",
+                "_shortDisplayName": "NR",
+                "_input": false,
+                "_output": false
+            },
+            "span.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Time Server Span",
+                "_shortDisplayName": "Span",
+                "_input": false,
+                "_output": false
+            },
+            "freq.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Time Server Freq",
+                "_shortDisplayName": "Freq",
+                "_input": false,
+                "_output": false
+            },
+            "skew.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Time Server Skew",
+                "_shortDisplayName": "Skew",
+                "_input": false,
+                "_output": false
+            },
+            "offset.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Time Server Offset",
+                "_shortDisplayName": "Offset",
+                "_input": false,
+                "_output": false
+            },
+            "stdDev.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Time Server Std. Dev.",
+                "_shortDisplayName": "Std. Dev.",
+                "_input": false,
+                "_output": false
+            }
+        },
+        "liveValue.diagnostics.this.core.0.systemTime.serverStats4|.": {
+            "name.": {
+                "_datatype": "String",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Time Server Name",
+                "_shortDisplayName": "Time Server",
+                "_input": false,
+                "_output": false
+            },
+            "np.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Time Server NP",
+                "_shortDisplayName": "NP",
+                "_input": false,
+                "_output": false
+            },
+            "nr.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Time Server NR",
+                "_shortDisplayName": "NR",
+                "_input": false,
+                "_output": false
+            },
+            "span.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Time Server Span",
+                "_shortDisplayName": "Span",
+                "_input": false,
+                "_output": false
+            },
+            "freq.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Time Server Freq",
+                "_shortDisplayName": "Freq",
+                "_input": false,
+                "_output": false
+            },
+            "skew.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Time Server Skew",
+                "_shortDisplayName": "Skew",
+                "_input": false,
+                "_output": false
+            },
+            "offset.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Time Server Offset",
+                "_shortDisplayName": "Offset",
+                "_input": false,
+                "_output": false
+            },
+            "stdDev.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Time Server Std. Dev.",
+                "_shortDisplayName": "Std. Dev.",
+                "_input": false,
+                "_output": false
+            }
+        },
+        "liveValue.location.this.core.0.location|.": {
+            "locationName.": {
+                "_datatype": "String",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Name",
+                "_shortDisplayName": "Name",
+                "_input": false,
+                "_output": true
+            },
+            "latitude.": {
+                "_datatype": "Double",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Location Latitude",
+                "_shortDisplayName": "Latitude",
+                "_input": false,
+                "_output": true
+            },
+            "longitude.": {
+                "_datatype": "Double",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Location Longitude",
+                "_shortDisplayName": "Longitude",
+                "_input": false,
+                "_output": true
+            }
+        },
+        "liveValue.timeSync.this.core.0.timeSync|.": {
+            "timeSyncStatus.": {
+                "_datatype": "JSON",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Time Sync Status",
+                "_shortDisplayName": "Time Sync Stat",
+                "_noCache": false,
+                "_input": false,
+                "_output": true
+            }
+        },
+        "liveValue.state.this.core.0.systemTime.manualSetTime.": {
+            "_datatype": "Uint64",
+            "_maxsize": 1,
+            "_unit": "SYSTIME",
+            "_displayName": "Manual Time Set",
+            "_shortDisplayName": "Time Set",
+            "_noCache": true,
+            "_input": false,
+            "_output": false
+        },
+        "liveValue.diagnostics.this.core.0.networkStatus.internetSelection.": {
+            "_datatype": "Enum",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_enum": [
+                {
+                    "index": 0,
+                    "label": "ETH-1"
+                },
+                {
+                    "index": 1,
+                    "label": "ETH-2"
+                },
+                {
+                    "index": 2,
+                    "label": "Wi-Fi"
+                },
+                {
+                    "index": 3,
+                    "label": "Cellular"
+                },
+                {
+                    "index": 4,
+                    "label": "NONE"
+                }
+            ],
+            "_displayName": "Active Internet Interface",
+            "_shortDisplayName": "Inet Interface",
+            "_input": false,
+            "_output": false
+        },
+        "liveValue.diagnostics.this.core.0.networkStatus.eth1|.": {
+            "enable.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "ETH-1 Enable",
+                "_shortDisplayName": "ETH-1 Enable",
+                "_input": false,
+                "_output": false
+            },
+            "ipAddress.": {
+                "_datatype": "String",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "ETH-1 IP Address",
+                "_shortDisplayName": "ETH-1 IP",
+                "_input": false,
+                "_output": false
+            },
+            "subnetMask.": {
+                "_datatype": "String",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "ETH-1 Subnet Mask",
+                "_shortDisplayName": "ETH-1 Mask",
+                "_input": false,
+                "_output": false
+            },
+            "defaultGateway.": {
+                "_datatype": "String",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "ETH-1 Default Gateway",
+                "_shortDisplayName": "ETH-1 Gateway",
+                "_input": false,
+                "_output": false
+            },
+            "mode.": {
+                "_datatype": "Enum",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_enum": [
+                {
+                    "index": 0,
+                    "label": "Static"
+                },
+                {
+                    "index": 1,
+                    "label": "Dynamic"
+                }
+                ],
+                "_displayName": "ETH-1 Mode",
+                "_shortDisplayName": "ETH-1 Mode",
+                "_input": false,
+                "_output": false
+            },
+            "primaryDns.": {
+                "_datatype": "String",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "ETH-1 Primary DNS",
+                "_shortDisplayName": "ETH-1 Pri-DNS",
+                "_input": false,
+                "_output": false
+            },
+            "secondaryDns.": {
+                "_datatype": "String",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "ETH-1 Secondary DNS",
+                "_shortDisplayName": "ETH-1 Sec-DNS",
+                "_input": false,
+                "_output": false
+            },
+            "linkStatus.": {
+                "_datatype": "Enum",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_enum": [
+                {
+                    "index": 0,
+                    "label": "Physical Down, Logical Down"
+                },
+                {
+                    "index": 1,
+                    "label": "Physical Down, Logical Up"
+                },
+                {
+                    "index": 2,
+                    "label": "Physical Up, Logical Down"
+                },
+                {
+                    "index": 3,
+                    "label": " Physical Up, Logical Up"
+                }
+                ],
+                "_displayName": "ETH-1 Link Status",
+                "_shortDisplayName": "ETH-1 Link",
+                "_input": false,
+                "_output": false
+            },
+            "firewallSettings.": {
+                "_datatype": "String",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "ETH-1 Firewall Settings",
+                "_shortDisplayName": "ETH-1 Firewall-Set",
+                "_input": false,
+                "_output": false
+            },
+            "firewallUnity.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "ETH-1 Unity",
+                "_shortDisplayName": "ETH-1 Unity",
+                "_input": false,
+                "_output": false
+            },
+            "firewallCipExplicit.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "ETH-1 CIP Explicit",
+                "_shortDisplayName": "ETH-1 CIP Explicit",
+                "_input": false,
+                "_output": false
+            },
+            "firewallIsagrafDebug.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "ETH-1 ISaGRAF",
+                "_shortDisplayName": "ETH-1 ISaGRAF",
+                "_input": false,
+                "_output": false
+            },
+            "firewallSshEpm.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "ETH-1 SSH and EPM",
+                "_shortDisplayName": "ETH-1 SSH and EPM",
+                "_input": false,
+                "_output": false
+            },
+            "firewallNtpServer.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "ETH-1 NTP Server",
+                "_shortDisplayName": "ETH-1 NTP",
+                "_input": false,
+                "_output": false
+            },
+            "firewallModbusTcp.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "ETH-1 ModbusTCP",
+                "_shortDisplayName": "ETH-1 502",
+                "_input": false,
+                "_output": false
+            },
+            "firewallModbusRtu.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "ETH-1 ModbusRTU",
+                "_shortDisplayName": "ETH-1 503",
+                "_input": false,
+                "_output": false
+            },
+            "firewallModbusEditor.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "ETH-1 ModbusEditor",
+                "_shortDisplayName": "ETH-1 Medit",
+                "_input": false,
+                "_output": false
+            },
+            "firewallUnityRedirection.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "ETH-1 Unity Redirection",
+                "_shortDisplayName": "ETH-1 Unity Redirect",
+                "_input": false,
+                "_output": false
+            },
+            "firewallFTOptixDeploy.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "ETH-1 FTOptix Deployment",
+                "_shortDisplayName": "ETH-1 FTOptix-D",
+                "_input": false,
+                "_output": false
+            },
+            "firewallFTOptixOpcUA.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "ETH-1 FTOptix OPC UA",
+                "_shortDisplayName": "ETH-1 FTOptix-OPC",
+                "_input": false,
+                "_output": false
+            },
+            "firewallFTOptixWeb.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "ETH-1 FTOptix Web Browser",
+                "_shortDisplayName": "ETH-1 FTOptix-W",
+                "_input": false,
+                "_output": false
+            }
+        },
+        "liveValue.diagnostics.this.core.0.networkStatus.eth2|.": {
+            "enable.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "ETH-2 Enable",
+                "_shortDisplayName": "ETH-2 Enable",
+                "_input": false,
+                "_output": false
+            },
+            "ipAddress.": {
+                "_datatype": "String",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "ETH-2 IP Address",
+                "_shortDisplayName": "ETH-2 IP",
+                "_input": false,
+                "_output": false
+            },
+            "subnetMask.": {
+                "_datatype": "String",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "ETH-2 Subnet Mask",
+                "_shortDisplayName": "ETH-2 Mask",
+                "_input": false,
+                "_output": false
+            },
+            "defaultGateway.": {
+                "_datatype": "String",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "ETH-2 Default Gateway",
+                "_shortDisplayName": "ETH-2 Gateway",
+                "_input": false,
+                "_output": false
+            },
+            "mode.": {
+                "_datatype": "Enum",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_enum": [
+                {
+                    "index": 0,
+                    "label": "Static"
+                },
+                {
+                    "index": 1,
+                    "label": "Dynamic"
+                }
+                ],
+                "_displayName": "ETH-2 Mode",
+                "_shortDisplayName": "ETH-2 Mode",
+                "_input": false,
+                "_output": false
+            },
+            "primaryDns.": {
+                "_datatype": "String",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "ETH-2 Primary DNS",
+                "_shortDisplayName": "ETH-2 Pri-DNS",
+                "_input": false,
+                "_output": false
+            },
+            "secondaryDns.": {
+                "_datatype": "String",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "ETH-2 Secondary DNS",
+                "_shortDisplayName": "ETH-2 Sec-DNS",
+                "_input": false,
+                "_output": false
+            },
+            "linkStatus.": {
+                "_datatype": "Enum",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_enum": [
+                {
+                    "index": 0,
+                    "label": "Physical Down, Logical Down"
+                },
+                {
+                    "index": 1,
+                    "label": "Physical Down, Logical Up"
+                },
+                {
+                    "index": 2,
+                    "label": "Physical Up, Logical Down"
+                },
+                {
+                    "index": 3,
+                    "label": " Physical Up, Logical Up"
+                }
+                ],
+                "_displayName": "ETH-2 Link Status",
+                "_shortDisplayName": "ETH-2 Link",
+                "_input": false,
+                "_output": false
+            },
+            "firewallSettings.": {
+                "_datatype": "String",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "ETH-2 Firewall Settings",
+                "_shortDisplayName": "ETH-2 Firewall-Set",
+                "_input": false,
+                "_output": false
+            },
+            "firewallUnity.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "ETH-2 Unity",
+                "_shortDisplayName": "ETH-2 Unity",
+                "_input": false,
+                "_output": false
+            },
+            "firewallCipExplicit.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "ETH-2 CIP Explicit",
+                "_shortDisplayName": "ETH-2 CIP Explicit",
+                "_input": false,
+                "_output": false
+            },
+            "firewallIsagrafDebug.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "ETH-2 ISaGRAF",
+                "_shortDisplayName": "ETH-2 ISaGRAF",
+                "_input": false,
+                "_output": false
+            },
+            "firewallSshEpm.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "ETH-2 SSH and EPM",
+                "_shortDisplayName": "ETH-2 SSH and EPM",
+                "_input": false,
+                "_output": false
+            },
+            "firewallNtpServer.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "ETH-2 NTP Server",
+                "_shortDisplayName": "ETH-2 NTP",
+                "_input": false,
+                "_output": false
+            },
+            "firewallModbusTcp.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "ETH-2 ModbusTCP",
+                "_shortDisplayName": "ETH-2 502",
+                "_input": false,
+                "_output": false
+            },
+            "firewallModbusRtu.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "ETH-2 ModbusRTU",
+                "_shortDisplayName": "ETH-2 503",
+                "_input": false,
+                "_output": false
+            },
+            "firewallModbusEditor.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "ETH-2 ModbusEditor",
+                "_shortDisplayName": "ETH-2 Medit",
+                "_input": false,
+                "_output": false
+            },
+            "firewallUnityRedirection.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "ETH-2 Unity Redirection",
+                "_shortDisplayName": "ETH-2 Unity Redirect",
+                "_input": false,
+                "_output": false
+            },
+            "firewallFTOptixDeploy.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "ETH-2 FTOptix Deployment",
+                "_shortDisplayName": "ETH-2 FTOptix-D",
+                "_input": false,
+                "_output": false
+            },
+            "firewallFTOptixOpcUA.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "ETH-2 FTOptix OPC UA",
+                "_shortDisplayName": "ETH-2 FTOptix-OPC",
+                "_input": false,
+                "_output": false
+            },
+            "firewallFTOptixWeb.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "ETH-2 FTOptix Web Browser",
+                "_shortDisplayName": "ETH-2 FTOptix-W",
+                "_input": false,
+                "_output": false
+            }
+        },
+        "liveValue.diagnostics.this.core.0.networkStatus.eth3|.": {
+            "enable.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "ETH-3 Enable",
+                "_shortDisplayName": "ETH-3 Enable",
+                "_input": false,
+                "_output": false
+            },
+            "ipAddress.": {
+                "_datatype": "String",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "ETH-3 IP Address",
+                "_shortDisplayName": "ETH-3 IP",
+                "_input": false,
+                "_output": false
+            },
+            "subnetMask.": {
+                "_datatype": "String",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "ETH-3 Subnet Mask",
+                "_shortDisplayName": "ETH-3 Mask",
+                "_input": false,
+                "_output": false
+            },
+            "defaultGateway.": {
+                "_datatype": "String",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "ETH-3 Default Gateway",
+                "_shortDisplayName": "ETH-3 Gateway",
+                "_input": false,
+                "_output": false
+            },
+            "mode.": {
+                "_datatype": "Enum",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_enum": [
+                {
+                    "index": 0,
+                    "label": "Static"
+                },
+                {
+                    "index": 1,
+                    "label": "Dynamic"
+                }
+                ],
+                "_displayName": "ETH-3 Mode",
+                "_shortDisplayName": "ETH-3 Mode",
+                "_input": false,
+                "_output": false
+            },
+            "primaryDns.": {
+                "_datatype": "String",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "ETH-3 Primary DNS",
+                "_shortDisplayName": "ETH-3 Pri-DNS",
+                "_input": false,
+                "_output": false
+            },
+            "secondaryDns.": {
+                "_datatype": "String",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "ETH-3 Secondary DNS",
+                "_shortDisplayName": "ETH-3 Sec-DNS",
+                "_input": false,
+                "_output": false
+            },
+            "linkStatus.": {
+                "_datatype": "Enum",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_enum": [
+                {
+                    "index": 0,
+                    "label": "ETH-3 and ETH-4 Not Connected"
+                },
+                {
+                    "index": 1,
+                    "label": "ETH-3 Connected"
+                },
+                {
+                    "index": 2,
+                    "label": "ETH-4 Connected"
+                },
+                {
+                    "index": 3,
+                    "label": "ETH-3 and ETH-4 Connected"
+                }
+                ],
+                "_displayName": "ETH-3 Link Status",
+                "_shortDisplayName": "ETH-3 Link",
+                "_input": false,
+                "_output": false
+            },
+            "linkStatusEth3.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "ETH-3 Link Status",
+                "_shortDisplayName": "ETH-3 Link",
+                "_input": false,
+                "_output": false
+            },
+            "linkStatusEth4.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "ETH-4 Link Status",
+                "_shortDisplayName": "ETH-4 Link",
+                "_input": false,
+                "_output": false
+            }
+        },
+        "liveValue.diagnostics.this.core.0.networkStatus.wifi|.": {
+            "enable.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Wifi Enable",
+                "_shortDisplayName": "Wifi Enable",
+                "_input": false,
+                "_output": false
+            },
+            "clientSSID.": {
+                "_datatype": "String",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Wifi Client SSID",
+                "_shortDisplayName": "Wifi SSID",
+                "_input": false,
+                "_output": false
+            },
+            "mode.": {
+                "_datatype": "String",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Wifi Mode",
+                "_shortDisplayName": "Wifi Mode",
+                "_input": false,
+                "_output": false
+            },
+            "signalStrength.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Wifi Signal Strength",
+                "_shortDisplayName": "Wifi Signal",
+                "_input": false,
+                "_output": false
+            },
+            "installed.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Wifi Installed",
+                "_shortDisplayName": "Wifi Install",
+                "_input": false,
+                "_output": false
+            },
+            "ipAddress.": {
+                "_datatype": "String",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Wifi Access Point IP Address",
+                "_shortDisplayName": "Wifi IP",
+                "_input": false,
+                "_output": false
+            },
+            "fccId.": {
+                "_datatype": "String",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Wifi FCCID",
+                "_shortDisplayName": "Wifi FCCID",
+                "_input": false,
+                "_output": false
+            },
+            "linkStatus.": {
+                "_datatype": "Bool",
+                "_maxsize": 3,
+                "_unit": "NONE",
+                "_displayName": "Wifi Access Point Link Status",
+                "_shortDisplayName": "Wifi ActionPoint Link",
+                "_input": false,
+                "_output": false
+            },
+            "firewallSettings.": {
+                "_datatype": "String",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Wi-Fi Firewall Settings",
+                "_shortDisplayName": "Wi-Fi Firewall-Set",
+                "_input": false,
+                "_output": false
+            },
+            "firewallUnity.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Wifi Unity",
+                "_shortDisplayName": "Wifi Unity",
+                "_input": false,
+                "_output": false
+            },
+            "firewallCipExplicit.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Wifi CIP Explicit",
+                "_shortDisplayName": "Wifi CIP Explicit",
+                "_input": false,
+                "_output": false
+            },
+            "firewallIsagrafDebug.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Wifi ISaGRAF",
+                "_shortDisplayName": "Wifi ISaGRAF",
+                "_input": false,
+                "_output": false
+            },
+            "firewallSshEpm.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Wifi SSH and EPM",
+                "_shortDisplayName": "Wifi SSH and EPM",
+                "_input": false,
+                "_output": false
+            },
+            "firewallNtpServer.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Wifi NTP Server",
+                "_shortDisplayName": "Wifi NTP",
+                "_input": false,
+                "_output": false
+            },
+            "firewallModbusTcp.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Wifi ModbusTCP",
+                "_shortDisplayName": "Wifi 502",
+                "_input": false,
+                "_output": false
+            },
+            "firewallModbusRtu.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Wifi ModbusRTU",
+                "_shortDisplayName": "Wifi 503",
+                "_input": false,
+                "_output": false
+            },
+            "firewallModbusEditor.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Wifi ModbusEditor",
+                "_shortDisplayName": "Wifi Medit",
+                "_input": false,
+                "_output": false
+            },
+            "firewallUnityRedirection.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Wifi Unity Redirection",
+                "_shortDisplayName": "Wifi Unity Redirect",
+                "_input": false,
+                "_output": false
+            },
+            "firewallFTOptixDeploy.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Wifi FTOptix Deployment",
+                "_shortDisplayName": "Wifi FTOptix-D",
+                "_input": false,
+                "_output": false
+            },
+            "firewallFTOptixOpcUA.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Wifi FTOptix OPC UA",
+                "_shortDisplayName": "Wifi FTOptix-OPC",
+                "_input": false,
+                "_output": false
+            },
+            "firewallFTOptixWeb.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Wifi FTOptix Web Browser",
+                "_shortDisplayName": "Wifi FTOptix-W",
+                "_input": false,
+                "_output": false
+            }
+        },
+        "liveValue.diagnostics.this.core.0.networkStatus.cellModem|.": {
+            "enable.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Cell Modem Enable",
+                "_shortDisplayName": "CellModem Enable",
+                "_input": false,
+                "_output": false
+            },
+            "apn.": {
+                "_datatype": "String",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Cell Modem APN",
+                "_shortDisplayName": "CellModem APN",
+                "_input": false,
+                "_output": false
+            },
+            "ipAddress.": {
+                "_datatype": "String",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Cell Modem Access Point IP Address",
+                "_shortDisplayName": "CellModem IP",
+                "_input": false,
+                "_output": false
+            },
+            "installed.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Cell Modem Installed",
+                "_shortDisplayName": "Modem Install",
+                "_input": false,
+                "_output": false
+            },
+            "signalStrength.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Cell Modem Signal Strength",
+                "_shortDisplayName": "CellModem Signal",
+                "_input": false,
+                "_output": false
+            },
+            "imei.": {
+                "_datatype": "String",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Cell Modem IMEI",
+                "_shortDisplayName": "CellModem IMEI",
+                "_input": false,
+                "_output": false
+            },
+            "fccId.": {
+                "_datatype": "String",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Cell Modem FCCID",
+                "_shortDisplayName": "CellModem FCCID",
+                "_input": false,
+                "_output": false
+            },
+            "linkStatus.": {
+                "_datatype": "Bool",
+                "_maxsize": 3,
+                "_unit": "NONE",
+                "_displayName": "Cell Modem Connection Link Status",
+                "_shortDisplayName": "Connection Link",
+                "_input": false,
+                "_output": false
+            },
+            "rsrp.": {
+                "_datatype": "Float",
+                "_maxsize": 1,
+                "_unit": "POWLEV.dB",
+                "_displayName": "Cell Modem RSRP",
+                "_shortDisplayName": "CellModem RSRP",
+                "_input": false,
+                "_output": false
+            },
+            "rsrq.": {
+                "_datatype": "Float",
+                "_maxsize": 1,
+                "_unit": "POWLEV.dB",
+                "_displayName": "Cell Modem RSRQ",
+                "_shortDisplayName": "CellModem RSRQ",
+                "_input": false,
+                "_output": false
+            },
+            "rssi.": {
+                "_datatype": "Float",
+                "_maxsize": 1,
+                "_unit": "POWLEV.dB",
+                "_displayName": "Cell Modem RSSI",
+                "_shortDisplayName": "CellModem RSSI",
+                "_input": false,
+                "_output": false
+            },
+            "snr.": {
+                "_datatype": "Float",
+                "_maxsize": 1,
+                "_unit": "POWLEV.dB",
+                "_displayName": "Cell Modem SNR",
+                "_shortDisplayName": "CellModem SNR",
+                "_input": false,
+                "_output": false
+            },
+            "firewallSettings.": {
+                "_datatype": "String",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Cell Modem Firewall Settings",
+                "_shortDisplayName": "Cell Modem Firewall-Set",
+                "_input": false,
+                "_output": false
+            },
+            "firewallUnity.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Cell Modem Unity",
+                "_shortDisplayName": "cellModem Unity",
+                "_input": false,
+                "_output": false
+            },
+            "firewallCipExplicit.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Cell Modem CIP Explicit",
+                "_shortDisplayName": "cellModem CIP Explicit",
+                "_input": false,
+                "_output": false
+            },
+            "firewallIsagrafDebug.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Cell Modem ISaGRAF",
+                "_shortDisplayName": "cellModem ISaGRAF",
+                "_input": false,
+                "_output": false
+            },
+            "firewallSshEpm.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Cell Modem SSH and EPM",
+                "_shortDisplayName": "cellModem SSH and EPM",
+                "_input": false,
+                "_output": false
+            },
+            "firewallNtpServer.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Cell Modem NTP Server",
+                "_shortDisplayName": "cellModem NTP",
+                "_input": false,
+                "_output": false
+            },
+            "firewallModbusTcp.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Cell Modem ModbusTCP",
+                "_shortDisplayName": "cellModem 502",
+                "_input": false,
+                "_output": false
+            },
+            "firewallModbusRtu.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Cell Modem ModbusRTU",
+                "_shortDisplayName": "cellModem 503",
+                "_input": false,
+                "_output": false
+            },
+            "firewallModbusEditor.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Cell Modem ModbusEditor",
+                "_shortDisplayName": "cellModem Medit",
+                "_input": false,
+                "_output": false
+            },
+            "firewallUnityRedirection.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Cell Modem Unity Redirection",
+                "_shortDisplayName": "cellModem Unity Redirect",
+                "_input": false,
+                "_output": false
+            },
+            "firewallFTOptixDeploy.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Cell Modem FTOptix Deployment",
+                "_shortDisplayName": "cellModem FTOptix-D",
+                "_input": false,
+                "_output": false
+            },
+            "firewallFTOptixOpcUA.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Cell Modem FTOptix OPC UA",
+                "_shortDisplayName": "cellModem FTOptix-OPC",
+                "_input": false,
+                "_output": false
+            },
+            "firewallFTOptixWeb.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Cell Modem FTOptix Web Browser",
+                "_shortDisplayName": "cellModem FTOptix-W",
+                "_input": false,
+                "_output": false
+            }
+        },
+        "liveValue.state.this.core.0.networkSettings.eth3|.": {
+            "enable.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "ETH-3 Enable",
+                "_shortDisplayName": "ETH-3 Enable",
+                "_input": false,
+                "_output": false
+            },
+            "ipAddress.": {
+                "_datatype": "String",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "ETH-3 IP Address",
+                "_shortDisplayName": "ETH-3 IP",
+                "_input": false,
+                "_output": false
+            },
+            "subnetMask.": {
+                "_datatype": "String",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "ETH-3 Subnet Mask",
+                "_shortDisplayName": "ETH-3 Mask",
+                "_input": false,
+                "_output": false
+            },
+            "defaultGateway.": {
+                "_datatype": "String",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "ETH-3 Default Gateway",
+                "_shortDisplayName": "ETH-3 Gateway",
+                "_input": false,
+                "_output": false
+            },
+            "primaryDns.": {
+                "_datatype": "String",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "ETH-3 Primary DNS",
+                "_shortDisplayName": "ETH-3 Pri-DNS",
+                "_input": false,
+                "_output": false
+            },
+            "secondaryDns.": {
+                "_datatype": "String",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "ETH-3 secondaryDns",
+                "_shortDisplayName": "ETH-3 Sec-DNS",
+                "_input": false,
+                "_output": false
+            }
+        },
+        "liveValue.event.this.core.0.systemTimeNotSet|.": {
+            "IsAsserted.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "NONE",
+                "_displayName": "Event - System Time Not Set"
+            },
+            "EventStateInfo.": {
+                "_datatype": "JSON",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "NONE",
+                "_logging":"DefaultHistorianAction",
+                "_displayName": "Event - System Time Not Set State Info"
+            }
+        },
+        "liveValue.alarm.this.core.0.systemTimeNotSet|.": {
+            "IsAsserted.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": true,
+                "_unit": "NONE",
+                "_displayName": "Alarm - System Time Not Set"
+            },
+            "EventStateInfo.": {
+                "_datatype": "JSON",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "NONE",
+                "_logging":"DefaultHistorianAction",
+                "_displayName": "Alarm - System Time Not Set State Info"
+            }
+        },
+        "liveValue.event.this.core.0.systemTimeNotSet.bypassEventSet|.": {
+            "Enable.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "NONE",
+                "_nocache": true,
+                "_logging":"DefaultHistorianAction",
+                "_displayName": "System Time Not Set Bypass Enable",
+                "_shortDisplayName": "Evnt1 Bypass Enbl"
+            },
+            "EventState.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "NONE",
+                "_nocache": true,
+                "_logging":"DefaultHistorianAction",
+                "_displayName": "System Time Not Set Bypass Event State",
+                "_shortDisplayName": "Evnt1 Bypass State"
+            },
+            "TimePeriod.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "SYSPER.us",
+                "_nocache": true,
+                "_logging":"DefaultHistorianAction",
+                "_displayName": "System Time Not Set Bypass Time Period",
+                "_shortDisplayName": "Evnt1 Bypass Tm"
+            }
+        },
+        "liveValue.event.this.core.0.systemTimeNotSet.Enable.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_input": false,
+            "_output": false,
+            "_unit": "NONE",
+            "_nocache": true,
+            "_logging":"DefaultHistorianAction",
+            "_displayName": "System Time Not Set Enable",
+            "_shortDisplayName": "Evnt1 Enbl"
+        },
+        "liveValue.event.this.core.0.systemTimeNotSet.unlatchEvent.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_input": false,
+            "_output": false,
+            "_unit": "NONE",
+            "_nocache": true,
+            "_logging":"DefaultHistorianAction",
+            "_displayName": "System Time Not Set Unlatch",
+            "_shortDisplayName": "Evnt1 unlatch"
+        },
+        "liveValue.alarm.this.core.0.systemTimeNotSet.acknowledgeAlarm.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_input": false,
+            "_output": false,
+            "_unit": "NONE",
+            "_nocache": true,
+            "_logging":"DefaultHistorianAction",
+            "_displayName": "System Time Not Set Acknowledge",
+            "_shortDisplayName": "Alrm1 Ack"
+        },
+        "liveValue.event.this.core.0.lowInputPowerVoltageLevel|.": {
+            "IsAsserted.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "NONE",
+                "_displayName": "Event - Low Input Power Voltage Level"
+            },
+            "EventStateInfo.": {
+                "_datatype": "JSON",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "NONE",
+                "_logging":"DefaultHistorianAction",
+                "_displayName": "Event - Low Input Power Voltage Level State Info"
+            }
+        },
+        "liveValue.alarm.this.core.0.lowInputPowerVoltageLevel|.": {
+            "IsAsserted.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": true,
+                "_unit": "NONE",
+                "_displayName": "Alarm - Low Input Power Voltage Level"
+            },
+            "EventStateInfo.": {
+                "_datatype": "JSON",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "NONE",
+                "_logging":"DefaultHistorianAction",
+                "_displayName": "Alarm - Low Input Power Voltage Level State Info"
+            }
+        },
+        "liveValue.event.this.core.0.lowInputPowerVoltageLevel.bypassEventSet|.": {
+            "Enable.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "NONE",
+                "_nocache": true,
+                "_logging":"DefaultHistorianAction",
+                "_displayName": "Low Input Power Voltage Level Bypass Enable",
+                "_shortDisplayName": "Evnt2 Bypass Enbl"
+            },
+            "EventState.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "NONE",
+                "_nocache": true,
+                "_logging":"DefaultHistorianAction",
+                "_displayName": "Low Input Power Voltage Level Bypass Event State",
+                "_shortDisplayName": "Evnt2 Bypass State"
+            },
+            "TimePeriod.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "SYSPER.us",
+                "_nocache": true,
+                "_logging":"DefaultHistorianAction",
+                "_displayName": "Low Input Power Voltage Level Bypass Time Period",
+                "_shortDisplayName": "Evnt2 Bypass Tm"
+            }
+        },
+        "liveValue.event.this.core.0.lowInputPowerVoltageLevel.Enable.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_input": false,
+            "_output": false,
+            "_unit": "NONE",
+            "_nocache": true,
+            "_logging":"DefaultHistorianAction",
+            "_displayName": "Low Input Power Voltage Level Enable",
+            "_shortDisplayName": "Evnt2 Enbl"
+        },
+        "liveValue.event.this.core.0.lowInputPowerVoltageLevel.unlatchEvent.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_input": false,
+            "_output": false,
+            "_unit": "NONE",
+            "_nocache": true,
+            "_logging":"DefaultHistorianAction",
+            "_displayName": "Low Input Power Voltage Level Unlatch",
+            "_shortDisplayName": "Evnt2 unlatch"
+        },
+        "liveValue.alarm.this.core.0.lowInputPowerVoltageLevel.acknowledgeAlarm.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_input": false,
+            "_output": false,
+            "_unit": "NONE",
+            "_nocache": true,
+            "_logging":"DefaultHistorianAction",
+            "_displayName": "Low Input Power Voltage Level Acknowledge",
+            "_shortDisplayName": "Alrm2 Ack"
+        },
+        "liveValue.event.this.core.0.highInputPowerVoltageLevel|.": {
+            "IsAsserted.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "NONE",
+                "_displayName": "Event - High Input Power Voltage Level"
+            },
+            "EventStateInfo.": {
+                "_datatype": "JSON",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "NONE",
+                "_logging":"DefaultHistorianAction",
+                "_displayName": "Event - High Input Power Voltage Level State Info"
+            }
+        },
+        "liveValue.alarm.this.core.0.highInputPowerVoltageLevel|.": {
+            "IsAsserted.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": true,
+                "_unit": "NONE",
+                "_displayName": "Alarm - High Input Power Voltage Level"
+            },
+            "EventStateInfo.": {
+                "_datatype": "JSON",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "NONE",
+                "_logging":"DefaultHistorianAction",
+                "_displayName": "Alarm - High Input Power Voltage Level State Info"
+            }
+        },
+        "liveValue.event.this.core.0.highInputPowerVoltageLevel.bypassEventSet|.": {
+            "Enable.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "NONE",
+                "_nocache": true,
+                "_logging":"DefaultHistorianAction",
+                "_displayName": "High Input Power Voltage Level Bypass Enable",
+                "_shortDisplayName": "Evnt3 Bypass Enbl"
+            },
+            "EventState.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "NONE",
+                "_nocache": true,
+                "_logging":"DefaultHistorianAction",
+                "_displayName": "High Input Power Voltage Level Bypass Event State",
+                "_shortDisplayName": "Evnt3 Bypass State"
+            },
+            "TimePeriod.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "SYSPER.us",
+                "_nocache": true,
+                "_logging":"DefaultHistorianAction",
+                "_displayName": "High Input Power Voltage Level Bypass Time Period",
+                "_shortDisplayName": "Evnt3 Bypass Tm"
+            }
+        },
+        "liveValue.event.this.core.0.highInputPowerVoltageLevel.Enable.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_input": false,
+            "_output": false,
+            "_unit": "NONE",
+            "_nocache": true,
+            "_logging":"DefaultHistorianAction",
+            "_displayName": "High Input Power Voltage Level Enable",
+            "_shortDisplayName": "Evnt3 Enbl"
+        },
+        "liveValue.event.this.core.0.highInputPowerVoltageLevel.unlatchEvent.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_input": false,
+            "_output": false,
+            "_unit": "NONE",
+            "_nocache": true,
+            "_logging":"DefaultHistorianAction",
+            "_displayName": "High Input Power Voltage Level Unlatch",
+            "_shortDisplayName": "Evnt3 unlatch"
+        },
+        "liveValue.alarm.this.core.0.highInputPowerVoltageLevel.acknowledgeAlarm.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_input": false,
+            "_output": false,
+            "_unit": "NONE",
+            "_nocache": true,
+            "_logging":"DefaultHistorianAction",
+            "_displayName": "High Input Power Voltage Level Acknowledge",
+            "_shortDisplayName": "Alrm3 Ack"
+        },
+        "liveValue.event.this.core.0.highInputPowerCurrentLevel|.": {
+            "IsAsserted.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "NONE",
+                "_displayName": "Event - High Input Power Current Level"
+            },
+            "EventStateInfo.": {
+                "_datatype": "JSON",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "NONE",
+                "_logging":"DefaultHistorianAction",
+                "_displayName": "Event - High Input Power Current Level State Info"
+            }
+        },
+        "liveValue.alarm.this.core.0.highInputPowerCurrentLevel|.": {
+            "IsAsserted.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": true,
+                "_unit": "NONE",
+                "_displayName": "Alarm - High Input Power Current Level"
+            },
+            "EventStateInfo.": {
+                "_datatype": "JSON",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "NONE",
+                "_logging":"DefaultHistorianAction",
+                "_displayName": "Alarm - High Input Power Current Level State Info"
+            }
+        },
+        "liveValue.event.this.core.0.highInputPowerCurrentLevel.bypassEventSet|.": {
+            "Enable.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "NONE",
+                "_nocache": true,
+                "_logging":"DefaultHistorianAction",
+                "_displayName": "High Input Power Current Level Bypass Enable",
+                "_shortDisplayName": "Evnt4 Bypass Enbl"
+            },
+            "EventState.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "NONE",
+                "_nocache": true,
+                "_logging":"DefaultHistorianAction",
+                "_displayName": "High Input Power Current Level Bypass Event State",
+                "_shortDisplayName": "Evnt4 Bypass State"
+            },
+            "TimePeriod.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "SYSPER.us",
+                "_nocache": true,
+                "_logging":"DefaultHistorianAction",
+                "_displayName": "High Input Power Current Level Bypass Time Period",
+                "_shortDisplayName": "Evnt4 Bypass Tm"
+            }
+        },
+        "liveValue.event.this.core.0.highInputPowerCurrentLevel.Enable.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_input": false,
+            "_output": false,
+            "_unit": "NONE",
+            "_nocache": true,
+            "_logging":"DefaultHistorianAction",
+            "_displayName": "High Input Power Current Level Enable",
+            "_shortDisplayName": "Evnt4 Enbl"
+        },
+        "liveValue.event.this.core.0.highInputPowerCurrentLevel.unlatchEvent.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_input": false,
+            "_output": false,
+            "_unit": "NONE",
+            "_nocache": true,
+            "_logging":"DefaultHistorianAction",
+            "_displayName": "High Input Power Current Level Unlatch",
+            "_shortDisplayName": "Evnt4 unlatch"
+        },
+        "liveValue.alarm.this.core.0.highInputPowerCurrentLevel.acknowledgeAlarm.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_input": false,
+            "_output": false,
+            "_unit": "NONE",
+            "_nocache": true,
+            "_logging":"DefaultHistorianAction",
+            "_displayName": "High Input Power Current Level Acknowledge",
+            "_shortDisplayName": "Alrm4 Ack"
+        },
+        "liveValue.event.this.core.0.highCpuTemperature|.": {
+            "IsAsserted.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "NONE",
+                "_displayName": "Event - High CPU Temperature"
+            },
+            "EventStateInfo.": {
+                "_datatype": "JSON",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "NONE",
+                "_logging":"DefaultHistorianAction",
+                "_displayName": "Event - High CPU Temperature State Info"
+            }
+        },
+        "liveValue.alarm.this.core.0.highCpuTemperature|.": {
+            "IsAsserted.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": true,
+                "_unit": "NONE",
+                "_displayName": "Alarm - High CPU Temperature"
+            },
+            "EventStateInfo.": {
+                "_datatype": "JSON",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "NONE",
+                "_logging":"DefaultHistorianAction",
+                "_displayName": "Alarm - High CPU Temperature State Info"
+            }
+        },
+        "liveValue.event.this.core.0.highCpuTemperature.bypassEventSet|.": {
+            "Enable.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "NONE",
+                "_nocache": true,
+                "_logging":"DefaultHistorianAction",
+                "_displayName": "High CPU Temperature Bypass Enable",
+                "_shortDisplayName": "Evnt5 Bypass Enbl"
+            },
+            "EventState.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "NONE",
+                "_nocache": true,
+                "_logging":"DefaultHistorianAction",
+                "_displayName": "High CPU Temperature Bypass Event State",
+                "_shortDisplayName": "Evnt5 Bypass State"
+            },
+            "TimePeriod.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "SYSPER.us",
+                "_nocache": true,
+                "_logging":"DefaultHistorianAction",
+                "_displayName": "High CPU Temperature Bypass Time Period",
+                "_shortDisplayName": "Evnt5 Bypass Tm"
+            }
+        },
+        "liveValue.event.this.core.0.highCpuTemperature.Enable.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_input": false,
+            "_output": false,
+            "_unit": "NONE",
+            "_nocache": true,
+            "_logging":"DefaultHistorianAction",
+            "_displayName": "High CPU Temperature Enable",
+            "_shortDisplayName": "Evnt5 Enbl"
+        },
+        "liveValue.event.this.core.0.highCpuTemperature.unlatchEvent.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_input": false,
+            "_output": false,
+            "_unit": "NONE",
+            "_nocache": true,
+            "_logging":"DefaultHistorianAction",
+            "_displayName": "High CPU Temperature Unlatch",
+            "_shortDisplayName": "Evnt5 unlatch"
+        },
+        "liveValue.alarm.this.core.0.highCpuTemperature.acknowledgeAlarm.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_input": false,
+            "_output": false,
+            "_unit": "NONE",
+            "_nocache": true,
+            "_logging":"DefaultHistorianAction",
+            "_displayName": "High CPU Temperature Acknowledge",
+            "_shortDisplayName": "Alrm5 Ack"
+        },
+        "liveValue.event.this.core.0.highCPUUsage|.": {
+            "IsAsserted.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "NONE",
+                "_displayName": "Event - High CPU Usage"
+            },
+            "EventStateInfo.": {
+                "_datatype": "JSON",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "NONE",
+                "_logging":"DefaultHistorianAction",
+                "_displayName": "Event - High CPU Usage State Info"
+            }
+        },
+        "liveValue.alarm.this.core.0.highCPUUsage|.": {
+            "IsAsserted.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": true,
+                "_unit": "NONE",
+                "_displayName": "Alarm - High CPU Usage"
+            },
+            "EventStateInfo.": {
+                "_datatype": "JSON",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "NONE",
+                "_logging":"DefaultHistorianAction",
+                "_displayName": "Alarm - High CPU Usage State Info"
+            }
+        },
+        "liveValue.event.this.core.0.highCPUUsage.bypassEventSet|.": {
+            "Enable.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "NONE",
+                "_nocache": true,
+                "_logging":"DefaultHistorianAction",
+                "_displayName": "High CPU Usage Bypass Enable",
+                "_shortDisplayName": "Evnt6 Bypass Enbl"
+            },
+            "EventState.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "NONE",
+                "_nocache": true,
+                "_logging":"DefaultHistorianAction",
+                "_displayName": "High CPU Usage Bypass Event State",
+                "_shortDisplayName": "Evnt6 Bypass State"
+            },
+            "TimePeriod.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "SYSPER.us",
+                "_nocache": true,
+                "_logging":"DefaultHistorianAction",
+                "_displayName": "High CPU Usage Bypass Time Period",
+                "_shortDisplayName": "Evnt6 Bypass Tm"
+            }
+        },
+        "liveValue.event.this.core.0.highCPUUsage.Enable.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_input": false,
+            "_output": false,
+            "_unit": "NONE",
+            "_nocache": true,
+            "_logging":"DefaultHistorianAction",
+            "_displayName": "High CPU Usage Enable",
+            "_shortDisplayName": "Evnt6 Enbl"
+        },
+        "liveValue.event.this.core.0.highCPUUsage.unlatchEvent.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_input": false,
+            "_output": false,
+            "_unit": "NONE",
+            "_nocache": true,
+            "_logging":"DefaultHistorianAction",
+            "_displayName": "High CPU Usage Unlatch",
+            "_shortDisplayName": "Evnt6 unlatch"
+        },
+        "liveValue.alarm.this.core.0.highCPUUsage.acknowledgeAlarm.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_input": false,
+            "_output": false,
+            "_unit": "NONE",
+            "_nocache": true,
+            "_logging":"DefaultHistorianAction",
+            "_displayName": "High CPU Usage Acknowledge",
+            "_shortDisplayName": "Alrm6 Ack"
+        },
+        "liveValue.event.this.core.0.lowDeviceTemperature|.": {
+            "IsAsserted.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "NONE",
+                "_displayName": "Event - Low Device Temperature"
+            },
+            "EventStateInfo.": {
+                "_datatype": "JSON",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "NONE",
+                "_logging":"DefaultHistorianAction",
+                "_displayName": "Event - Low Device Temperature State Info"
+            }
+        },
+        "liveValue.alarm.this.core.0.lowDeviceTemperature|.": {
+            "IsAsserted.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": true,
+                "_unit": "NONE",
+                "_displayName": "Alarm - Low Device Temperature"
+            },
+            "EventStateInfo.": {
+                "_datatype": "JSON",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "NONE",
+                "_logging":"DefaultHistorianAction",
+                "_displayName": "Alarm - Low Device Temperature State Info"
+            }
+        },
+        "liveValue.event.this.core.0.lowDeviceTemperature.bypassEventSet|.": {
+            "Enable.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "NONE",
+                "_nocache": true,
+                "_logging":"DefaultHistorianAction",
+                "_displayName": "Low Device Temperature Bypass Enable",
+                "_shortDisplayName": "Evnt7 Bypass Enbl"
+            },
+            "EventState.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "NONE",
+                "_nocache": true,
+                "_logging":"DefaultHistorianAction",
+                "_displayName": "Low Device Temperature Bypass Event State",
+                "_shortDisplayName": "Evnt7 Bypass State"
+            },
+            "TimePeriod.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "SYSPER.us",
+                "_nocache": true,
+                "_logging":"DefaultHistorianAction",
+                "_displayName": "Low Device Temperature Bypass Time Period",
+                "_shortDisplayName": "Evnt7 Bypass Tm"
+            }
+        },
+        "liveValue.event.this.core.0.lowDeviceTemperature.Enable.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_input": false,
+            "_output": false,
+            "_unit": "NONE",
+            "_nocache": true,
+            "_logging":"DefaultHistorianAction",
+            "_displayName": "Low Device Temperature Enable",
+            "_shortDisplayName": "Evnt7 Enbl"
+        },
+        "liveValue.event.this.core.0.lowDeviceTemperature.unlatchEvent.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_input": false,
+            "_output": false,
+            "_unit": "NONE",
+            "_nocache": true,
+            "_logging":"DefaultHistorianAction",
+            "_displayName": "Low Device Temperature Unlatch",
+            "_shortDisplayName": "Evnt7 unlatch"
+        },
+        "liveValue.alarm.this.core.0.lowDeviceTemperature.acknowledgeAlarm.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_input": false,
+            "_output": false,
+            "_unit": "NONE",
+            "_nocache": true,
+            "_logging":"DefaultHistorianAction",
+            "_displayName": "Low Device Temperature Acknowledge",
+            "_shortDisplayName": "Alrm7 Ack"
+        },
+        "liveValue.event.this.core.0.highIoTemperature|.": {
+            "IsAsserted.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "NONE",
+                "_displayName": "Event - High IO System Temperature"
+            },
+            "EventStateInfo.": {
+                "_datatype": "JSON",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "NONE",
+                "_logging":"DefaultHistorianAction",
+                "_displayName": "Event - High IO System Temperature State Info"
+            }
+        },
+        "liveValue.alarm.this.core.0.highIoTemperature|.": {
+            "IsAsserted.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": true,
+                "_unit": "NONE",
+                "_displayName": "Alarm - High IO System Temperature"
+            },
+            "EventStateInfo.": {
+                "_datatype": "JSON",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "NONE",
+                "_logging":"DefaultHistorianAction",
+                "_displayName": "Alarm - High IO System Temperature State Info"
+            }
+        },
+        "liveValue.event.this.core.0.highIoTemperature.bypassEventSet|.": {
+            "Enable.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "NONE",
+                "_nocache": true,
+                "_logging":"DefaultHistorianAction",
+                "_displayName": "High IO System Temperature Bypass Enable",
+                "_shortDisplayName": "Evnt8 Bypass Enbl"
+            },
+            "EventState.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "NONE",
+                "_nocache": true,
+                "_logging":"DefaultHistorianAction",
+                "_displayName": "High IO System Temperature Bypass Event State",
+                "_shortDisplayName": "Evnt8 Bypass State"
+            },
+            "TimePeriod.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "SYSPER.us",
+                "_nocache": true,
+                "_logging":"DefaultHistorianAction",
+                "_displayName": "High IO System Temperature Bypass Time Period",
+                "_shortDisplayName": "Evnt8 Bypass Tm"
+            }
+        },
+        "liveValue.event.this.core.0.highIoTemperature.Enable.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_input": false,
+            "_output": false,
+            "_unit": "NONE",
+            "_nocache": true,
+            "_logging":"DefaultHistorianAction",
+            "_displayName": "High IO System Temperature Enable",
+            "_shortDisplayName": "Evnt8 Enbl"
+        },
+        "liveValue.event.this.core.0.highIoTemperature.unlatchEvent.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_input": false,
+            "_output": false,
+            "_unit": "NONE",
+            "_nocache": true,
+            "_logging":"DefaultHistorianAction",
+            "_displayName": "High IO System Temperature Unlatch",
+            "_shortDisplayName": "Evnt8 unlatch"
+        },
+        "liveValue.alarm.this.core.0.highIoTemperature.acknowledgeAlarm.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_input": false,
+            "_output": false,
+            "_unit": "NONE",
+            "_nocache": true,
+            "_logging":"DefaultHistorianAction",
+            "_displayName": "High IO System Temperature Acknowledge",
+            "_shortDisplayName": "Alrm8 Ack"
+        },
+        "liveValue.event.this.core.0.manualTimeSet|.": {
+            "IsAsserted.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "NONE",
+                "_displayName": "Event - Manual Time Set"
+            },
+            "EventStateInfo.": {
+                "_datatype": "JSON",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "NONE",
+                "_logging":"DefaultHistorianAction",
+                "_displayName": "Event - Manual Time Set State Info"
+            }
+        },
+        "liveValue.alarm.this.core.0.manualTimeSet|.": {
+            "IsAsserted.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": true,
+                "_unit": "NONE",
+                "_displayName": "Alarm - Manual Time Set"
+            },
+            "EventStateInfo.": {
+                "_datatype": "JSON",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "NONE",
+                "_logging":"DefaultHistorianAction",
+                "_displayName": "Alarm - Manual Time Set State Info"
+            }
+        },
+        "liveValue.event.this.core.0.manualTimeSet.bypassEventSet|.": {
+            "Enable.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "NONE",
+                "_nocache": true,
+                "_logging":"DefaultHistorianAction",
+                "_displayName": "Manual Time Set Bypass Enable",
+                "_shortDisplayName": "Evnt9 Bypass Enbl"
+            },
+            "EventState.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "NONE",
+                "_nocache": true,
+                "_logging":"DefaultHistorianAction",
+                "_displayName": "Manual Time Set Bypass Event State",
+                "_shortDisplayName": "Evnt9 Bypass State"
+            },
+            "TimePeriod.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "SYSPER.us",
+                "_nocache": true,
+                "_logging":"DefaultHistorianAction",
+                "_displayName": "Manual Time Set Bypass Time Period",
+                "_shortDisplayName": "Evnt9 Bypass Tm"
+            }
+        },
+        "liveValue.event.this.core.0.manualTimeSet.Enable.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_input": false,
+            "_output": false,
+            "_unit": "NONE",
+            "_nocache": true,
+            "_logging":"DefaultHistorianAction",
+            "_displayName": "Manual Time Set Enable",
+            "_shortDisplayName": "Evnt9 Enbl"
+        },
+        "liveValue.event.this.core.0.manualTimeSet.unlatchEvent.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_input": false,
+            "_output": false,
+            "_unit": "NONE",
+            "_nocache": true,
+            "_logging":"DefaultHistorianAction",
+            "_displayName": "Manual Time Set Unlatch",
+            "_shortDisplayName": "Evnt9 unlatch"
+        },
+        "liveValue.alarm.this.core.0.manualTimeSet.acknowledgeAlarm.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_input": false,
+            "_output": false,
+            "_unit": "NONE",
+            "_nocache": true,
+            "_logging":"DefaultHistorianAction",
+            "_displayName": "Manual Time Set Acknowledge",
+            "_shortDisplayName": "Alrm9 Ack"
+        },
+        "liveValue.event.this.core.0.hardwareSelfTestFailModel50365260|.": {
+            "IsAsserted.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "NONE",
+                "_displayName": "Event - Hardware Self-Test Fail"
+            },
+            "EventStateInfo.": {
+                "_datatype": "JSON",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "NONE",
+                "_logging":"DefaultHistorianAction",
+                "_displayName": "Event - Hardware Self-Test Fail State Info"
+            }
+        },
+        "liveValue.alarm.this.core.0.hardwareSelfTestFailModel50365260|.": {
+            "IsAsserted.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": true,
+                "_unit": "NONE",
+                "_displayName": "Alarm - Hardware Self-Test Fail"
+            },
+            "EventStateInfo.": {
+                "_datatype": "JSON",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "NONE",
+                "_logging":"DefaultHistorianAction",
+                "_displayName": "Alarm - Hardware Self-Test Fail State Info"
+            }
+        },
+        "liveValue.event.this.core.0.hardwareSelfTestFailModel50365260.bypassEventSet|.": {
+            "Enable.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "NONE",
+                "_nocache": true,
+                "_logging":"DefaultHistorianAction",
+                "_displayName": "Hardware Self-Test Fail Bypass Enable",
+                "_shortDisplayName": "Evnt1 Bypass Enbl"
+            },
+            "EventState.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "NONE",
+                "_nocache": true,
+                "_logging":"DefaultHistorianAction",
+                "_displayName": "Hardware Self-Test Fail Bypass Event State",
+                "_shortDisplayName": "Evnt1 Bypass State"
+            },
+            "TimePeriod.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "SYSPER.us",
+                "_nocache": true,
+                "_logging":"DefaultHistorianAction",
+                "_displayName": "Hardware Self-Test Fail Bypass Time Period",
+                "_shortDisplayName": "Evnt1 Bypass Tm"
+            }
+        },
+        "liveValue.event.this.core.0.hardwareSelfTestFailModel50365260.Enable.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_input": false,
+            "_output": false,
+            "_unit": "NONE",
+            "_nocache": true,
+            "_logging":"DefaultHistorianAction",
+            "_displayName": "Hardware Self-Test Fail Enable",
+            "_shortDisplayName": "Evnt1 Enbl"
+        },
+        "liveValue.event.this.core.0.hardwareSelfTestFailModel50365260.unlatchEvent.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_input": false,
+            "_output": false,
+            "_unit": "NONE",
+            "_nocache": true,
+            "_logging":"DefaultHistorianAction",
+            "_displayName": "Hardware Self-Test Fail Unlatch",
+            "_shortDisplayName": "Evnt1 unlatch"
+        },
+        "liveValue.alarm.this.core.0.hardwareSelfTestFailModel50365260.acknowledgeAlarm.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_input": false,
+            "_output": false,
+            "_unit": "NONE",
+            "_nocache": true,
+            "_logging":"DefaultHistorianAction",
+            "_displayName": "Hardware Self-Test Fail Acknowledge",
+            "_shortDisplayName": "Alrm1 Ack"
+        },
+        "liveValue.event.this.core.0.hardwareSelfTestFailModel50369741|.": {
+            "IsAsserted.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "NONE",
+                "_displayName": "Event - Hardware Self-Test Fail"
+            },
+            "EventStateInfo.": {
+                "_datatype": "JSON",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "NONE",
+                "_logging":"DefaultHistorianAction",
+                "_displayName": "Event - Hardware Self-Test Fail State Info"
+            }
+        },
+        "liveValue.alarm.this.core.0.hardwareSelfTestFailModel50369741|.": {
+            "IsAsserted.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": true,
+                "_unit": "NONE",
+                "_displayName": "Alarm - Hardware Self-Test Fail"
+            },
+            "EventStateInfo.": {
+                "_datatype": "JSON",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "NONE",
+                "_logging":"DefaultHistorianAction",
+                "_displayName": "Alarm - Hardware Self-Test Fail State Info"
+            }
+        },
+        "liveValue.event.this.core.0.hardwareSelfTestFailModel50369741.bypassEventSet|.": {
+            "Enable.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "NONE",
+                "_nocache": true,
+                "_logging":"DefaultHistorianAction",
+                "_displayName": "Hardware Self-Test Fail Bypass Enable",
+                "_shortDisplayName": "Evnt1 Bypass Enbl"
+            },
+            "EventState.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "NONE",
+                "_nocache": true,
+                "_logging":"DefaultHistorianAction",
+                "_displayName": "Hardware Self-Test Fail Bypass Event State",
+                "_shortDisplayName": "Evnt1 Bypass State"
+            },
+            "TimePeriod.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "SYSPER.us",
+                "_nocache": true,
+                "_logging":"DefaultHistorianAction",
+                "_displayName": "Hardware Self-Test Fail Bypass Time Period",
+                "_shortDisplayName": "Evnt1 Bypass Tm"
+            }
+        },
+        "liveValue.event.this.core.0.hardwareSelfTestFailModel50369741.Enable.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_input": false,
+            "_output": false,
+            "_unit": "NONE",
+            "_nocache": true,
+            "_logging":"DefaultHistorianAction",
+            "_displayName": "Hardware Self-Test Fail Enable",
+            "_shortDisplayName": "Evnt1 Enbl"
+        },
+        "liveValue.event.this.core.0.hardwareSelfTestFailModel50369741.unlatchEvent.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_input": false,
+            "_output": false,
+            "_unit": "NONE",
+            "_nocache": true,
+            "_logging":"DefaultHistorianAction",
+            "_displayName": "Hardware Self-Test Fail Unlatch",
+            "_shortDisplayName": "Evnt1 unlatch"
+        },
+        "liveValue.alarm.this.core.0.hardwareSelfTestFailModel50369741.acknowledgeAlarm.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_input": false,
+            "_output": false,
+            "_unit": "NONE",
+            "_nocache": true,
+            "_logging":"DefaultHistorianAction",
+            "_displayName": "Hardware Self-Test Fail Acknowledge",
+            "_shortDisplayName": "Alrm1 Ack"
+        }
+    }
+}

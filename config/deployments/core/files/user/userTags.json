@@ -1,1 +1,26 @@
-{"customAlarm":{"metadata":{},"unityFormat":[]},"customISaGRAF":{"metadata":{},"unityFormat":[]},"customAnalog":{"metadata":{},"unityFormat":[]},"customDigital":{"metadata":{},"unityFormat":[]},"customSubdevices":{"metadata":{},"unityFormat":[]},"customAlarms":{"metadata":{},"unityFormat":[]}}
+{
+    "customAlarm": {
+        "metadata": {},
+        "unityFormat": []
+    },
+    "customISaGRAF": {
+        "metadata": {},
+        "unityFormat": []
+    },
+    "customAnalog": {
+        "metadata": {},
+        "unityFormat": []
+    },
+    "customDigital": {
+        "metadata": {},
+        "unityFormat": []
+    },
+    "customSubdevices": {
+        "metadata": {},
+        "unityFormat": []
+    },
+    "customAlarms": {
+        "metadata": {},
+        "unityFormat": []
+    }
+}

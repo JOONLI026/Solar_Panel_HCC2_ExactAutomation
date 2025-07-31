@@ -1,0 +1,12 @@
+{
+    "userLogs": {},
+    "tagLog": {
+        "highestPriorityPeriod": 1,
+        "highPriorityPeriod": 5,
+        "mediumPriorityPeriod": 60,
+        "lowPriorityPeriod": 300,
+        "lowestPriorityPeriod": 3600,
+        "defaultGuaranteedLoggingPeriod": 0,
+        "defaultFastDecimationAlgorithm": 1
+    }
+}

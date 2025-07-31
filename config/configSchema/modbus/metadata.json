@@ -1,0 +1,2655 @@
+{
+    "config": {
+        "port.serial1RS485.baud.": {
+            "_callbacks": [
+                {
+                    "func": "checkEnum",
+                    "args": "{enum:[300,600,1200,2400,4800,9600,19200,38400,57600,115200]}"
+                }
+            ],
+            "_noprotobuf": false,
+            "_datatype": "Enum",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_enum": [
+                {
+                    "index": 300,
+                    "label": "300"
+                },
+                {
+                    "index": 600,
+                    "label": "600"
+                },
+                {
+                    "index": 1200,
+                    "label": "1200"
+                },
+                {
+                    "index": 2400,
+                    "label": "2400"
+                },
+                {
+                    "index": 4800,
+                    "label": "4800"
+                },
+                {
+                    "index": 9600,
+                    "label": "9600"
+                },
+                {
+                    "index": 19200,
+                    "label": "19200"
+                },
+                {
+                    "index": 38400,
+                    "label": "38400"
+                },
+                {
+                    "index": 57600,
+                    "label": "57600"
+                },
+                {
+                    "index": 115200,
+                    "label": "115200"
+                }
+            ],
+            "_displayName": "RS485-1 baud",
+            "_shortDisplayName": "RS485-1 baud",
+            "_recommendedMin": 300,
+            "_recommendedMax": 115200,
+            "_input": false,
+            "_output": false
+        },
+        "port.serial1RS485.parity.": {
+            "_callbacks": [
+                {
+                    "func": "checkEnum",
+                    "args": "{enum:[0,1,2,3,4]}"
+                }
+            ],
+            "_noprotobuf": false,
+            "_datatype": "Enum",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_enum": [
+                {
+                    "index": 0,
+                    "label": "None"
+                },
+                {
+                    "index": 1,
+                    "label": "Odd"
+                },
+                {
+                    "index": 2,
+                    "label": "Even"
+                },
+                {
+                    "index": 3,
+                    "label": "Mark"
+                },
+                {
+                    "index": 4,
+                    "label": "Space"
+                }
+            ],
+            "_displayName": "RS485-1 parity",
+            "_shortDisplayName": "RS485-1 parity",
+            "_input": false,
+            "_output": false
+        },
+        "port.serial1RS485.stopBits.": {
+            "_callbacks": [
+                {
+                    "func": "checkEnum",
+                    "args": "{enum:[1,2]}"
+                }
+            ],
+            "_noprotobuf": false,
+            "_datatype": "Enum",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_enum": [
+                {
+                    "index": 1,
+                    "label": "One Stop Bit"
+                },
+                {
+                    "index": 2,
+                    "label": "Two Stop Bit"
+                }
+            ],
+            "_displayName": "RS485-1 stop bits",
+            "_shortDisplayName": "RS485-1 stop bits",
+            "_input": false,
+            "_output": false
+        },
+        "port.serial1RS485.terminate.": {
+            "_callbacks": null,
+            "_noprotobuf": false,
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "RS485-1 Terminate",
+            "_shortDisplayName": "RS485-1 Terminate",
+            "_input": false,
+            "_output": false
+        },
+        "port.serial1RS485.rxBusTimeout.": {
+            "_callbacks": [
+                {
+                    "func": "checkRange",
+                    "args": "{min:200, max:10000000}"
+                }
+            ],
+            "_noprotobuf": false,
+            "_datatype": "Uint32",
+            "_maxsize": 1,
+            "_unit": "SYSPER",
+            "_displayName": "RS485-1 Rx Bus Timeout",
+            "_shortDisplayName": "RS485-1 Rx Bus TO",
+            "_recommendedMin": 217,
+            "_recommendedMax": 10000000,
+            "_input": false,
+            "_output": false
+        },
+        "port.serial1RS485.txBusDelay.": {
+            "_callbacks": [
+                {
+                    "func": "checkRange",
+                    "args": "{min:0, max:10000000}"
+                }
+            ],
+            "_noprotobuf": false,
+            "_datatype": "Uint32",
+            "_maxsize": 1,
+            "_unit": "SYSPER",
+            "_displayName": "RS485-1 Tx Bus Delay",
+            "_shortDisplayName": "RS485-1 Tx Delay",
+            "_recommendedMin": 217,
+            "_recommendedMax": 10000000,
+            "_input": false,
+            "_output": false
+        },
+        "port.serial1RS485.portInfo.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "JSON",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "RS485-1 Port Info",
+            "_shortDisplayName": "RS485-1 Port Info",
+            "_input": false,
+            "_output": false
+        },
+        "port.serial1RS485.protocol.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "JSON",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "RS485-1 Protocol",
+            "_shortDisplayName": "RS485-1 Protocol",
+            "_input": false,
+            "_output": false
+        },
+        "port.serial2RS485.baud.": {
+            "_callbacks": [
+                {
+                    "func": "checkEnum",
+                    "args": "{enum:[300,600,1200,2400,4800,9600,19200,38400,57600,115200]}"
+                }
+            ],
+            "_noprotobuf": false,
+            "_datatype": "Enum",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_enum": [
+                {
+                    "index": 300,
+                    "label": "300"
+                },
+                {
+                    "index": 600,
+                    "label": "600"
+                },
+                {
+                    "index": 1200,
+                    "label": "1200"
+                },
+                {
+                    "index": 2400,
+                    "label": "2400"
+                },
+                {
+                    "index": 4800,
+                    "label": "4800"
+                },
+                {
+                    "index": 9600,
+                    "label": "9600"
+                },
+                {
+                    "index": 19200,
+                    "label": "19200"
+                },
+                {
+                    "index": 38400,
+                    "label": "38400"
+                },
+                {
+                    "index": 57600,
+                    "label": "57600"
+                },
+                {
+                    "index": 115200,
+                    "label": "115200"
+                }
+            ],
+            "_displayName": "RS485-2 baud",
+            "_shortDisplayName": "RS485-2 baud",
+            "_recommendedMin": 300,
+            "_recommendedMax": 115200,
+            "_input": false,
+            "_output": false
+        },
+        "port.serial2RS485.parity.": {
+            "_callbacks": [
+                {
+                    "func": "checkEnum",
+                    "args": "{enum:[0,1,2,3,4]}"
+                }
+            ],
+            "_noprotobuf": false,
+            "_datatype": "Enum",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_enum": [
+                {
+                    "index": 0,
+                    "label": "None"
+                },
+                {
+                    "index": 1,
+                    "label": "Odd"
+                },
+                {
+                    "index": 2,
+                    "label": "Even"
+                },
+                {
+                    "index": 3,
+                    "label": "Mark"
+                },
+                {
+                    "index": 4,
+                    "label": "Space"
+                }
+            ],
+            "_displayName": "RS485-2 parity",
+            "_shortDisplayName": "RS485-2 parity",
+            "_input": false,
+            "_output": false
+        },
+        "port.serial2RS485.stopBits.": {
+            "_callbacks": [
+                {
+                    "func": "checkEnum",
+                    "args": "{enum:[1,2]}"
+                }
+            ],
+            "_noprotobuf": false,
+            "_datatype": "Enum",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_enum": [
+                {
+                    "index": 1,
+                    "label": "One Stop Bit"
+                },
+                {
+                    "index": 2,
+                    "label": "Two Stop Bit"
+                }
+            ],
+            "_displayName": "RS485-2 stop bits",
+            "_shortDisplayName": "RS485-2 stop bits",
+            "_input": false,
+            "_output": false
+        },
+        "port.serial2RS485.terminate.": {
+            "_callbacks": null,
+            "_noprotobuf": false,
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "RS485-2 Terminate",
+            "_shortDisplayName": "RS485-2 Terminate",
+            "_input": false,
+            "_output": false
+        },
+        "port.serial2RS485.rxBusTimeout.": {
+            "_callbacks": [
+                {
+                    "func": "checkRange",
+                    "args": "{min:200, max:10000000}"
+                }
+            ],
+            "_noprotobuf": false,
+            "_datatype": "Uint32",
+            "_maxsize": 1,
+            "_unit": "SYSPER",
+            "_displayName": "RS485-2 Rx Bus Timeout",
+            "_shortDisplayName": "RS485-2 Rx Bus TO",
+            "_recommendedMin": 217,
+            "_recommendedMax": 10000000,
+            "_input": false,
+            "_output": false
+        },
+        "port.serial2RS485.txBusDelay.": {
+            "_callbacks": [
+                {
+                    "func": "checkRange",
+                    "args": "{min:0, max:10000000}"
+                }
+            ],
+            "_noprotobuf": false,
+            "_datatype": "Uint32",
+            "_maxsize": 1,
+            "_unit": "SYSPER",
+            "_displayName": "RS485-2 Tx Bus Delay",
+            "_shortDisplayName": "RS485-2 Tx Delay",
+            "_recommendedMin": 217,
+            "_recommendedMax": 10000000,
+            "_input": false,
+            "_output": false
+        },
+        "port.serial2RS485.portInfo.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "JSON",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "RS485-2 Port Info",
+            "_shortDisplayName": "RS485-2 Port Info",
+            "_input": false,
+            "_output": false
+        },
+        "port.serial2RS485.protocol.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "JSON",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "RS485-2 Protocol",
+            "_shortDisplayName": "RS485-2 Protocol",
+            "_input": false,
+            "_output": false
+        },
+        "port.serial3RS485.baud.": {
+            "_callbacks": [
+                {
+                    "func": "checkEnum",
+                    "args": "{enum:[300,600,1200,2400,4800,9600,19200,38400,57600,115200]}"
+                }
+            ],
+            "_noprotobuf": false,
+            "_datatype": "Enum",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_enum": [
+                {
+                    "index": 300,
+                    "label": "300"
+                },
+                {
+                    "index": 600,
+                    "label": "600"
+                },
+                {
+                    "index": 1200,
+                    "label": "1200"
+                },
+                {
+                    "index": 2400,
+                    "label": "2400"
+                },
+                {
+                    "index": 4800,
+                    "label": "4800"
+                },
+                {
+                    "index": 9600,
+                    "label": "9600"
+                },
+                {
+                    "index": 19200,
+                    "label": "19200"
+                },
+                {
+                    "index": 38400,
+                    "label": "38400"
+                },
+                {
+                    "index": 57600,
+                    "label": "57600"
+                },
+                {
+                    "index": 115200,
+                    "label": "115200"
+                }
+            ],
+            "_displayName": "RS485-3 baud",
+            "_shortDisplayName": "RS485-3 baud",
+            "_recommendedMin": 300,
+            "_recommendedMax": 115200,
+            "_input": false,
+            "_output": false
+        },
+        "port.serial3RS485.parity.": {
+            "_callbacks": [
+                {
+                    "func": "checkEnum",
+                    "args": "{enum:[0,1,2,3,4]}"
+                }
+            ],
+            "_noprotobuf": false,
+            "_datatype": "Enum",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_enum": [
+                {
+                    "index": 0,
+                    "label": "None"
+                },
+                {
+                    "index": 1,
+                    "label": "Odd"
+                },
+                {
+                    "index": 2,
+                    "label": "Even"
+                },
+                {
+                    "index": 3,
+                    "label": "Mark"
+                },
+                {
+                    "index": 4,
+                    "label": "Space"
+                }
+            ],
+            "_displayName": "RS485-3 parity",
+            "_shortDisplayName": "RS485-3 parity",
+            "_input": false,
+            "_output": false
+        },
+        "port.serial3RS485.stopBits.": {
+            "_callbacks": [
+                {
+                    "func": "checkEnum",
+                    "args": "{enum:[1,2]}"
+                }
+            ],
+            "_noprotobuf": false,
+            "_datatype": "Enum",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_enum": [
+                {
+                    "index": 1,
+                    "label": "One Stop Bit"
+                },
+                {
+                    "index": 2,
+                    "label": "Two Stop Bit"
+                }
+            ],
+            "_displayName": "RS485-3 stop bits",
+            "_shortDisplayName": "RS485-3 stop bits",
+            "_input": false,
+            "_output": false
+        },
+        "port.serial3RS485.terminate.": {
+            "_callbacks": null,
+            "_noprotobuf": false,
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "RS485-3 Terminate",
+            "_shortDisplayName": "RS485-3 Terminate",
+            "_input": false,
+            "_output": false
+        },
+        "port.serial3RS485.rxBusTimeout.": {
+            "_callbacks": [
+                {
+                    "func": "checkRange",
+                    "args": "{min:200, max:10000000}"
+                }
+            ],
+            "_noprotobuf": false,
+            "_datatype": "Uint32",
+            "_maxsize": 1,
+            "_unit": "SYSPER",
+            "_displayName": "RS485-3 Rx Bus Timeout",
+            "_shortDisplayName": "RS485-3 Rx Bus TO",
+            "_recommendedMin": 217,
+            "_recommendedMax": 10000000,
+            "_input": false,
+            "_output": false
+        },
+        "port.serial3RS485.txBusDelay.": {
+            "_callbacks": [
+                {
+                    "func": "checkRange",
+                    "args": "{min:0, max:10000000}"
+                }
+            ],
+            "_noprotobuf": false,
+            "_datatype": "Uint32",
+            "_maxsize": 1,
+            "_unit": "SYSPER",
+            "_displayName": "RS485-3 Tx Bus Delay",
+            "_shortDisplayName": "RS485-3 Tx Delay",
+            "_recommendedMin": 217,
+            "_recommendedMax": 10000000,
+            "_input": false,
+            "_output": false
+        },
+        "port.serial3RS485.portInfo.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "JSON",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "RS485-3 Port Info",
+            "_shortDisplayName": "RS485-3 Port Info",
+            "_input": false,
+            "_output": false
+        },
+        "port.serial3RS485.protocol.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "JSON",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "RS485-3 Protocol",
+            "_shortDisplayName": "RS485-3 Protocol",
+            "_input": false,
+            "_output": false
+        },
+        "port.serial4RS485.baud.": {
+            "_callbacks": [
+                {
+                    "func": "checkEnum",
+                    "args": "{enum:[300,600,1200,2400,4800,9600,19200,38400,57600,115200]}"
+                }
+            ],
+            "_noprotobuf": false,
+            "_datatype": "Enum",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_enum": [
+                {
+                    "index": 300,
+                    "label": "300"
+                },
+                {
+                    "index": 600,
+                    "label": "600"
+                },
+                {
+                    "index": 1200,
+                    "label": "1200"
+                },
+                {
+                    "index": 2400,
+                    "label": "2400"
+                },
+                {
+                    "index": 4800,
+                    "label": "4800"
+                },
+                {
+                    "index": 9600,
+                    "label": "9600"
+                },
+                {
+                    "index": 19200,
+                    "label": "19200"
+                },
+                {
+                    "index": 38400,
+                    "label": "38400"
+                },
+                {
+                    "index": 57600,
+                    "label": "57600"
+                },
+                {
+                    "index": 115200,
+                    "label": "115200"
+                }
+            ],
+            "_displayName": "RS485-4 baud",
+            "_shortDisplayName": "RS485-4 baud",
+            "_recommendedMin": 300,
+            "_recommendedMax": 115200,
+            "_input": false,
+            "_output": false
+        },
+        "port.serial4RS485.parity.": {
+            "_callbacks": [
+                {
+                    "func": "checkEnum",
+                    "args": "{enum:[0,1,2,3,4]}"
+                }
+            ],
+            "_noprotobuf": false,
+            "_datatype": "Enum",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_enum": [
+                {
+                    "index": 0,
+                    "label": "None"
+                },
+                {
+                    "index": 1,
+                    "label": "Odd"
+                },
+                {
+                    "index": 2,
+                    "label": "Even"
+                },
+                {
+                    "index": 3,
+                    "label": "Mark"
+                },
+                {
+                    "index": 4,
+                    "label": "Space"
+                }
+            ],
+            "_displayName": "RS485-4 parity",
+            "_shortDisplayName": "RS485-4 parity",
+            "_input": false,
+            "_output": false
+        },
+        "port.serial4RS485.stopBits.": {
+            "_callbacks": [
+                {
+                    "func": "checkEnum",
+                    "args": "{enum:[1,2]}"
+                }
+            ],
+            "_noprotobuf": false,
+            "_datatype": "Enum",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_enum": [
+                {
+                    "index": 1,
+                    "label": "One Stop Bit"
+                },
+                {
+                    "index": 2,
+                    "label": "Two Stop Bit"
+                }
+            ],
+            "_displayName": "RS485-4 stop bits",
+            "_shortDisplayName": "RS485-4 stop bits",
+            "_input": false,
+            "_output": false
+        },
+        "port.serial4RS485.terminate.": {
+            "_callbacks": null,
+            "_noprotobuf": false,
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "RS485-4 Terminate",
+            "_shortDisplayName": "RS485-4 Terminate",
+            "_input": false,
+            "_output": false
+        },
+        "port.serial4RS485.rxBusTimeout.": {
+            "_callbacks": [
+                {
+                    "func": "checkRange",
+                    "args": "{min:200, max:10000000}"
+                }
+            ],
+            "_noprotobuf": false,
+            "_datatype": "Uint32",
+            "_maxsize": 1,
+            "_unit": "SYSPER",
+            "_displayName": "RS485-4 Rx Bus Timeout",
+            "_shortDisplayName": "RS485-4 Rx Bus TO",
+            "_recommendedMin": 217,
+            "_recommendedMax": 10000000,
+            "_input": false,
+            "_output": false
+        },
+        "port.serial4RS485.txBusDelay.": {
+            "_callbacks": [
+                {
+                    "func": "checkRange",
+                    "args": "{min:0, max:10000000}"
+                }
+            ],
+            "_noprotobuf": false,
+            "_datatype": "Uint32",
+            "_maxsize": 1,
+            "_unit": "SYSPER",
+            "_displayName": "RS485-4 Tx Bus Delay",
+            "_shortDisplayName": "RS485-4 Tx Delay",
+            "_recommendedMin": 217,
+            "_recommendedMax": 10000000,
+            "_input": false,
+            "_output": false
+        },
+        "port.serial4RS485.portInfo.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "JSON",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "RS485-4 Port Info",
+            "_shortDisplayName": "RS485-4 Port Info",
+            "_input": false,
+            "_output": false
+        },
+        "port.serial4RS485.protocol.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "JSON",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "RS485-4 Protocol",
+            "_shortDisplayName": "RS485-4 Protocol",
+            "_input": false,
+            "_output": false
+        },
+        "port.serial5RS485.baud.": {
+            "_callbacks": [
+                {
+                    "func": "checkEnum",
+                    "args": "{enum:[300,600,1200,2400,4800,9600,19200,38400,57600,115200]}"
+                }
+            ],
+            "_noprotobuf": false,
+            "_datatype": "Enum",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_enum": [
+                {
+                    "index": 300,
+                    "label": "300"
+                },
+                {
+                    "index": 600,
+                    "label": "600"
+                },
+                {
+                    "index": 1200,
+                    "label": "1200"
+                },
+                {
+                    "index": 2400,
+                    "label": "2400"
+                },
+                {
+                    "index": 4800,
+                    "label": "4800"
+                },
+                {
+                    "index": 9600,
+                    "label": "9600"
+                },
+                {
+                    "index": 19200,
+                    "label": "19200"
+                },
+                {
+                    "index": 38400,
+                    "label": "38400"
+                },
+                {
+                    "index": 57600,
+                    "label": "57600"
+                },
+                {
+                    "index": 115200,
+                    "label": "115200"
+                }
+            ],
+            "_displayName": "RS485-5 baud",
+            "_shortDisplayName": "RS485-5 baud",
+            "_recommendedMin": 300,
+            "_recommendedMax": 115200,
+            "_input": false,
+            "_output": false
+        },
+        "port.serial5RS485.parity.": {
+            "_callbacks": [
+                {
+                    "func": "checkEnum",
+                    "args": "{enum:[0,1,2,3,4]}"
+                }
+            ],
+            "_noprotobuf": false,
+            "_datatype": "Enum",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_enum": [
+                {
+                    "index": 0,
+                    "label": "None"
+                },
+                {
+                    "index": 1,
+                    "label": "Odd"
+                },
+                {
+                    "index": 2,
+                    "label": "Even"
+                },
+                {
+                    "index": 3,
+                    "label": "Mark"
+                },
+                {
+                    "index": 4,
+                    "label": "Space"
+                }
+            ],
+            "_displayName": "RS485-5 parity",
+            "_shortDisplayName": "RS485-5 parity",
+            "_input": false,
+            "_output": false
+        },
+        "port.serial5RS485.stopBits.": {
+            "_callbacks": [
+                {
+                    "func": "checkEnum",
+                    "args": "{enum:[1,2]}"
+                }
+            ],
+            "_noprotobuf": false,
+            "_datatype": "Enum",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_enum": [
+                {
+                    "index": 1,
+                    "label": "One Stop Bit"
+                },
+                {
+                    "index": 2,
+                    "label": "Two Stop Bit"
+                }
+            ],
+            "_displayName": "RS485-5 stop bits",
+            "_shortDisplayName": "RS485-5 stop bits",
+            "_input": false,
+            "_output": false
+        },
+        "port.serial5RS485.terminate.": {
+            "_callbacks": null,
+            "_noprotobuf": false,
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "RS485-5 Terminate",
+            "_shortDisplayName": "RS485-5 Terminate",
+            "_input": false,
+            "_output": false
+        },
+        "port.serial5RS485.rxBusTimeout.": {
+            "_callbacks": [
+                {
+                    "func": "checkRange",
+                    "args": "{min:200, max:10000000}"
+                }
+            ],
+            "_noprotobuf": false,
+            "_datatype": "Uint32",
+            "_maxsize": 1,
+            "_unit": "SYSPER",
+            "_displayName": "RS485-5 Rx Bus Timeout",
+            "_shortDisplayName": "RS485-5 Rx Bus TO",
+            "_recommendedMin": 217,
+            "_recommendedMax": 10000000,
+            "_input": false,
+            "_output": false
+        },
+        "port.serial5RS485.txBusDelay.": {
+            "_callbacks": [
+                {
+                    "func": "checkRange",
+                    "args": "{min:0, max:10000000}"
+                }
+            ],
+            "_noprotobuf": false,
+            "_datatype": "Uint32",
+            "_maxsize": 1,
+            "_unit": "SYSPER",
+            "_displayName": "RS485-5 Tx Bus Delay",
+            "_shortDisplayName": "RS485-5 Tx Delay",
+            "_recommendedMin": 217,
+            "_recommendedMax": 10000000,
+            "_input": false,
+            "_output": false
+        },
+        "port.serial5RS485.portInfo.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "JSON",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "RS485-5 Port Info",
+            "_shortDisplayName": "RS485-5 Port Info",
+            "_input": false,
+            "_output": false
+        },
+        "port.serial5RS485.protocol.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "JSON",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "RS485-5 Protocol",
+            "_shortDisplayName": "RS485-5 Protocol",
+            "_input": false,
+            "_output": false
+        },
+        "port.serialRS232.baud.": {
+            "_callbacks": [
+                {
+                    "func": "checkEnum",
+                    "args": "{enum:[300,600,1200,2400,4800,9600,19200,38400,57600,115200]}"
+                }
+            ],
+            "_noprotobuf": false,
+            "_datatype": "Enum",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_enum": [
+                {
+                    "index": 300,
+                    "label": "300"
+                },
+                {
+                    "index": 600,
+                    "label": "600"
+                },
+                {
+                    "index": 1200,
+                    "label": "1200"
+                },
+                {
+                    "index": 2400,
+                    "label": "2400"
+                },
+                {
+                    "index": 4800,
+                    "label": "4800"
+                },
+                {
+                    "index": 9600,
+                    "label": "9600"
+                },
+                {
+                    "index": 19200,
+                    "label": "19200"
+                },
+                {
+                    "index": 38400,
+                    "label": "38400"
+                },
+                {
+                    "index": 57600,
+                    "label": "57600"
+                },
+                {
+                    "index": 115200,
+                    "label": "115200"
+                }
+            ],
+            "_displayName": "RS232 baud",
+            "_shortDisplayName": "RS232 baud",
+            "_recommendedMin": 300,
+            "_recommendedMax": 115200,
+            "_input": false,
+            "_output": false
+        },
+        "port.serialRS232.parity.": {
+            "_callbacks": [
+                {
+                    "func": "checkEnum",
+                    "args": "{enum:[0,1,2,3,4]}"
+                }
+            ],
+            "_noprotobuf": false,
+            "_datatype": "Enum",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_enum": [
+                {
+                    "index": 0,
+                    "label": "None"
+                },
+                {
+                    "index": 1,
+                    "label": "Odd"
+                },
+                {
+                    "index": 2,
+                    "label": "Even"
+                },
+                {
+                    "index": 3,
+                    "label": "Mark"
+                },
+                {
+                    "index": 4,
+                    "label": "Space"
+                }
+            ],
+            "_displayName": "RS232 parity",
+            "_shortDisplayName": "RS232 parity",
+            "_input": false,
+            "_output": false
+        },
+        "port.serialRS232.stopBits.": {
+            "_callbacks": [
+                {
+                    "func": "checkEnum",
+                    "args": "{enum:[1,2]}"
+                }
+            ],
+            "_noprotobuf": false,
+            "_datatype": "Enum",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_enum": [
+                {
+                    "index": 1,
+                    "label": "One Stop Bit"
+                },
+                {
+                    "index": 2,
+                    "label": "Two Stop Bit"
+                }
+            ],
+            "_displayName": "RS232 stop bits",
+            "_shortDisplayName": "RS232 stop bits",
+            "_input": false,
+            "_output": false
+        },
+        "port.serialRS232.terminate.": {
+            "_callbacks": null,
+            "_noprotobuf": false,
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "RS232 Terminate",
+            "_shortDisplayName": "RS232 Terminate",
+            "_input": false,
+            "_output": false
+        },
+        "port.serialRS232.rxBusTimeout.": {
+            "_callbacks": [
+                {
+                    "func": "checkRange",
+                    "args": "{min:200, max:10000000}"
+                }
+            ],
+            "_noprotobuf": false,
+            "_datatype": "Uint32",
+            "_maxsize": 1,
+            "_unit": "SYSPER",
+            "_displayName": "RS232 Rx Bus Timeout",
+            "_shortDisplayName": "RS232 Rx Bus TO",
+            "_recommendedMin": 217,
+            "_recommendedMax": 10000000,
+            "_input": false,
+            "_output": false
+        },
+        "port.serialRS232.txBusDelay.": {
+            "_callbacks": [
+                {
+                    "func": "checkRange",
+                    "args": "{min:0, max:10000000}"
+                }
+            ],
+            "_noprotobuf": false,
+            "_datatype": "Uint32",
+            "_maxsize": 1,
+            "_unit": "SYSPER",
+            "_displayName": "RS232 Tx Bus Delay",
+            "_shortDisplayName": "RS232 Tx Delay",
+            "_recommendedMin": 217,
+            "_recommendedMax": 10000000,
+            "_input": false,
+            "_output": false
+        },
+        "port.serialRS232.portInfo.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "JSON",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "RS232 Port Info",
+            "_shortDisplayName": "RS232 Port Info",
+            "_input": false,
+            "_output": false
+        },
+        "port.serialRS232.protocol.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "JSON",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "RS232 Protocol",
+            "_shortDisplayName": "RS232 Protocol",
+            "_input": false,
+            "_output": false
+        },
+        "port.tcp502.socketTimeout.": {
+            "_callbacks": [
+                {
+                    "func": "checkRange",
+                    "args": "{min:20, max:86400}"
+                }
+            ],
+            "_noprotobuf": false,
+            "_datatype": "Uint32",
+            "_maxsize": 1,
+            "_unit": "TIME",
+            "_displayName": "tcp502 Socket Timeout",
+            "_shortDisplayName": "tcp502 Socket TO",
+            "_recommendedMin": 20,
+            "_recommendedMax": 86400,
+            "_input": false,
+            "_output": false
+        },
+        "port.tcp502.rxBusTimeout.": {
+            "_callbacks": [
+                {
+                    "func": "checkRange",
+                    "args": "{min:200, max:10000000}"
+                }
+            ],
+            "_noprotobuf": false,
+            "_datatype": "Uint32",
+            "_maxsize": 1,
+            "_unit": "SYSPER",
+            "_displayName": "tcp502 Rx Bus Timeout",
+            "_shortDisplayName": "tcp502 Rx Bus TO",
+            "_recommendedMin": 200,
+            "_recommendedMax": 10000000,
+            "_input": false,
+            "_output": false
+        },
+        "port.tcp502.txBusDelay.": {
+            "_callbacks": [
+                {
+                    "func": "checkRange",
+                    "args": "{min:0, max:250000}"
+                }
+            ],
+            "_noprotobuf": false,
+            "_datatype": "Uint32",
+            "_maxsize": 1,
+            "_unit": "SYSPER",
+            "_displayName": "tcp502 Tx Bus Delay",
+            "_shortDisplayName": "tcp502 Tx Delay",
+            "_recommendedMin": 0,
+            "_recommendedMax": 250000,
+            "_input": false,
+            "_output": false
+        },
+        "port.tcp502.portInfo.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "JSON",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "tcp502 Port Info",
+            "_shortDisplayName": "tcp502 Port Info",
+            "_input": false,
+            "_output": false
+        },
+        "port.tcp502.protocol.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "JSON",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "tcp502 Protocol",
+            "_shortDisplayName": "tcp502 Protocol",
+            "_input": false,
+            "_output": false
+        },
+        "port.tcp503.socketTimeout.": {
+            "_callbacks": [
+                {
+                    "func": "checkRange",
+                    "args": "{min:20, max:86400}"
+                }
+            ],
+            "_noprotobuf": false,
+            "_datatype": "Uint32",
+            "_maxsize": 1,
+            "_unit": "TIME",
+            "_displayName": "tcp503 Socket Timeout",
+            "_shortDisplayName": "tcp503 Socket TO",
+            "_recommendedMin": 20,
+            "_recommendedMax": 86400,
+            "_input": false,
+            "_output": false
+        },
+        "port.tcp503.rxBusTimeout.": {
+            "_callbacks": [
+                {
+                    "func": "checkRange",
+                    "args": "{min:200, max:10000000}"
+                }
+            ],
+            "_noprotobuf": false,
+            "_datatype": "Uint32",
+            "_maxsize": 1,
+            "_unit": "SYSPER",
+            "_displayName": "tcp503 Rx Bus Timeout",
+            "_shortDisplayName": "tcp503 Rx Bus TO",
+            "_recommendedMin": 200,
+            "_recommendedMax": 10000000,
+            "_input": false,
+            "_output": false
+        },
+        "port.tcp503.txBusDelay.": {
+            "_callbacks": [
+                {
+                    "func": "checkRange",
+                    "args": "{min:0, max:250000}"
+                }
+            ],
+            "_noprotobuf": false,
+            "_datatype": "Uint32",
+            "_maxsize": 1,
+            "_unit": "SYSPER",
+            "_displayName": "tcp503 Tx Bus Delay",
+            "_shortDisplayName": "tcp503 Tx Delay",
+            "_recommendedMin": 0,
+            "_recommendedMax": 250000,
+            "_input": false,
+            "_output": false
+        },
+        "port.tcp503.portInfo.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "JSON",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "tcp503 Port Info",
+            "_shortDisplayName": "tcp503 Port Info",
+            "_input": false,
+            "_output": false
+        },
+        "port.tcp503.protocol.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "JSON",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "tcp503 Protocol",
+            "_shortDisplayName": "tcp503 Protocol",
+            "_input": false,
+            "_output": false
+        },
+        "port.tcpClient1.socketTimeout.": {
+            "_callbacks": [
+                {
+                    "func": "checkRange",
+                    "args": "{min:20, max:86400}"
+                }
+            ],
+            "_noprotobuf": false,
+            "_datatype": "Uint32",
+            "_maxsize": 1,
+            "_unit": "TIME",
+            "_displayName": "tcpClient1 Socket Timeout",
+            "_shortDisplayName": "tcpCl1 Socket TO",
+            "_recommendedMin": 20,
+            "_recommendedMax": 86400,
+            "_input": false,
+            "_output": false
+        },
+        "port.tcpClient1.rxBusTimeout.": {
+            "_callbacks": [
+                {
+                    "func": "checkRange",
+                    "args": "{min:200, max:10000000}"
+                }
+            ],
+            "_noprotobuf": false,
+            "_datatype": "Uint32",
+            "_maxsize": 1,
+            "_unit": "SYSPER",
+            "_displayName": "tcpClient1 Rx Bus Timeout",
+            "_shortDisplayName": "tcpCl1 Rx Bus TO",
+            "_recommendedMin": 200,
+            "_recommendedMax": 10000000,
+            "_input": false,
+            "_output": false
+        },
+        "port.tcpClient1.txBusDelay.": {
+            "_callbacks": [
+                {
+                    "func": "checkRange",
+                    "args": "{min:0, max:250000}"
+                }
+            ],
+            "_noprotobuf": false,
+            "_datatype": "Uint32",
+            "_maxsize": 1,
+            "_unit": "SYSPER",
+            "_displayName": "tcpClient1 Tx Bus Delay",
+            "_shortDisplayName": "tcpCl1 Tx Delay",
+            "_recommendedMin": 0,
+            "_recommendedMax": 250000,
+            "_input": false,
+            "_output": false
+        },
+        "port.tcpClient1.portInfo.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "JSON",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "tcpClient1 Port Info",
+            "_shortDisplayName": "tcpCl1 Port Info",
+            "_input": false,
+            "_output": false
+        },
+        "port.tcpClient1.protocol.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "JSON",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "tcpClient1 Protocol",
+            "_shortDisplayName": "tcpCl1 Protocol",
+            "_input": false,
+            "_output": false
+        },
+        "port.tcpClient2.socketTimeout.": {
+            "_callbacks": [
+                {
+                    "func": "checkRange",
+                    "args": "{min:20, max:86400}"
+                }
+            ],
+            "_noprotobuf": false,
+            "_datatype": "Uint32",
+            "_maxsize": 1,
+            "_unit": "TIME",
+            "_displayName": "tcpClient2 Socket Timeout",
+            "_shortDisplayName": "tcpCl2 Socket TO",
+            "_recommendedMin": 20,
+            "_recommendedMax": 86400,
+            "_input": false,
+            "_output": false
+        },
+        "port.tcpClient2.rxBusTimeout.": {
+            "_callbacks": [
+                {
+                    "func": "checkRange",
+                    "args": "{min:200, max:10000000}"
+                }
+            ],
+            "_noprotobuf": false,
+            "_datatype": "Uint32",
+            "_maxsize": 1,
+            "_unit": "SYSPER",
+            "_displayName": "tcpClient2 Rx Bus Timeout",
+            "_shortDisplayName": "tcpCl2 Rx Bus TO",
+            "_recommendedMin": 200,
+            "_recommendedMax": 10000000,
+            "_input": false,
+            "_output": false
+        },
+        "port.tcpClient2.txBusDelay.": {
+            "_callbacks": [
+                {
+                    "func": "checkRange",
+                    "args": "{min:0, max:250000}"
+                }
+            ],
+            "_noprotobuf": false,
+            "_datatype": "Uint32",
+            "_maxsize": 1,
+            "_unit": "SYSPER",
+            "_displayName": "tcpClient2 Tx Bus Delay",
+            "_shortDisplayName": "tcpCl2 Tx Delay",
+            "_recommendedMin": 0,
+            "_recommendedMax": 250000,
+            "_input": false,
+            "_output": false
+        },
+        "port.tcpClient2.portInfo.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "JSON",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "tcpClient2 Port Info",
+            "_shortDisplayName": "tcpCl2 Port Info",
+            "_input": false,
+            "_output": false
+        },
+        "port.tcpClient2.protocol.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "JSON",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "tcpClient2 Protocol",
+            "_shortDisplayName": "tcpCl2 Protocol",
+            "_input": false,
+            "_output": false
+        },
+        "port.tcpClient3.socketTimeout.": {
+            "_callbacks": [
+                {
+                    "func": "checkRange",
+                    "args": "{min:20, max:86400}"
+                }
+            ],
+            "_noprotobuf": false,
+            "_datatype": "Uint32",
+            "_maxsize": 1,
+            "_unit": "TIME",
+            "_displayName": "tcpClient3 Socket Timeout",
+            "_shortDisplayName": "tcpCl3 Socket TO",
+            "_recommendedMin": 20,
+            "_recommendedMax": 86400,
+            "_input": false,
+            "_output": false
+        },
+        "port.tcpClient3.rxBusTimeout.": {
+            "_callbacks": [
+                {
+                    "func": "checkRange",
+                    "args": "{min:200, max:10000000}"
+                }
+            ],
+            "_noprotobuf": false,
+            "_datatype": "Uint32",
+            "_maxsize": 1,
+            "_unit": "SYSPER",
+            "_displayName": "tcpClient3 Rx Bus Timeout",
+            "_shortDisplayName": "tcpCl3 Rx Bus TO",
+            "_recommendedMin": 200,
+            "_recommendedMax": 10000000,
+            "_input": false,
+            "_output": false
+        },
+        "port.tcpClient3.txBusDelay.": {
+            "_callbacks": [
+                {
+                    "func": "checkRange",
+                    "args": "{min:0, max:250000}"
+                }
+            ],
+            "_noprotobuf": false,
+            "_datatype": "Uint32",
+            "_maxsize": 1,
+            "_unit": "SYSPER",
+            "_displayName": "tcpClient3 Tx Bus Delay",
+            "_shortDisplayName": "tcpCl3 Tx Delay",
+            "_recommendedMin": 0,
+            "_recommendedMax": 250000,
+            "_input": false,
+            "_output": false
+        },
+        "port.tcpClient3.portInfo.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "JSON",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "tcpClient3 Port Info",
+            "_shortDisplayName": "tcpCl3 Port Info",
+            "_input": false,
+            "_output": false
+        },
+        "port.tcpClient3.protocol.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "JSON",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "tcpClient3 Protocol",
+            "_shortDisplayName": "tcpCl3 Protocol",
+            "_input": false,
+            "_output": false
+        },
+        "port.tcpClient4.socketTimeout.": {
+            "_callbacks": [
+                {
+                    "func": "checkRange",
+                    "args": "{min:20, max:86400}"
+                }
+            ],
+            "_noprotobuf": false,
+            "_datatype": "Uint32",
+            "_maxsize": 1,
+            "_unit": "TIME",
+            "_displayName": "tcpClient4 Socket Timeout",
+            "_shortDisplayName": "tcpCl4 Socket TO",
+            "_recommendedMin": 20,
+            "_recommendedMax": 86400,
+            "_input": false,
+            "_output": false
+        },
+        "port.tcpClient4.rxBusTimeout.": {
+            "_callbacks": [
+                {
+                    "func": "checkRange",
+                    "args": "{min:200, max:10000000}"
+                }
+            ],
+            "_noprotobuf": false,
+            "_datatype": "Uint32",
+            "_maxsize": 1,
+            "_unit": "SYSPER",
+            "_displayName": "tcpClient4 Rx Bus Timeout",
+            "_shortDisplayName": "tcpCl4 Rx Bus TO",
+            "_recommendedMin": 200,
+            "_recommendedMax": 10000000,
+            "_input": false,
+            "_output": false
+        },
+        "port.tcpClient4.txBusDelay.": {
+            "_callbacks": [
+                {
+                    "func": "checkRange",
+                    "args": "{min:0, max:250000}"
+                }
+            ],
+            "_noprotobuf": false,
+            "_datatype": "Uint32",
+            "_maxsize": 1,
+            "_unit": "SYSPER",
+            "_displayName": "tcpClient4 Tx Bus Delay",
+            "_shortDisplayName": "tcpCl4 Tx Delay",
+            "_recommendedMin": 0,
+            "_recommendedMax": 250000,
+            "_input": false,
+            "_output": false
+        },
+        "port.tcpClient4.portInfo.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "JSON",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "tcpClient4 Port Info",
+            "_shortDisplayName": "tcpCl4 Port Info",
+            "_input": false,
+            "_output": false
+        },
+        "port.tcpClient4.protocol.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "JSON",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "tcpClient4 Protocol",
+            "_shortDisplayName": "tcpCl4 Protocol",
+            "_input": false,
+            "_output": false
+        },
+        "unity.unityCommunication.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "JSON",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Unity Communcation",
+            "_shortDisplayName": "Unity Com",
+            "_input": false,
+            "_output": false
+        },
+        "unity.unityModbus.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "JSON",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Unity Modbus",
+            "_shortDisplayName": "Unity Modbus",
+            "_input": false,
+            "_output": false
+        }
+    },
+    "general": {
+        "liveValue.state.this.modbus.0.up.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Modbus Driver Up",
+            "_shortDisplayName": "Modbus Up",
+            "_input": false,
+            "_output": true
+        },
+        "liveValue.state.this.modbus.0.license.": {
+            "_datatype": "Enum",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_enum": [
+                {
+                    "index": 0,
+                    "label": "Unknown"
+                },
+                {
+                    "index": 1,
+                    "label": "Free"
+                },
+                {
+                    "index": 2,
+                    "label": "Not Found"
+                },
+                {
+                    "index": 3,
+                    "label": "Valid"
+                },
+                {
+                    "index": 4,
+                    "label": "Expired"
+                },
+                {
+                    "index": 5,
+                    "label": "Invalid"
+                }
+            ],
+            "_displayName": "Modbus License",
+            "_shortDisplayName": "Modbus License",
+            "_input": false,
+            "_output": true
+        },
+        "liveValue.state.this.modbus.0.state.": {
+            "_datatype": "Enum",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_enum": [
+                {
+                    "index": 0,
+                    "label": "Confirmed ZMQ Proxy"
+                },
+                {
+                    "index": 1,
+                    "label": "Started Application"
+                },
+                {
+                    "index": 2,
+                    "label": "Started Registration"
+                },
+                {
+                    "index": 3,
+                    "label": "Registered With Configuration Manager"
+                },
+                {
+                    "index": 4,
+                    "label": "Started Provisioning Process"
+                },
+                {
+                    "index": 5,
+                    "label": "Awaiting Provisioning Data"
+                },
+                {
+                    "index": 6,
+                    "label": "Received Provisioning Data"
+                },
+                {
+                    "index": 7,
+                    "label": "Awaiting Tag Metadata"
+                },
+                {
+                    "index": 8,
+                    "label": "Failed Configuration Processing"
+                },
+                {
+                    "index": 9,
+                    "label": "Completed Configuration Processing"
+                },
+                {
+                    "index": 10,
+                    "label": "Started Protocol Driver Initialization"
+                },
+                {
+                    "index": 11,
+                    "label": "Completed Protocol Driver Initialization"
+                },
+                {
+                    "index": 12,
+                    "label": "Failed Protocol Driver Initialization"
+                },
+                {
+                    "index": 13,
+                    "label": "Started Licensing Check"
+                },
+                {
+                    "index": 14,
+                    "label": "Failed To Complete Licensing Check"
+                },
+                {
+                    "index": 15,
+                    "label": "Completed Licensing Check"
+                },
+                {
+                    "index": 16,
+                    "label": "Modbus Driver Operational"
+                }
+            ],
+            "_displayName": "Modbus State",
+            "_shortDisplayName": "Modbus State",
+            "_input": false,
+            "_output": false
+        },
+        "liveValue.diagnostics.this.port.stats.serial1RS485|.": {
+            "bytesPerSecond.": {
+                "_datatype": "Float",
+                "_maxsize": 1,
+                "_unit": "BYTE.RATE",
+                "_displayName": "RS485-1 Data Rate",
+                "_shortDisplayName": "RS485-1 Data Rate",
+                "_recommendedMin": 0.0,
+                "_recommendedMax": 10.0E6,
+                "_input": false,
+                "_output": true
+            },
+            "rxBytes.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "BYTE",
+                "_displayName": "RS485-1 Rx Byte Count",
+                "_shortDisplayName": "RS485-1 Rx Bytes",
+                "_input": false,
+                "_output": true
+            },
+            "txBytes.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "BYTE",
+                "_displayName": "RS485-1 Tx Byte Count",
+                "_shortDisplayName": "RS485-1 Tx Bytes",
+                "_input": false,
+                "_output": true
+            },
+            "busTimeoutCount.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "RS485-1 Bus Timeout Count",
+                "_shortDisplayName": "RS485-1 Timeouts",
+                "_input": false,
+                "_output": true
+            },
+            "frameErrorCount.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "RS485-1 Frame Error Count",
+                "_shortDisplayName": "RS485-1 Frame Errors",
+                "_input": false,
+                "_output": true
+            },
+            "overrunErrorCount.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "RS485-1 Overrun Error Count",
+                "_shortDisplayName": "RS485-1 Overrun Errors",
+                "_input": false,
+                "_output": true
+            },
+            "parityErrorCount.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "RS485-1 Parity Error Count",
+                "_shortDisplayName": "RS485-1 Parity Errors",
+                "_input": false,
+                "_output": true
+            },
+            "portStateInfo.": {
+                "_datatype": "JSON",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "RS485-1 Port State Info",
+                "_shortDisplayName": "RS485-1 Port Info",
+                "_input": false,
+                "_output": true
+            }
+        },
+        "liveValue.diagnostics.this.port.stats.serial2RS485|.": {
+            "bytesPerSecond.": {
+                "_datatype": "Float",
+                "_maxsize": 1,
+                "_unit": "BYTE.RATE",
+                "_displayName": "RS485-2 Data Rate",
+                "_shortDisplayName": "RS485-2 Data Rate",
+                "_recommendedMin": 0.0,
+                "_recommendedMax": 10.0E6,
+                "_input": false,
+                "_output": true
+            },
+            "rxBytes.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "BYTE",
+                "_displayName": "RS485-2 Rx Byte Count",
+                "_shortDisplayName": "RS485-2 Rx Bytes",
+                "_input": false,
+                "_output": true
+            },
+            "txBytes.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "BYTE",
+                "_displayName": "RS485-2 Tx Byte Count",
+                "_shortDisplayName": "RS485-2 Tx Bytes",
+                "_input": false,
+                "_output": true
+            },
+            "busTimeoutCount.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "RS485-2 Bus Timeout Count",
+                "_shortDisplayName": "RS485-2 Timeouts",
+                "_input": false,
+                "_output": true
+            },
+            "frameErrorCount.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "RS485-2 Frame Error Count",
+                "_shortDisplayName": "RS485-2 Frame Errors",
+                "_input": false,
+                "_output": true
+            },
+            "overrunErrorCount.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "RS485-2 Overrun Error Count",
+                "_shortDisplayName": "RS485-2 Overrun Errors",
+                "_input": false,
+                "_output": true
+            },
+            "parityErrorCount.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "RS485-2 Parity Error Count",
+                "_shortDisplayName": "RS485-2 Parity Errors",
+                "_input": false,
+                "_output": true
+            },
+            "portStateInfo.": {
+                "_datatype": "JSON",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "RS485-2 Port State Info",
+                "_shortDisplayName": "RS485-2 Port Info",
+                "_input": false,
+                "_output": true
+            }
+        },
+        "liveValue.diagnostics.this.port.stats.serial3RS485|.": {
+            "bytesPerSecond.": {
+                "_datatype": "Float",
+                "_maxsize": 1,
+                "_unit": "BYTE.RATE",
+                "_displayName": "RS485-3 Data Rate",
+                "_shortDisplayName": "RS485-3 Data Rate",
+                "_recommendedMin": 0.0,
+                "_recommendedMax": 10.0E6,
+                "_input": false,
+                "_output": true
+            },
+            "rxBytes.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "BYTE",
+                "_displayName": "RS485-3 Rx Byte Count",
+                "_shortDisplayName": "RS485-3 Rx Bytes",
+                "_input": false,
+                "_output": true
+            },
+            "txBytes.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "BYTE",
+                "_displayName": "RS485-3 Tx Byte Count",
+                "_shortDisplayName": "RS485-3 Tx Bytes",
+                "_input": false,
+                "_output": true
+            },
+            "busTimeoutCount.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "RS485-3 Bus Timeout Count",
+                "_shortDisplayName": "RS485-3 Timeouts",
+                "_input": false,
+                "_output": true
+            },
+            "frameErrorCount.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "RS485-3 Frame Error Count",
+                "_shortDisplayName": "RS485-3 Frame Errors",
+                "_input": false,
+                "_output": true
+            },
+            "overrunErrorCount.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "RS485-3 Overrun Error Count",
+                "_shortDisplayName": "RS485-3 Overrun Errors",
+                "_input": false,
+                "_output": true
+            },
+            "parityErrorCount.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "RS485-3 Parity Error Count",
+                "_shortDisplayName": "RS485-3 Parity Errors",
+                "_input": false,
+                "_output": true
+            },
+            "portStateInfo.": {
+                "_datatype": "JSON",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "RS485-3 Port State Info",
+                "_shortDisplayName": "RS485-3 Port Info",
+                "_input": false,
+                "_output": true
+            }
+        },
+        "liveValue.diagnostics.this.port.stats.serial4RS485|.": {
+            "bytesPerSecond.": {
+                "_datatype": "Float",
+                "_maxsize": 1,
+                "_unit": "BYTE.RATE",
+                "_displayName": "RS485-4 Data Rate",
+                "_shortDisplayName": "RS485-4 Data Rate",
+                "_recommendedMin": 0.0,
+                "_recommendedMax": 10.0E6,
+                "_input": false,
+                "_output": true
+            },
+            "rxBytes.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "BYTE",
+                "_displayName": "RS485-4 Rx Byte Count",
+                "_shortDisplayName": "RS485-4 Rx Bytes",
+                "_input": false,
+                "_output": true
+            },
+            "txBytes.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "BYTE",
+                "_displayName": "RS485-4 Tx Byte Count",
+                "_shortDisplayName": "RS485-4 Tx Bytes",
+                "_input": false,
+                "_output": true
+            },
+            "busTimeoutCount.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "RS485-4 Bus Timeout Count",
+                "_shortDisplayName": "RS485-4 Timeouts",
+                "_input": false,
+                "_output": true
+            },
+            "frameErrorCount.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "RS485-4 Frame Error Count",
+                "_shortDisplayName": "RS485-4 Frame Errors",
+                "_input": false,
+                "_output": true
+            },
+            "overrunErrorCount.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "RS485-4 Overrun Error Count",
+                "_shortDisplayName": "RS485-4 Overrun Errors",
+                "_input": false,
+                "_output": true
+            },
+            "parityErrorCount.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "RS485-4 Parity Error Count",
+                "_shortDisplayName": "RS485-4 Parity Errors",
+                "_input": false,
+                "_output": true
+            },
+            "portStateInfo.": {
+                "_datatype": "JSON",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "RS485-4 Port State Info",
+                "_shortDisplayName": "RS485-4 Port Info",
+                "_input": false,
+                "_output": true
+            }
+        },
+        "liveValue.diagnostics.this.port.stats.serial5RS485|.": {
+            "bytesPerSecond.": {
+                "_datatype": "Float",
+                "_maxsize": 1,
+                "_unit": "BYTE.RATE",
+                "_displayName": "RS485-5 Data Rate",
+                "_shortDisplayName": "RS485-5 Data Rate",
+                "_recommendedMin": 0.0,
+                "_recommendedMax": 10.0E6,
+                "_input": false,
+                "_output": true
+            },
+            "rxBytes.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "BYTE",
+                "_displayName": "RS485-5 Rx Byte Count",
+                "_shortDisplayName": "RS485-5 Rx Bytes",
+                "_input": false,
+                "_output": true
+            },
+            "txBytes.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "BYTE",
+                "_displayName": "RS485-5 Tx Byte Count",
+                "_shortDisplayName": "RS485-5 Tx Bytes",
+                "_input": false,
+                "_output": true
+            },
+            "busTimeoutCount.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "RS485-5 Bus Timeout Count",
+                "_shortDisplayName": "RS485-5 Timeouts",
+                "_input": false,
+                "_output": true
+            },
+            "frameErrorCount.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "RS485-5 Frame Error Count",
+                "_shortDisplayName": "RS485-5 Frame Errors",
+                "_input": false,
+                "_output": true
+            },
+            "overrunErrorCount.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "RS485-5 Overrun Error Count",
+                "_shortDisplayName": "RS485-5 Overrun Errors",
+                "_input": false,
+                "_output": true
+            },
+            "parityErrorCount.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "RS485-5 Parity Error Count",
+                "_shortDisplayName": "RS485-5 Parity Errors",
+                "_input": false,
+                "_output": true
+            },
+            "portStateInfo.": {
+                "_datatype": "JSON",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "RS485-5 Port State Info",
+                "_shortDisplayName": "RS485-5 Port Info",
+                "_input": false,
+                "_output": true
+            }
+        },
+        "liveValue.diagnostics.this.port.stats.serialRS232|.": {
+            "bytesPerSecond.": {
+                "_datatype": "Float",
+                "_maxsize": 1,
+                "_unit": "BYTE.RATE",
+                "_displayName": "RS232 Data Rate",
+                "_shortDisplayName": "RS232 Data Rate",
+                "_recommendedMin": 0.0,
+                "_recommendedMax": 10.0E6,
+                "_input": false,
+                "_output": true
+            },
+            "rxBytes.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "BYTE",
+                "_displayName": "RS232 Rx Byte Count",
+                "_shortDisplayName": "RS232 Rx Bytes",
+                "_input": false,
+                "_output": true
+            },
+            "txBytes.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "BYTE",
+                "_displayName": "RS232 Tx Byte Count",
+                "_shortDisplayName": "RS232 Tx Bytes",
+                "_input": false,
+                "_output": true
+            },
+            "busTimeoutCount.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "RS232 Bus Timeout Count",
+                "_shortDisplayName": "RS232 Timeouts",
+                "_input": false,
+                "_output": true
+            },
+            "frameErrorCount.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "RS232 Frame Error Count",
+                "_shortDisplayName": "RS232 Frame Errors",
+                "_input": false,
+                "_output": true
+            },
+            "overrunErrorCount.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "RS232 Overrun Error Count",
+                "_shortDisplayName": "RS232 Overrun Errors",
+                "_input": false,
+                "_output": true
+            },
+            "parityErrorCount.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "RS232 Parity Error Count",
+                "_shortDisplayName": "RS232 Parity Errors",
+                "_input": false,
+                "_output": true
+            },
+            "portStateInfo.": {
+                "_datatype": "JSON",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "RS232 Port State Info",
+                "_shortDisplayName": "RS232 Port Info",
+                "_input": false,
+                "_output": true
+            }
+        },
+        "liveValue.diagnostics.this.port.stats.tcp502|.": {
+            "bytesPerSecond.": {
+                "_datatype": "Float",
+                "_maxsize": 1,
+                "_unit": "BYTE.RATE",
+                "_displayName": "TCP502 Data Rate",
+                "_shortDisplayName": "TCP502 Data Rate",
+                "_recommendedMin": 0.0,
+                "_recommendedMax": 10.0E6,
+                "_input": false,
+                "_output": true
+            },
+            "rxBytes.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "BYTE",
+                "_displayName": "TCP502 Rx Byte Count",
+                "_shortDisplayName": "TCP502 Rx Bytes",
+                "_input": false,
+                "_output": true
+            },
+            "txBytes.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "BYTE",
+                "_displayName": "TCP502 Tx Byte Count",
+                "_shortDisplayName": "TCP502 Tx Bytes",
+                "_input": false,
+                "_output": true
+            },
+            "busTimeoutCount.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "TCP502 Bus Timeout Count",
+                "_shortDisplayName": "TCP502 Timeouts",
+                "_input": false,
+                "_output": true
+            },
+            "portStateInfo.": {
+                "_datatype": "JSON",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "TCP502 Port State Info",
+                "_shortDisplayName": "TCP502 Port Info",
+                "_input": false,
+                "_output": true
+            }
+        },
+        "liveValue.diagnostics.this.port.stats.tcp503|.": {
+            "bytesPerSecond.": {
+                "_datatype": "Float",
+                "_maxsize": 1,
+                "_unit": "BYTE.RATE",
+                "_displayName": "TCP503 Data Rate",
+                "_shortDisplayName": "TCP503 Data Rate",
+                "_recommendedMin": 0.0,
+                "_recommendedMax": 10.0E6,
+                "_input": false,
+                "_output": true
+            },
+            "rxBytes.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "BYTE",
+                "_displayName": "TCP503 Rx Byte Count",
+                "_shortDisplayName": "TCP503 Rx Bytes",
+                "_input": false,
+                "_output": true
+            },
+            "txBytes.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "BYTE",
+                "_displayName": "TCP503 Tx Byte Count",
+                "_shortDisplayName": "TCP503 Tx Bytes",
+                "_input": false,
+                "_output": true
+            },
+            "busTimeoutCount.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "TCP503 Bus Timeout Count",
+                "_shortDisplayName": "TCP503 Timeouts",
+                "_input": false,
+                "_output": true
+            },
+            "portStateInfo.": {
+                "_datatype": "JSON",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "TCP503 Port State Info",
+                "_shortDisplayName": "TCP503 Port Info",
+                "_input": false,
+                "_output": true
+            }
+        },
+        "liveValue.diagnostics.this.port.stats.tcpClient1|.": {
+            "bytesPerSecond.": {
+                "_datatype": "Float",
+                "_maxsize": 1,
+                "_unit": "BYTE.RATE",
+                "_displayName": "TCP_Client1 Data Rate",
+                "_shortDisplayName": "TCP_Cl1 Data Rate",
+                "_recommendedMin": 0.0,
+                "_recommendedMax": 10.0E6,
+                "_input": false,
+                "_output": true
+            },
+            "rxBytes.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "BYTE",
+                "_displayName": "TCP_Client1 Rx Byte Count",
+                "_shortDisplayName": "TCP_Cl1 Rx Bytes",
+                "_input": false,
+                "_output": true
+            },
+            "txBytes.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "BYTE",
+                "_displayName": "TCP_Client1 Tx Byte Count",
+                "_shortDisplayName": "TCP_Cl1 Tx Bytes",
+                "_input": false,
+                "_output": true
+            },
+            "busTimeoutCount.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "TCP_Client1 Bus Timeout Count",
+                "_shortDisplayName": "TCP_Cl1 Timeouts",
+                "_input": false,
+                "_output": true
+            },
+            "portStateInfo.": {
+                "_datatype": "JSON",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "TCP_Client1 Port State Info",
+                "_shortDisplayName": "TCP_Cl1 Port Info",
+                "_input": false,
+                "_output": true
+            }
+        },
+        "liveValue.diagnostics.this.port.stats.tcpClient2|.": {
+            "bytesPerSecond.": {
+                "_datatype": "Float",
+                "_maxsize": 1,
+                "_unit": "BYTE.RATE",
+                "_displayName": "TCP_Client2 Data Rate",
+                "_shortDisplayName": "TCP_Cl2 Data Rate",
+                "_recommendedMin": 0.0,
+                "_recommendedMax": 10.0E6,
+                "_input": false,
+                "_output": true
+            },
+            "rxBytes.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "BYTE",
+                "_displayName": "TCP_Client2 Rx Byte Count",
+                "_shortDisplayName": "TCP_Cl2 Rx Bytes",
+                "_input": false,
+                "_output": true
+            },
+            "txBytes.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "BYTE",
+                "_displayName": "TCP_Client2 Tx Byte Count",
+                "_shortDisplayName": "TCP_Cl2 Tx Bytes",
+                "_input": false,
+                "_output": true
+            },
+            "busTimeoutCount.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "TCP_Client2 Bus Timeout Count",
+                "_shortDisplayName": "TCP_Cl2 Timeouts",
+                "_input": false,
+                "_output": true
+            },
+            "portStateInfo.": {
+                "_datatype": "JSON",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "TCP_Client2 Port State Info",
+                "_shortDisplayName": "TCP_Cl2 Port Info",
+                "_input": false,
+                "_output": true
+            }
+        },
+        "liveValue.diagnostics.this.port.stats.tcpClient3|.": {
+            "bytesPerSecond.": {
+                "_datatype": "Float",
+                "_maxsize": 1,
+                "_unit": "BYTE.RATE",
+                "_displayName": "TCP_Client3 Data Rate",
+                "_shortDisplayName": "TCP_Cl3 Data Rate",
+                "_recommendedMin": 0.0,
+                "_recommendedMax": 10.0E6,
+                "_input": false,
+                "_output": true
+            },
+            "rxBytes.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "BYTE",
+                "_displayName": "TCP_Client3 Rx Byte Count",
+                "_shortDisplayName": "TCP_Cl3 Rx Bytes",
+                "_input": false,
+                "_output": true
+            },
+            "txBytes.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "BYTE",
+                "_displayName": "TCP_Client3 Tx Byte Count",
+                "_shortDisplayName": "TCP_Cl3 Tx Bytes",
+                "_input": false,
+                "_output": true
+            },
+            "busTimeoutCount.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "TCP_Client3 Bus Timeout Count",
+                "_shortDisplayName": "TCP_Cl3 Timeouts",
+                "_input": false,
+                "_output": true
+            },
+            "portStateInfo.": {
+                "_datatype": "JSON",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "TCP_Client3 Port State Info",
+                "_shortDisplayName": "TCP_Cl3 Port Info",
+                "_input": false,
+                "_output": true
+            }
+        },
+        "liveValue.diagnostics.this.port.stats.tcpClient4|.": {
+            "bytesPerSecond.": {
+                "_datatype": "Float",
+                "_maxsize": 1,
+                "_unit": "BYTE.RATE",
+                "_displayName": "TCP_Client4 Data Rate",
+                "_shortDisplayName": "TCP_Cl4 Data Rate",
+                "_recommendedMin": 0.0,
+                "_recommendedMax": 10.0E6,
+                "_input": false,
+                "_output": true
+            },
+            "rxBytes.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "BYTE",
+                "_displayName": "TCP_Client4 Rx Byte Count",
+                "_shortDisplayName": "TCP_Cl4 Rx Bytes",
+                "_input": false,
+                "_output": true
+            },
+            "txBytes.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "BYTE",
+                "_displayName": "TCP_Client4 Tx Byte Count",
+                "_shortDisplayName": "TCP_Cl4 Tx Bytes",
+                "_input": false,
+                "_output": true
+            },
+            "busTimeoutCount.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "TCP_Client4 Bus Timeout Count",
+                "_shortDisplayName": "TCP_Cl4 Timeouts",
+                "_input": false,
+                "_output": true
+            },
+            "portStateInfo.": {
+                "_datatype": "JSON",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "TCP_Client4 Port State Info",
+                "_shortDisplayName": "TCP_Cl4 Port Info",
+                "_input": false,
+                "_output": true
+            }
+        },
+        "liveValue.diagnostics.this.port.stats.serial1RS485.reset.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "1RS485 Reset Statistics",
+            "_shortDisplayName": "1RS485 Reset Stats",
+            "_noCache": true,
+            "_input": false,
+            "_output": false
+        },
+        "liveValue.diagnostics.this.port.stats.serial2RS485.reset.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "2RS485 Reset Statistics",
+            "_shortDisplayName": "2RS485 Reset Stats",
+            "_noCache": true,
+            "_input": false,
+            "_output": false
+        },
+        "liveValue.diagnostics.this.port.stats.serial3RS485.reset.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "3RS485 Reset Statistics",
+            "_shortDisplayName": "3RS485 Reset Stats",
+            "_noCache": true,
+            "_input": false,
+            "_output": false
+        },
+        "liveValue.diagnostics.this.port.stats.serial4RS485.reset.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "4RS485 Reset Statistics",
+            "_shortDisplayName": "4RS485 Reset Stats",
+            "_noCache": true,
+            "_input": false,
+            "_output": false
+        },
+        "liveValue.diagnostics.this.port.stats.serial5RS485.reset.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "5RS485 Reset Statistics",
+            "_shortDisplayName": "5RS485 Reset Stats",
+            "_noCache": true,
+            "_input": false,
+            "_output": false
+        },
+        "liveValue.diagnostics.this.port.stats.serialRS232.reset.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "RS232 Reset Statistics",
+            "_shortDisplayName": "RS232 Reset Stats",
+            "_noCache": true,
+            "_input": false,
+            "_output": false
+        },
+        "liveValue.diagnostics.this.port.stats.tcp502.reset.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "TCP502 Reset Statistics",
+            "_shortDisplayName": "TCP502 Reset Stats",
+            "_noCache": true,
+            "_input": false,
+            "_output": false
+        },
+        "liveValue.diagnostics.this.port.stats.tcp503.reset.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "TCP503 Reset Statistics",
+            "_shortDisplayName": "TCP503 Reset Stats",
+            "_noCache": true,
+            "_input": false,
+            "_output": false
+        },
+        "liveValue.diagnostics.this.port.stats.tcpClient1.reset.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "TCP_Client1 Reset Statistics",
+            "_shortDisplayName": "TCP_Client1 Reset Stats",
+            "_noCache": true,
+            "_input": false,
+            "_output": false
+        },
+        "liveValue.diagnostics.this.port.stats.tcpClient2.reset.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "TCP_Client2 Reset Statistics",
+            "_shortDisplayName": "TCP_Client2 Reset Stats",
+            "_noCache": true,
+            "_input": false,
+            "_output": false
+        },
+        "liveValue.diagnostics.this.port.stats.tcpClient3.reset.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "TCP_Client3 Reset Statistics",
+            "_shortDisplayName": "TCP_Client3 Reset Stats",
+            "_noCache": true,
+            "_input": false,
+            "_output": false
+        },
+        "liveValue.diagnostics.this.port.stats.tcpClient4.reset.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "TCP_Client4 Reset Statistics",
+            "_shortDisplayName": "TCP_Client4 Reset Stats",
+            "_noCache": true,
+            "_input": false,
+            "_output": false
+        },
+        "liveValue.diagnostics.this.port.trafficMonitor.port.": {
+            "_datatype": "String",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Port Traffic Monitoring",
+            "_shortDisplayName": "Port Monitoring",
+            "_noCache": true,
+            "_input": false,
+            "_output": false
+        },
+        "liveValue.diagnostics.this.port.trafficMonitor.data.": {
+            "_datatype": "JSON",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Port Traffic Data",
+            "_shortDisplayName": "Port Data",
+            "_noCache": true,
+            "_input": false,
+            "_output": false
+        }
+    }
+}

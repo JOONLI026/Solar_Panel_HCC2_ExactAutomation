@@ -1,0 +1,683 @@
+{
+    "config": {
+        "userLogs.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "JSON",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "User Log Config",
+            "_shortDisplayName": "User Logs",
+            "_input": false,
+            "_output": false
+        },
+        "tagLog.highestPriorityPeriod.": {
+            "_callbacks": [
+                {
+                    "func": "checkRange",
+                    "args": "{min:1, max:14400}"
+                }
+            ],
+            "_noprotobuf": false,
+            "_datatype": "Uint32",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Highest Logging Period",
+            "_shortDisplayName": "Highest Period",
+            "_recommendedMin": 1,
+            "_recommendedMax": 14400,
+            "_input": false,
+            "_output": false
+        },
+        "tagLog.highPriorityPeriod.": {
+            "_callbacks": [
+                {
+                    "func": "checkRange",
+                    "args": "{min:1, max:14400}"
+                }
+            ],
+            "_noprotobuf": false,
+            "_datatype": "Uint32",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "High Logging Period",
+            "_shortDisplayName": "High Period",
+            "_recommendedMin": 1,
+            "_recommendedMax": 14400,
+            "_input": false,
+            "_output": false
+        },
+        "tagLog.mediumPriorityPeriod.": {
+            "_callbacks": [
+                {
+                    "func": "checkRange",
+                    "args": "{min:1, max:14400}"
+                }
+            ],
+            "_noprotobuf": false,
+            "_datatype": "Uint32",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Medium Logging Period",
+            "_shortDisplayName": "Medium Period",
+            "_recommendedMin": 1,
+            "_recommendedMax": 14400,
+            "_input": false,
+            "_output": false
+        },
+        "tagLog.lowPriorityPeriod.": {
+            "_callbacks": [
+                {
+                    "func": "checkRange",
+                    "args": "{min:1, max:14400}"
+                }
+            ],
+            "_noprotobuf": false,
+            "_datatype": "Uint32",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Low Logging Period",
+            "_shortDisplayName": "Low Period",
+            "_recommendedMin": 1,
+            "_recommendedMax": 14400,
+            "_input": false,
+            "_output": false
+        },
+        "tagLog.lowestPriorityPeriod.": {
+            "_callbacks": [
+                {
+                    "func": "checkRange",
+                    "args": "{min:1, max:14400}"
+                }
+            ],
+            "_noprotobuf": false,
+            "_datatype": "Uint32",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Lowest Logging Period",
+            "_shortDisplayName": "Period",
+            "_recommendedMin": 1,
+            "_recommendedMax": 14400,
+            "_input": false,
+            "_output": false
+        },
+        "tagLog.defaultGuaranteedLoggingPeriod.": {
+            "_callbacks": [
+                {
+                    "func": "checkRange",
+                    "args": "{min:0, max:86400}"
+                }
+            ],
+            "_noprotobuf": true,
+            "_datatype": "Uint32",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Default Guaranteed Period",
+            "_shortDisplayName": "Guaranteed Per.",
+            "_recommendedMin": 0,
+            "_recommendedMax": 86400,
+            "_input": false,
+            "_output": false
+        },
+        "tagLog.defaultFastDecimationAlgorithm.": {
+            "_callbacks": null,
+            "_noprotobuf": true,
+            "_datatype": "Enum",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_enum": [
+                {
+                    "index": 0,
+                    "label": "None"
+                },
+                {
+                    "index": 1,
+                    "label": "Visual"
+                },
+                {
+                    "index": 2,
+                    "label": "Average"
+                },
+                {
+                    "index": 3,
+                    "label": "Maximum"
+                },
+                {
+                    "index": 4,
+                    "label": "Minimum"
+                }
+            ],
+            "_displayName": "Default Decimation Algorithm",
+            "_shortDisplayName": "Def. Algorithm",
+            "_input": false,
+            "_output": false
+        }
+    },
+    "general": {
+        "liveValue.state.this.dataLogger.0.up.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Driver Up",
+            "_shortDisplayName": "Up",
+            "_input": false,
+            "_output": false
+        },
+        "liveValue.state.this.dataLogger.0.license.": {
+            "_datatype": "Enum",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_enum": [
+                {
+                    "index": 0,
+                    "label": "Unknown"
+                },
+                {
+                    "index": 1,
+                    "label": "Free"
+                },
+                {
+                    "index": 2,
+                    "label": "Not Found"
+                },
+                {
+                    "index": 3,
+                    "label": "Valid"
+                },
+                {
+                    "index": 4,
+                    "label": "Expired"
+                },
+                {
+                    "index": 5,
+                    "label": "Invalid"
+                }
+            ],
+            "_displayName": "License",
+            "_shortDisplayName": "License",
+            "_input": false,
+            "_output": false
+        },
+        "liveValue.state.this.dataLogger.0.status.": {
+            "_datatype": "Enum",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_enum": [
+                {
+                    "index": 0,
+                    "label": "Not Operating"
+                },
+                {
+                    "index": 1,
+                    "label": "Operating"
+                },
+                {
+                    "index": 2,
+                    "label": "High Loads"
+                },
+                {
+                    "index": 3,
+                    "label": "Excessive Load"
+                }
+            ],
+            "_displayName": "Operational Status",
+            "_shortDisplayName": "Status",
+            "_input": false,
+            "_output": false
+        },
+        "liveValue.state.this.dataLogger.0.state.": {
+            "_datatype": "Enum",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_enum": [
+                {
+                    "index": 0,
+                    "label": "Confirmed ZMQ Proxy"
+                },
+                {
+                    "index": 1,
+                    "label": "Data Logger Started"
+                },
+                {
+                    "index": 2,
+                    "label": "Started Registration Process"
+                },
+                {
+                    "index": 3,
+                    "label": "Registered Configuration Complete"
+                },
+                {
+                    "index": 4,
+                    "label": "Started Provisioning Process"
+                },
+                {
+                    "index": 5,
+                    "label": "Awaiting Provisioning Data"
+                },
+                {
+                    "index": 6,
+                    "label": "Received Provisioning Data"
+                },
+                {
+                    "index": 7,
+                    "label": "Awaiting Tag Metadata"
+                },
+                {
+                    "index": 8,
+                    "label": "Failed Configuration Processing"
+                },
+                {
+                    "index": 9,
+                    "label": "Completed Configuration Processing"
+                },
+                {
+                    "index": 10,
+                    "label": "Started User Logs Initialization"
+                },
+                {
+                    "index": 11,
+                    "label": "User Logs Initialization Failed"
+                },
+                {
+                    "index": 12,
+                    "label": "Completed User Logs Initialization"
+                },
+                {
+                    "index": 13,
+                    "label": "Started Licensing Check"
+                },
+                {
+                    "index": 14,
+                    "label": "Failed To Complete Licensing Check"
+                },
+                {
+                    "index": 15,
+                    "label": "Completed Licensing Check"
+                },
+                {
+                    "index": 16,
+                    "label": "Datalogger Operational"
+                }
+            ],
+            "_displayName": "DataLogger State",
+            "_shortDisplayName": "Logger State",
+            "_input": false,
+            "_output": false
+        },
+        "liveValue.diagnostics.this.dataLogger.0.stats|.": {
+            "capacityLevel.": {
+                "_datatype": "Float",
+                "_maxsize": 1,
+                "_unit": "PRCNT",
+                "_displayName": "Global Logs Capacity Level",
+                "_shortDisplayName": "Global Log Capacity",
+                "_recommendedMin": 0,
+                "_recommendedMax": 100,
+                "_input": false,
+                "_output": true
+            },
+            "diskActivity.": {
+                "_datatype": "Float",
+                "_maxsize": 1,
+                "_unit": "NONE.RATE",
+                "_displayName": "Log Activity",
+                "_shortDisplayName": "Log Activity",
+                "_recommendedMin": 0,
+                "_recommendedMax": 10000,
+                "_input": false,
+                "_output": true
+            }
+        },
+        "liveValue.diagnostics.this.dataLogger.0.eventAlarmLog.stats|.": {
+            "capacityLevel.": {
+                "_datatype": "Float",
+                "_maxsize": 1,
+                "_unit": "PRCNT",
+                "_displayName": "Event Log Capacity Level",
+                "_shortDisplayName": "Evnt Log Capacity",
+                "_recommendedMin": 0,
+                "_recommendedMax": 100,
+                "_input": false,
+                "_output": true
+            },
+            "diskActivity.": {
+                "_datatype": "Float",
+                "_maxsize": 1,
+                "_unit": "NONE.RATE",
+                "_displayName": "Event Log Activity",
+                "_shortDisplayName": "Event Activity",
+                "_recommendedMin": 0,
+                "_recommendedMax": 10000,
+                "_input": false,
+                "_output": true
+            },
+            "totalRecordsStored.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Event Log Records Stored",
+                "_shortDisplayName": "Evnt Rec Count",
+                "_input": false,
+                "_output": true
+            },
+            "alarmRecordsStored.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Alarm Log Records Stored",
+                "_shortDisplayName": "Alrm Rec Count",
+                "_input": false,
+                "_output": true
+            },
+            "databaseFileSize.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "BYTE",
+                "_displayName": "Event Log Disk Size",
+                "_shortDisplayName": "Evnt Log Size",
+                "_input": false,
+                "_output": true
+            }
+        },
+        "liveValue.diagnostics.this.dataLogger.0.tagLog.stats|.": {
+            "capacityLevel.": {
+                "_datatype": "Float",
+                "_maxsize": 1,
+                "_unit": "PRCNT",
+                "_displayName": "Tag Log Capacity Level",
+                "_shortDisplayName": "Tag Log Capacity",
+                "_recommendedMin": 0,
+                "_recommendedMax": 100,
+                "_input": false,
+                "_output": true
+            },
+            "diskActivity.": {
+                "_datatype": "Float",
+                "_maxsize": 1,
+                "_unit": "NONE.RATE",
+                "_displayName": "Tag Log Activity",
+                "_shortDisplayName": "Tag Log Activity",
+                "_recommendedMin": 0,
+                "_recommendedMax": 10000,
+                "_input": false,
+                "_output": true
+            },
+            "registeredApplicationsCount.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Number Of Registered Applications",
+                "_shortDisplayName": "App Count",
+                "_input": false,
+                "_output": false
+            },
+            "watchedTagsCount.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Number Of Watched Tags",
+                "_shortDisplayName": "Watched Tags",
+                "_input": false,
+                "_output": false
+            },
+            "databaseFileSize.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "BYTE",
+                "_displayName": "Tag Log Disk Size",
+                "_shortDisplayName": "Tag Log Size",
+                "_input": false,
+                "_output": true
+            },
+            "currentTagRecordsCount.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Current Tag Record Count",
+                "_shortDisplayName": "Tag Rec Count",
+                "_input": false,
+                "_output": false
+            }
+        },
+        "liveValue.diagnostics.this.dataLogger.0.trendLog.stats|.": {
+            "capacityLevel.": {
+                "_datatype": "Float",
+                "_maxsize": 1,
+                "_unit": "PRCNT",
+                "_displayName": "Trend Log Capacity Level",
+                "_shortDisplayName": "Trend Capacity",
+                "_recommendedMin": 0,
+                "_recommendedMax": 100,
+                "_input": false,
+                "_output": true
+            },
+            "diskActivity.": {
+                "_datatype": "Float",
+                "_maxsize": 1,
+                "_unit": "NONE.RATE",
+                "_displayName": "Trend Log Activity",
+                "_shortDisplayName": "Trend Activity",
+                "_recommendedMin": 0,
+                "_recommendedMax": 10000,
+                "_input": false,
+                "_output": true
+            },
+            "registeredApplicationsCount.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Number Of Registered Applications",
+                "_shortDisplayName": "App Count",
+                "_input": false,
+                "_output": false
+            },
+            "watchedTagsCount.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "NONE",
+                "_displayName": "Number Of Watched Tags",
+                "_shortDisplayName": "Watched Tags",
+                "_input": false,
+                "_output": false
+            },
+            "databaseFileSize.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_unit": "BYTE",
+                "_displayName": "Trend Log Disk Size",
+                "_shortDisplayName": "Trend Log Size",
+                "_input": false,
+                "_output": true
+            }
+        },
+        "liveValue.state.this.dataLogger.0.exportTrigger.": {
+            "_datatype": "String",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "DataLogger Export Trigger",
+            "_shortDisplayName": "Export Trigger",
+            "_noCache": true,
+            "_input": false,
+            "_output": false
+        },
+        "liveValue.state.this.dataLogger.0.dataLoggerUtilityFileName.": {
+            "_datatype": "String",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "DataLogger Utility File Name",
+            "_shortDisplayName": "DL Utility",
+            "_noCache": false,
+            "_input": false,
+            "_output": false
+        },
+        "liveValue.diagnostics.this.dataLogger.0.eventAlarmLog.eventLogsConfigCRC.": {
+            "_datatype": "Uint32",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "User Events Config CRC",
+            "_shortDisplayName": "User Events CRC",
+            "_input": false,
+            "_output": false
+        },
+        "liveValue.diagnostics.this.dataLogger.0.eventAlarmLog.registeredEvents.": {
+            "_datatype": "JSON",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Registered User Events",
+            "_shortDisplayName": "User Events",
+            "_input": false,
+            "_output": false
+        },
+        "liveValue.diagnostics.this.dataLogger.0.trendLog.userTrendsConfigCRC.": {
+            "_datatype": "Uint32",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "User Trends Config CRC",
+            "_shortDisplayName": "Trends CRC",
+            "_input": false,
+            "_output": false
+        },
+        "liveValue.diagnostics.this.dataLogger.0.trendLog.registeredTrends.": {
+            "_datatype": "JSON",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Registered Trend Views",
+            "_shortDisplayName": "Trends",
+            "_input": false,
+            "_output": false
+        },
+        "liveValue.diagnostics.this.dataLogger.0.tagLog.userTagsConfigCRC.": {
+            "_datatype": "Uint32",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "User Tags Config CRC",
+            "_shortDisplayName": "Tags CRC",
+            "_input": false,
+            "_output": false
+        },
+        "liveValue.diagnostics.this.dataLogger.0.tagLog.registeredTags.": {
+            "_datatype": "JSON",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Registered Tags",
+            "_shortDisplayName": "Tags",
+            "_input": false,
+            "_output": false
+        },
+        "liveValue.diagnostics.this.dataLogger.0.testWaveform.": {
+            "_datatype": "Float",
+            "_maxsize": 1,
+            "_unit": "NONE",
+            "_displayName": "Test Waveform",
+            "_shortDisplayName": "Test Waveform",
+            "_input": false,
+            "_output": true
+        },
+        "liveValue.event.this.dataLogger.0.systemTimeNotSet|.": {
+            "IsAsserted.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "NONE",
+                "_displayName": "Event - System Time Not Set"
+            },
+            "EventStateInfo.": {
+                "_datatype": "JSON",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "NONE",
+                "_logging":"DefaultHistorianAction",
+                "_displayName": "Event - System Time Not Set State Info"
+            }
+        },
+        "liveValue.alarm.this.dataLogger.0.systemTimeNotSet|.": {
+            "IsAsserted.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": true,
+                "_unit": "NONE",
+                "_displayName": "Alarm - System Time Not Set"
+            },
+            "EventStateInfo.": {
+                "_datatype": "JSON",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "NONE",
+                "_logging":"DefaultHistorianAction",
+                "_displayName": "Alarm - System Time Not Set State Info"
+            }
+        },
+        "liveValue.event.this.dataLogger.0.systemTimeNotSet.bypassEventSet|.": {
+            "Enable.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "NONE",
+                "_nocache": true,
+                "_logging":"DefaultHistorianAction",
+                "_displayName": "System Time Not Set Bypass Enable",
+                "_shortDisplayName": "Evnt1 Bypass Enbl"
+            },
+            "EventState.": {
+                "_datatype": "Bool",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "NONE",
+                "_nocache": true,
+                "_logging":"DefaultHistorianAction",
+                "_displayName": "System Time Not Set Bypass Event State",
+                "_shortDisplayName": "Evnt1 Bypass State"
+            },
+            "TimePeriod.": {
+                "_datatype": "Uint32",
+                "_maxsize": 1,
+                "_input": false,
+                "_output": false,
+                "_unit": "SYSPER.us",
+                "_nocache": true,
+                "_logging":"DefaultHistorianAction",
+                "_displayName": "System Time Not Set Bypass Time Period",
+                "_shortDisplayName": "Evnt1 Bypass Tm"
+            }
+        },
+        "liveValue.event.this.dataLogger.0.systemTimeNotSet.Enable.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_input": false,
+            "_output": false,
+            "_unit": "NONE",
+            "_nocache": true,
+            "_logging":"DefaultHistorianAction",
+            "_displayName": "System Time Not Set Enable",
+            "_shortDisplayName": "Evnt1 Enbl"
+        },
+        "liveValue.event.this.dataLogger.0.systemTimeNotSet.unlatchEvent.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_input": false,
+            "_output": false,
+            "_unit": "NONE",
+            "_nocache": true,
+            "_logging":"DefaultHistorianAction",
+            "_displayName": "System Time Not Set Unlatch",
+            "_shortDisplayName": "Evnt1 unlatch"
+        },
+        "liveValue.alarm.this.dataLogger.0.systemTimeNotSet.acknowledgeAlarm.": {
+            "_datatype": "Bool",
+            "_maxsize": 1,
+            "_input": false,
+            "_output": false,
+            "_unit": "NONE",
+            "_nocache": true,
+            "_logging":"DefaultHistorianAction",
+            "_displayName": "System Time Not Set Acknowledge",
+            "_shortDisplayName": "Alrm1 Ack"
+        }
+    }
+}
