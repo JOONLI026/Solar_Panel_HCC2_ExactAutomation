@@ -2,13 +2,13 @@
     "inputs": [
         {
             "channel": "AI1",
-            "euHigh": "100",
+            "euHigh": "50",
             "euLow": "0",
-            "mode": "current",
-            "range": "4-20mA",
+            "mode": "voltage",
+            "range": "0-10V",
             "tag": {},
             "FixedPubInterval": 500000,
-            "inputHigh": 1,
+            "inputHigh": 50,
             "inputLow": 0,
             "applyEuConversion": true,
             "tagPublishSetting": "onPeriod",
@@ -16,12 +16,12 @@
             "name": "Solar_Voltage",
             "variableTagName": "Solar_Voltage",
             "units": {
-                "Category": "NONE",
-                "Numerator": "",
+                "Category": "Voltage",
+                "Numerator": "V",
                 "Denominator": "",
-                "RateScalar": "",
-                "RegisterUnitDescriptor": "NONE",
-                "Tag": "NONE"
+                "RateScalar": "0.01",
+                "RegisterUnitDescriptor": "VOLTS",
+                "Tag": "V"
             },
             "fixedAddress": true,
             "HARTAddress": 0,
@@ -29,13 +29,13 @@
         },
         {
             "channel": "AI2",
-            "euHigh": "100",
+            "euHigh": "10",
             "euLow": "0",
             "mode": "current",
             "range": "4-20mA",
             "tag": {},
             "FixedPubInterval": 500000,
-            "inputHigh": 1,
+            "inputHigh": 10,
             "inputLow": 0,
             "applyEuConversion": true,
             "tagPublishSetting": "onPeriod",
@@ -43,12 +43,12 @@
             "name": "Solar_Current",
             "variableTagName": "Solar_Current",
             "units": {
-                "Category": "NONE",
-                "Numerator": "",
+                "Category": "Current",
+                "Numerator": "A",
                 "Denominator": "",
-                "RateScalar": "",
-                "RegisterUnitDescriptor": "NONE",
-                "Tag": "NONE"
+                "RateScalar": "0.001",
+                "RegisterUnitDescriptor": "AMPS",
+                "Tag": "A"
             },
             "fixedAddress": true,
             "HARTAddress": 0,
@@ -214,19 +214,19 @@
             "euLow": "0",
             "defaultValueOnStartup": "0",
             "tag": {},
-            "inputHigh": 1,
+            "inputHigh": 100,
             "inputLow": 0,
             "applyEuConversion": true,
             "tagPublishSetting": "writeOnly",
             "name": "Fan_Speed_Control",
             "variableTagName": "Fan_Speed_Control",
             "units": {
-                "Category": "NONE",
-                "Numerator": "",
+                "Category": "Percentage",
+                "Numerator": "%",
                 "Denominator": "",
-                "RateScalar": "",
-                "RegisterUnitDescriptor": "NONE",
-                "Tag": "NONE"
+                "RateScalar": "0.1",
+                "RegisterUnitDescriptor": "PERCENT",
+                "Tag": "%"
             }
         },
         {

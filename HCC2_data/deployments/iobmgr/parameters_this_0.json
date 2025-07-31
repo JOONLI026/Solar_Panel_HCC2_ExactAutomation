@@ -1,13 +1,13 @@
 {
     "analogInputs": {
         "ai1": {
-            "inputHigh": 1,
+            "inputHigh": 50,
             "inputLow": 0,
             "applyEuConversion": true,
             "tagPublishSetting": "onPeriod",
-            "unit": "NONE",
-            "range": 6,
-            "euHigh": 100,
+            "unit": "VOLTS",
+            "range": 1,
+            "euHigh": 50,
             "euLow": 0,
             "tag": {},
             "hart": {
@@ -18,13 +18,13 @@
             "fixedPubInterval": 500000
         },
         "ai2": {
-            "inputHigh": 1,
+            "inputHigh": 10,
             "inputLow": 0,
             "applyEuConversion": true,
             "tagPublishSetting": "onPeriod",
-            "unit": "NONE",
+            "unit": "AMPS",
             "range": 6,
-            "euHigh": 100,
+            "euHigh": 10,
             "euLow": 0,
             "tag": {},
             "hart": {
@@ -119,11 +119,11 @@
     },
     "analogOutputs": {
         "ao1": {
-            "inputHigh": 1,
+            "inputHigh": 100,
             "inputLow": 0,
             "applyEuConversion": true,
             "tagPublishSetting": "writeOnly",
-            "unit": "NONE",
+            "unit": "PERCENT",
             "range": 4,
             "euHigh": 100,
             "euLow": 0,
@@ -224,7 +224,7 @@
             "debounceTime": 15000,
             "pulseDuration": 10000,
             "counterRollOver": 10000,
-            "defaultValueOnStartup": true,
+            "defaultValueOnStartup": false,
             "minPubInterval": 500000,
             "fixedPubInterval": 500000,
             "tag": {},
@@ -237,7 +237,7 @@
             "debounceTime": 15000,
             "pulseDuration": 10000,
             "counterRollOver": 10000,
-            "defaultValueOnStartup": true,
+            "defaultValueOnStartup": false,
             "minPubInterval": 500000,
             "fixedPubInterval": 500000,
             "tag": {},
