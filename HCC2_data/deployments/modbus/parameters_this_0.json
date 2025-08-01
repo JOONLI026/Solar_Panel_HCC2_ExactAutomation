@@ -281,6 +281,51 @@
             ],
             "hash": "c4ccafeffc4b812d57918de5ed6b8d69bf2d3c4d25624e26a8cc78b85e679edc"
         },
-        "unityModbus": ""
+        "unityModbus":{
+            "mappings": [
+                {
+                    "tag": "Panel_Connected",
+                    "address": 10001,
+                    "type": "discrete_input",
+                    "data_type": "bool"
+                },
+                {
+                    "tag": "Overload_Protection",
+                    "address": 10002,
+                    "type": "discrete_input",
+                    "data_type": "bool"
+                },
+                {
+                    "tag": "System_Enable",
+                    "address": 20001,
+                    "type": "coil",
+                    "data_type": "bool"
+                },
+                {
+                    "tag": "Alarm_Buzzer",
+                    "address": 20002,
+                    "type": "coil",
+                    "data_type": "bool"
+                },
+                {
+                    "tag": "Solar_Voltage",
+                    "address": 30001,
+                    "type": "input_register",
+                    "data_type": "float"
+                },
+                {
+                    "tag": "Solar_Current",
+                    "address": 30002,
+                    "type": "input_register",
+                    "data_type": "float"
+                },
+                {
+                    "tag": "Fan_Speed_Control",
+                    "address": 40001,
+                    "type": "holding_register",
+                    "data_type": "float"
+                }
+            ]
+        }
     }
 }
