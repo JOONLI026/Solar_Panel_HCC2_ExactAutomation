@@ -114,3 +114,20 @@ This section provides guidance on:
 - Uploading and installing packages
 - Managing applications on HCC2
 - Common troubleshooting steps
+
+### Warning
+Upgrading the application bundle will reboot the IO controller in the HCC2. Verify that the 
+process is in a safe state before updating. 
+
+### Important Reminders 
+- Login Password. The default username: admin, password: SensiaHCC2# can be used to log in 
+to both Unity Edge and EPM for the first connection.  
+Once you log in as admin in Unity Edge, you must change the default password. Keep this 
+password safe – if you lose that password, it will be difficult to get access to your device.  
+This same password must be used in EPM, too. 
+- Subnet Precaution. When configuring the HCC2, pay special attention to your network setup 
+and avoid configuring two network interfaces with the same subnet. The sharing of a subnet could 
+result in abnormal network behavior. 
+If your HCC2 fails to boot after the OS upgrade, contact Sensia support for assistance. 
+- When using the Modbus Protocol Map Editor, use .pdef for saving and loading across versions 
+and devices.  The exported .csv format is only suitable for temporary editing and re-import. 
